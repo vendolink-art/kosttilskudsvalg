@@ -1,0 +1,74 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# legacy SQL dump
+kostmagasinet_dk-db-*.sql
+
+# crawled data (large, regenerable)
+/content/crawled-products/
+/content/crawled-html/
+
+# debug output
+/debug/
+
+# deploy log
+deploy.log
+.deploy-cache/
+
+# test artifacts
+test_*.js
+test_*.txt
+*-verify.html
+kasein-verify.html
+
+# temp dev/test files
+healthwell_*.html
+healthwell_*.txt
+healthwell_*.png
+check-links.ts
+*.zip
+
+# cursor project config (local)
+.cursor/
+
+# misc one-off files
+HYBRID_MIGRATION_PLAYBOOK.md
+prompts/
+
+# temp test/debug scripts and files
+test-404-*.js
+test-404-*.png
+test.ts
+tmp-*.html

@@ -1,0 +1,329 @@
+@import "tailwindcss";
+@source "../../src/app/**/*.mdx";
+
+:root {
+  /* === KOSTMAG DESIGN SYSTEM === */
+  /* Grønt sundhedstema med hvid/grå base */
+
+  /* --- Bas --- */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+
+  /* --- Grøn (Accent/CTA) --- */
+  --green-50: #f0fdf4;
+  --green-100: #dcfce7;
+  --green-200: #bbf7d0;
+  --green-300: #86efac;
+  --green-400: #4ade80;
+  --green-500: #22c55e;
+  --green-600: #16a34a;
+  --green-700: #15803d;
+  --green-800: #166534;
+  --green-900: #14532d;
+
+  /* --- Slate (Neutral) --- */
+  --slate-50: #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+
+  /* --- Semantiske farver --- */
+  --card: #ffffff;
+  --card-foreground: var(--slate-900);
+  --popover: #ffffff;
+  --popover-foreground: var(--slate-900);
+  --primary: var(--green-600);
+  --primary-foreground: #ffffff;
+  --secondary: var(--slate-100);
+  --secondary-foreground: var(--slate-800);
+  --muted: var(--slate-100);
+  --muted-foreground: var(--slate-500);
+  --accent: var(--green-50);
+  --accent-foreground: var(--green-800);
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: var(--slate-200);
+  --input: var(--slate-200);
+  --ring: var(--green-600);
+  --radius: 0.5rem;
+
+  /* --- Statusfarver --- */
+  --success: #16a34a;
+  --success-light: #f0fdf4;
+  --warning: #f59e0b;
+  --warning-light: #fffbeb;
+  --info: var(--slate-600);
+  --info-light: var(--slate-100);
+
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --radius: var(--radius);
+
+  /* Grøn scale for Tailwind */
+  --color-brand: var(--green-600);
+  --color-brand-hover: var(--green-700);
+  --color-brand-light: var(--green-50);
+  --color-brand-muted: var(--green-100);
+}
+
+body {
+  background-color: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* === HERO BAGGRUND === */
+.hero-bg {
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #f0fdf4 100%);
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.97) 0%,
+    rgba(255, 255, 255, 0.92) 40%,
+    rgba(240, 253, 244, 0.85) 70%,
+    rgba(220, 252, 231, 0.75) 100%
+  );
+}
+
+@media (max-width: 640px) {
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.88) 60%,
+      rgba(240, 253, 244, 0.82) 100%
+    );
+  }
+}
+
+/* Tydlige overskrifter globalt */
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin: 1.25rem 0 0.75rem 0;
+}
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 1.5rem 0 0.75rem 0;
+  padding-top: 0.25rem;
+}
+h3 {
+  font-size: 1.375rem;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 1.25rem 0 0.5rem 0;
+}
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 1rem 0 0.5rem 0;
+}
+
+/* Prose (artikler med @tailwindcss/typography) */
+.prose {
+  color: #334155;
+  line-height: 1.75;
+}
+.prose h2 {
+  font-size: 1.875rem;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #f1f5f9;
+}
+.prose h3 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose p {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.prose ul,
+.prose ol {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.prose li {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Kategoritest – fælles styling */
+.category-test {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0;
+}
+@media (min-width: 640px) {
+  .category-test { padding-left: 1.5rem; padding-right: 1.5rem; }
+}
+@media (min-width: 1024px) {
+  .category-test { padding-left: 2rem; padding-right: 2rem; }
+}
+.category-test h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  scroll-margin-top: 80px;
+}
+.category-test h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  scroll-margin-top: 80px;
+}
+.category-test p { margin: 0.6rem 0; }
+.category-test ul, .category-test ol { margin: 0.6rem 0; }
+.category-test a { text-decoration: underline; }
+.category-test h1 a,
+.category-test h2 a,
+.category-test h3 a,
+.category-test h4 a,
+.category-test h5 a,
+.category-test h6 a { text-decoration: none; color: inherit; }
+.category-test ul { list-style: disc; padding-left: 1.25rem; }
+.category-test ol { list-style: decimal; padding-left: 1.25rem; }
+
+/* Fordele / Ulemper – minimalistisk styling */
+.category-test h3[id^="fordele"],
+.category-test h3[id^="ulemper"] {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.25rem;
+  margin-top: 1.25rem;
+  padding: 0;
+  border: none;
+}
+.category-test h3[id^="fordele"] { color: #047857; }
+.category-test h3[id^="ulemper"] { color: #be123c; }
+
+.category-test h3[id^="fordele"] + ul,
+.category-test h3[id^="ulemper"] + ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.4rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.category-test h3[id^="fordele"] + ul > li,
+.category-test h3[id^="ulemper"] + ul > li {
+  position: relative;
+  padding-left: 1.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+.category-test h3[id^="fordele"] + ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: #10b981;
+}
+.category-test h3[id^="ulemper"] + ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45em;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: #f43f5e;
+}
+
+/* Billeder i artikler */
+.category-test img:not(.eeat-avatar):not(.toplist-img):not(.hero-img):not(.product-card-img) {
+  display: block !important;
+  margin: 0.5rem auto 1rem auto !important;
+  max-width: 560px !important;
+  max-height: 300px !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  padding: 0.5rem;
+}
+
+/* Tabeller */
+.category-test table { display: block; width: 100%; overflow: auto; border-collapse: collapse; border: 1px solid #e5e7eb; }
+.category-test thead th { position: sticky; top: 0; background: #f8fafc; z-index: 1; }
+.category-test th, .category-test td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #f1f5f9; }
+.category-test tbody tr:nth-child(odd) { background: #fafafa; }
+.category-test tbody tr:hover { background: #f5f5f5; }
+
+/* ─── Toplist visibility (reliable, not dependent on Tailwind scanning MDX) ─── */
+.toplist-mobile {
+  display: block;
+}
+.toplist-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .toplist-mobile {
+    display: none;
+  }
+  .toplist-desktop {
+    display: block;
+  }
+}
+
+/* Header theme */
+header.sticky {
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(245,246,248,0.85));
+  border-bottom: 1px solid #e5e7eb;
+  backdrop-filter: saturate(140%) blur(8px);
+}

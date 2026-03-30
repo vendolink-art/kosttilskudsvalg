@@ -1,0 +1,4127 @@
+{
+  "generatedAt": "2026-03-11T18:27:54.616Z",
+  "siloId": "protein-traening",
+  "categoryCount": 41,
+  "categories": [
+    {
+      "categorySlug": "aggeprotein",
+      "route": "/protein-traening/aggeprotein",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - core-egg-protein: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-egg-protein"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Flydende æggehvide",
+      "expectedTopTitle": "Egg Protein ‐ Æggeprotein på ren æggehvide",
+      "products": [
+        {
+          "slug": "star-nutrition-flydende-aeggehvider",
+          "title": "Flydende æggehvide",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\flydende-aeggehvide-1000-ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-egg-protein",
+          "title": "Egg Protein ‐ Æggeprotein på ren æggehvide",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\egg-protein-aeggeprotein-paa-ren-aeggehvide.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-egg-protein",
+          "title": "Core Egg Protein",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "helt-aerligt-aeggpulver",
+          "title": "Helt Ärligt Æggepulver",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\helt-rligt-aeggepulver.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "helt-aerligt-aeggvitepulver",
+          "title": "Helt Ärligt Æggehvidepulver",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\helt-rligt-aeggehvidepulver.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "arginin",
+      "route": "/protein-traening/arginin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 19 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 2 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified arginin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "helsegrossisten"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "RAW Arginine Mega Caps",
+      "expectedTopTitle": "RAW Arginine Mega Caps",
+      "products": [
+        {
+          "slug": "core-arginine-complex",
+          "title": "Core Arginine Complex",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-arginine-complex.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "raw-arginine-mega-caps",
+          "title": "RAW Arginine Mega Caps",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\raw-arginine-mega-caps.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-arginine",
+          "title": "Core Arginine",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-arginine.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-arginine-500",
+          "title": "Healthwell Arginin 500",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\arginin-500.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "solgar-l-arginine",
+          "title": "Solgar L-Arginin 500mg - 50 kap.",
+          "store": "helsegrossisten",
+          "crawlPath": "content\\crawled-products\\helsegrossisten\\solgar-l-arginin-500mg-50-kap.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "arteprotein",
+      "route": "/protein-traening/arteprotein",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified arteprotein successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Holistic Ærteprotein Isolat Økologisk",
+      "products": [
+        {
+          "slug": "holistic-arteprotein",
+          "title": "Holistic Ærteprotein Isolat Økologisk",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\holistic-aerteprotein-isolat-oekologisk.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "better-you-art-og-havreprotein",
+          "title": "Better You Ærte- & Havreprotein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\better-you-aerte-havreprotein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-pea-protein",
+          "title": "Body science Pea Protein Isolate",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\pea-protein-isolate.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-arteprotein",
+          "title": "Healthwell Ærteprotein ØKO",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\aerteprotein-oeko.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "star-nutrition-pea-protein-isolate",
+          "title": "Ærteproteinisolat 1 kg Unflavoured",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\aerteproteinisolat-1-kg-unflavoured.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "bcaa",
+      "route": "/protein-traening/bcaa",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified bcaa successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "better-you-bcaa-pulver",
+        "bodylab-bcaa"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Xlnt sports BCAA Energidrik",
+      "products": [
+        {
+          "slug": "xlnt-sports-bcaa",
+          "title": "Xlnt sports BCAA Energidrik",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\energidrik.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-bcaa-powder",
+          "title": "Core BCAA Powder",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-bcaa-powder.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "better-you-bcaa-pulver",
+          "title": "Better You BCAA Pulver",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "bodylab-bcaa",
+          "title": "Core BCAA Energy",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "chained-nutrition-bcaa-hardcore",
+          "title": "Chained Nutrition BCAA Hardcore",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\bcaa-hardcore-powder-264-g-watermelon.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "beta-alanin",
+      "route": "/protein-traening/beta-alanin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 16 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified beta-alanin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodylab",
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Beta Alanine",
+      "expectedTopTitle": "Core Beta Alanine",
+      "products": [
+        {
+          "slug": "core-beta-alanine",
+          "title": "Core Beta Alanine",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-beta-alanine.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-beta-alanine",
+          "title": "Body science Beta-Alanine",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\beta-alanine.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-beta-alanine",
+          "title": "Star Nutrition Beta-alanine 320g",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\beta-alanin-pwo-320-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "swedish-supplements-beta-alanin",
+          "title": "Bodylab Beta-Alanine (300 g)",
+          "store": "bodylab",
+          "crawlPath": "content\\crawled-products\\bodylab\\bodylab-beta-alanine-300-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "fairing-beta-alanin",
+          "title": "Fairing Beta Alanin",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\beta-alanine-pwo-400-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "eaa",
+      "route": "/protein-traening/eaa",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 16 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified eaa successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Better You Amino Tabletter",
+      "expectedTopTitle": "Better You Amino Tabletter",
+      "products": [
+        {
+          "slug": "better-you-amino-tabletter",
+          "title": "Better You Amino Tabletter",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\better-you-amino-tabletter.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "better-you-premium-eaa",
+          "title": "Better You Premium EAA",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\better-you-premium-eaa.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-eaa-powder",
+          "title": "Core EAA Powder",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-eaa-powder.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "xlnt-sports-eaa",
+          "title": "Xlnt sports EAA",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\eaa.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "eaa-hardcore",
+          "title": "Chained Nutrition EAA Hardcore",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\eaa-hardcore-360-g-strawberry.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "elektrolytter",
+      "route": "/protein-traening/elektrolytter",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 17 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified elektrolytter successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "upgrit-elektrolytter",
+        "core-electrolytes",
+        "pureness-elektrolytpulver",
+        "healthwell-active-mineral-og-vaeskebalance"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Elektrolytter 900mg",
+      "expectedTopTitle": "Elektrolytter 900mg",
+      "products": [
+        {
+          "slug": "elektrolytter-900mg",
+          "title": "Elektrolytter 900mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\elektrolytter-900mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "upgrit-elektrolytter",
+          "title": "Healthwell Upgrit Elektrolytter",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-electrolytes",
+          "title": "Core Electrolytes",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "pureness-elektrolytpulver",
+          "title": "Pureness Elektrolytpulver",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-active-mineral-og-vaeskebalance",
+          "title": "Healthwell Healthwell Active Mineral- og Væskebalance",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "energi-drik",
+      "route": "/protein-traening/energi-drik",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified energi-drik successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Xlnt sports BCAA Energidrik",
+      "products": [
+        {
+          "slug": "xlnt-sports-bcaa",
+          "title": "Xlnt sports BCAA Energidrik",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\energidrik.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "nocco-bcaa",
+          "title": "NOCCO BCAA",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\nocco-bcaa.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "pureness-natural-energy",
+          "title": "Pureness Natural Energy Drink",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\pureness-natural-energy-drink.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "24-x-pro-brands-bcaa-drink",
+          "title": "24 x Pro Brands BCAA Drink",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\24-x-bcaa-energidrik-330-ml-pineapple.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "celsius-tropical-vibe",
+          "title": "Celsius",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\celsius.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "energibarer",
+      "route": "/protein-traening/energibarer",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified energibarer successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Enervit Power Crunchy Sport Bar",
+      "products": [
+        {
+          "slug": "power-sport-bar-crunchy",
+          "title": "Enervit Power Crunchy Sport Bar",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\enervit-power-crunchy-sport-bar.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "fibr-bars",
+          "title": "Fibr Bars",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\fibr-bars.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-protein-bar-2-0",
+          "title": "Core Protein Bar 2.0",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-protein-bar-2-0.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "15-x-jelly-bar-30-g-apple",
+          "title": "15 x Jelly Bar 30 g Apple",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\15-x-jelly-bar-30-g-apple.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "barebells-protein-bar",
+          "title": "Barebells Protein Bar",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\barebells-protein-bar.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "glutamin",
+      "route": "/protein-traening/glutamin",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - thorne-l-glutamine: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "helsegrossisten",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "thorne-l-glutamine"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell L-Glutamin 1000",
+      "products": [
+        {
+          "slug": "healthwell-l-glutamin-1000",
+          "title": "Healthwell L-Glutamin 1000",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-l-glutamin-1000.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "thorne-l-glutamine",
+          "title": "Thorne L-Glutamine",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-l-glutamin-500-mg-50-kaps",
+          "title": "Solgar L-Glutamin 500 mg - 50 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solgar-l-glutamin-500-mg-50-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "biotech-l-glutamin",
+          "title": "100% L-Glutamine 240 g",
+          "store": "helsegrossisten",
+          "crawlPath": "content\\crawled-products\\helsegrossisten\\100-l-glutamine-240-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-glutamine",
+          "title": "Core Glutamine",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-glutamine.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "glycin",
+      "route": "/protein-traening/glycin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 16 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified glycin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Thorne Glycine",
+      "expectedTopTitle": "Thorne Glycine",
+      "products": [
+        {
+          "slug": "core-glycine",
+          "title": "Core Glycine",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-glycine.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "thorne-glycine",
+          "title": "Thorne Glycine",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\thorne-glycine.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-glycine",
+          "title": "Body science Glycine",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\glycine.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "glycin-500",
+          "title": "Healthwell Glycin 500",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\glycin-500.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-glycin-1000",
+          "title": "Healthwell Glycin 1000",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-glycin-1000.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "hamp-protein",
+      "route": "/protein-traening/hamp-protein",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 9 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - holistic-hampeprotein: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "holistic-hampeprotein"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Hampprotein ECO",
+      "products": [
+        {
+          "slug": "rawpowder-hampeprotein",
+          "title": "Økologisk hampeprotein",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\oekologisk-hampeprotein-500-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "superfruit-hampeprotein",
+          "title": "Hampprotein ECO",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\hampprotein-eco-500-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-hampeprotein",
+          "title": "Holistic Hampaprotein",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-hampeprotein-oko",
+          "title": "Hampeprotein ØKO",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\hampeprotein-oeko.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "mother-earth-hampefro",
+          "title": "Mother Earth Afskallede Hampefrø RAW & ØKO",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\mother-earth-afskallede-hampefroe-raw-oeko.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kasein",
+      "route": "/protein-traening/kasein",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified kasein successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Casein",
+      "expectedTopTitle": "Core Casein",
+      "products": [
+        {
+          "slug": "optimum-nutrition-casein",
+          "title": "Optimum Nutrition 100% Casein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\optimum-nutrition-100-casein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-casein",
+          "title": "Core Casein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-casein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-casein",
+          "title": "Casein ‐ Perfekt som mellemmåltid",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\casein-perfekt-som-mellemmaaltid.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "chained-nutrition-micellar-casein",
+          "title": "Chained Nutrition Micellar Casein",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\micellaert-kaseinprotein-1560-g-chocolate.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-casein",
+          "title": "Star Nutrition Supreme Casein",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\supreme-kasein-750-g-creamy-vanilla.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "koffeinfri-pwo",
+      "route": "/protein-traening/koffeinfri-pwo",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 16 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 8 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified koffeinfri-pwo successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Preload + BCAA",
+      "expectedTopTitle": "Core Preload + BCAA",
+      "products": [
+        {
+          "slug": "core-preload-bcaa",
+          "title": "Core Preload + BCAA",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-preload-bcaa.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "off-the-hook-stim-free-pwo",
+          "title": "Off the Hook PWO Stim Free 525 g Elderflower/Lemon",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\off-the-hook-pwo-stim-free-525-g-elderflower-lemon.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-nitro-pump",
+          "title": "Body Science Nitro Pump",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\nitro-pump.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-stim-free-pwo",
+          "title": "Body Science Stim-Free PWO",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\stim-free-pwo.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "the-omen-fatburner-stim-free",
+          "title": "Bloody Pump PWO 300 g Pineapple Passion",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\bloody-pump-pwo-300-g-pineapple-passion-bloody-pump-300-g-er-et-kosttilskud-fra-.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "koffeintabletter",
+      "route": "/protein-traening/koffeintabletter",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 11 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified koffeintabletter successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-caffeine",
+        "core-caffeine-pro"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Caffeine Pro",
+      "products": [
+        {
+          "slug": "core-caffeine",
+          "title": "Core Caffeine",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "xlnt-sports-focus",
+          "title": "Xlnt sports Focus",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\focus.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-caffeine",
+          "title": "Body science Caffeine ‐ Koffeintabletter med 200 mg koffein per kapsel",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\caffeine-koffeintabletter-med-200-mg-koffein-per-kapsel.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-caffeine",
+          "title": "Star Nutrition Caffeine 100 mg",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\koffeintabletter-100-mg-90-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-caffeine-pro",
+          "title": "Core Caffeine Pro",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kreatin",
+      "route": "/protein-traening/kreatin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 3",
+        "PASS dynamic-slogan-count - slogan mentions 3",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 3 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 3 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified kreatin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodylab",
+        "bodystore",
+        "mmsportsstore"
+      ],
+      "productCount": 3,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Star Nutrition Kreatinmonohydrat 500 g",
+      "products": [
+        {
+          "slug": "star-nutrition-kreatinmonohydrat-500-g",
+          "title": "Star Nutrition Kreatinmonohydrat 500 g",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\kreatin-monohydrat-500-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-pro-creatine",
+          "title": "Body Science Pro Creatine",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\pro-creatine.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "bodylab-creatine-300-g",
+          "title": "Bodylab Creatine (300 g)",
+          "store": "bodylab",
+          "crawlPath": "content\\crawled-products\\bodylab\\bodylab-creatine-300-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kulhydratpulver",
+      "route": "/protein-traening/kulhydratpulver",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified kulhydratpulver successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "med24",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-carboloader",
+        "core-carbs"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Carbs",
+      "products": [
+        {
+          "slug": "high5-energy-drink-citrus-22-kg",
+          "title": "High5 Energy Drink Citrus - 2,2 kg.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\high5-energy-drink-citrus-2-2-kg.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "purepower-carbo-race-citrus-1-kg",
+          "title": "PurePower Carbo Race Citrus - 1 kg",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\purepower-carbo-race-citrus-1-kg.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-carboloader",
+          "title": "Core Carboloader",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-carbs",
+          "title": "Core Carbs",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-carb-loader",
+          "title": "Body science Carb Loader",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\carb-loader.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "l-leucin",
+      "route": "/protein-traening/l-leucin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 4",
+        "PASS dynamic-slogan-count - slogan mentions 4",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 11 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 4 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 4 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified l-leucin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "med24",
+        "mmsportsstore",
+        "weightworld"
+      ],
+      "productCount": 4,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "BCAA med B6- og B12-vitamin",
+      "expectedTopTitle": "BCAA med B6- og B12-vitamin",
+      "products": [
+        {
+          "slug": "body-science-leucine",
+          "title": "Leucine",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\leucine.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-leucine",
+          "title": "Core Leucine",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-leucine.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "weightworld-bcaa-2000-mg",
+          "title": "BCAA med B6- og B12-vitamin",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\bcaa-med-b6-og-b12-vitamin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "linuspro-pure-bcaa-appelsin-300-g",
+          "title": "LinusPro PURE BCAA Appelsin - 300 g.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\linuspro-pure-bcaa-appelsin-300-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "laktosefrit-proteinpulver",
+      "route": "/protein-traening/laktosefrit-proteinpulver",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified laktosefrit-proteinpulver successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Egg Protein ‐ Æggeprotein på ren æggehvide",
+      "products": [
+        {
+          "slug": "body-science-egg-protein",
+          "title": "Egg Protein ‐ Æggeprotein på ren æggehvide",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\egg-protein-aeggeprotein-paa-ren-aeggehvide.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-active-valleprotein-laktosefri",
+          "title": "Healthwell Active Valleprotein Laktosefri",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-active-valleprotein-laktosefri.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-trainimal-valleprotein",
+          "title": "Trainimal Valleprotein",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\trainimal-valleprotein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-whey-protein-laktosefri",
+          "title": "Core Whey Protein Laktosefri",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-whey-protein-laktosefri.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "iso-whey-zero-lactose-free",
+          "title": "Iso Whey Zero Laktose reduceret Valleproteinisolat 908 g Chocolate",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\iso-whey-zero-laktose-reduceret-valleproteinisolat-908-g-chocolate.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "lysin",
+      "route": "/protein-traening/lysin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified lysin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "helsegrossisten",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-lysin-1000",
+        "core-lysine",
+        "solgar-l-lysine-1000-mg"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "KAL Ultra Lysin • 60 tab.",
+      "products": [
+        {
+          "slug": "healthwell-lysin-1000",
+          "title": "Healthwell Lysin 1000",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "innovative-kal-quality-ultra-lysin",
+          "title": "KAL Ultra Lysin • 60 tab.",
+          "store": "helsegrossisten",
+          "crawlPath": "content\\crawled-products\\helsegrossisten\\kal-ultra-lysin-60-tab.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natur-drogeriet-lysin-90-kap",
+          "title": "Natur-Drogeriet Lysin - 90 kap",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-lysin-90-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-lysine",
+          "title": "Core Lysine",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-l-lysine-1000-mg",
+          "title": "Solgar L-Lysine 1000 mg",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "peanut-butter",
+      "route": "/protein-traening/peanut-butter",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 9 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - peanutbutter-crunchy-oko: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-peanut-butter",
+        "peanutbutter-crunchy-oko"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Peanut Butter",
+      "products": [
+        {
+          "slug": "star-nutrition-jordnoddesmor-1-kg-crunchy",
+          "title": "Star Nutrition Jordnøddesmør 1 kg                                                                     Crunchy",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\jordnoeddesmoer-1-kg-crunchy.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "romer-peanut-butter-o-500-g",
+          "title": "Rømer Peanut Butter Ø  500 g",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\roemer-peanut-butter-med-havsalt-oe-500-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "bodylab-peanut-butter-ultra-crunch-500-gram",
+          "title": "Bodylab Peanut Butter Ultra Crunch - 500 gram",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\bodylab-peanut-butter-ultra-crunch-500-gram.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-peanut-butter",
+          "title": "Healthwell Core Peanut Butter",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "peanutbutter-crunchy-oko",
+          "title": "Peanutbutter Crunchy ØKO",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "pre-workout",
+      "route": "/protein-traening/pre-workout",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 27 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 8 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified pre-workout successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodylab",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core PWO Zero",
+      "expectedTopTitle": "Core PWO Zero",
+      "products": [
+        {
+          "slug": "core-pwo-zero",
+          "title": "Core PWO Zero",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-pwo-zero.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "viking-power-leviathan-hardcore-pwo",
+          "title": "Leviathan Hardcore PWO",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\leviathan-hardcore-pwo.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "raw-rampage",
+          "title": "RAW Rampage",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\raw-rampage.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "jacked-2-0-pwo",
+          "title": "Jacked 2.0 PWO",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\jacked-2-0-pwo.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "bodylab-pre-workout",
+          "title": "Bodylab Pre workout",
+          "store": "bodylab",
+          "crawlPath": "content\\crawled-products\\bodylab\\bodylab-pre-workout-200-g-lemon.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinbar-med-lavt-sukkerindhold",
+      "route": "/protein-traening/proteinbar-med-lavt-sukkerindhold",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 2 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - core-morgenmadsbar: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-morgenmadsbar"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "ProPud Protein Bar",
+      "expectedTopTitle": "Core Probar XL",
+      "products": [
+        {
+          "slug": "propud-protein-bar",
+          "title": "ProPud Protein Bar",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\propud-protein-bar.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-probar-xl",
+          "title": "Core Probar XL",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\core-probar-xl.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-morgenmadsbar",
+          "title": "Core Morgenmadsbar",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "diet-bar",
+          "title": "Core Nutrition Diet Bar",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\diet-bar.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "paendy-protein-bar",
+          "title": "Pändy Protein Bar",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\p-ndy-protein-bar.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinbarer",
+      "route": "/protein-traening/proteinbarer",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 11 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 2 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - barbells-vegan-bar: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "barbells-vegan-bar"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Body science Delight Bar, 50 gram",
+      "products": [
+        {
+          "slug": "body-science-delight-bar",
+          "title": "Body science Delight Bar, 50 gram",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\proteinbarer.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-protein-bar",
+          "title": "12 x Proteinbar 55 g Salted Caramel",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\12-x-proteinbar-55-g-salted-caramel.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "gainomax-protein-bar",
+          "title": "Gainomax Protein Bar",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\gainomax-protein-bar.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-protein-bar",
+          "title": "Core Protein Bar 2.0",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-protein-bar-2-0.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "barbells-vegan-bar",
+          "title": "Barebells Vegan Bar",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinpulver",
+      "route": "/protein-traening/proteinpulver",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified proteinpulver successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "med24",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Protein Pro",
+      "expectedTopTitle": "Core Protein Pro",
+      "products": [
+        {
+          "slug": "protein-dk-proteinpulver",
+          "title": "Core Protein Pro",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-protein-pro.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "micro-whey-active",
+          "title": "Micro Whey Active",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\micro-whey-active.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-whey-100",
+          "title": "Body Science Whey 100%",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\whey-100.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "star-nutrition-whey-100",
+          "title": "Whey-100 Valleprotein 1 kg Choklad",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\whey-100-valleprotein-1-kg-choklad.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "bodylab-whey-100-iso-pure",
+          "title": "Bodylab Whey 100 ISO Pure - flere varianter",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\bodylab-whey-100-iso-pure-flere-varianter-750-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinpulver-til-restitution",
+      "route": "/protein-traening/proteinpulver-til-restitution",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 22 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 6 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified proteinpulver-til-restitution successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Body science Muscle Protein",
+      "expectedTopTitle": "Body science Muscle Protein",
+      "products": [
+        {
+          "slug": "body-science-muscle-protein",
+          "title": "Body science Muscle Protein",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\proteinpulver.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-casein",
+          "title": "Core Casein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-casein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-muscle-recovery-pro",
+          "title": "Core Muscle Recovery Pro",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-muscle-recovery-pro.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "ultimate-recovery-complex",
+          "title": "Micro Whey Active",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\micro-whey-active.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "xlnt-sports-recovery",
+          "title": "XLNT Sports Recovery",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\recovery.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinpulver-til-vaegttab",
+      "route": "/protein-traening/proteinpulver-til-vaegttab",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 17 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified proteinpulver-til-vaegttab successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodylab",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Clear Whey 90",
+      "expectedTopTitle": "Core Clear Whey 90",
+      "products": [
+        {
+          "slug": "core-clear-whey-90",
+          "title": "Core Clear Whey 90",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-clear-whey-90.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-protein-pro",
+          "title": "Core Protein Pro",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-protein-pro.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-protein-delight",
+          "title": "Body science Protein Delight",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\protein-delight.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "xlnt-sports-premium-protein",
+          "title": "Premium protein ",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\premium-protein.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "bodylab-clear-whey-500-g-cola",
+          "title": "Bodylab Clear Whey (500 g) - Cola",
+          "store": "bodylab",
+          "crawlPath": "content\\crawled-products\\bodylab\\bodylab-clear-whey-500-g-cola.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinpulver-uden-sodestoffer",
+      "route": "/protein-traening/proteinpulver-uden-sodestoffer",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - holistic-hampaprotein: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "holistic-hampaprotein"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Core Protein Pro",
+      "expectedTopTitle": "Healthwell Risprotein ØKO",
+      "products": [
+        {
+          "slug": "core-protein-pro",
+          "title": "Core Protein Pro",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-protein-pro.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "holistic-hampaprotein",
+          "title": "Holistic Hampaprotein",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "risprotein-oko",
+          "title": "Healthwell Risprotein ØKO",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-risprotein-oeko.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "holistic-vassleprotein",
+          "title": "Holistic Valleprotein",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\holistic-valleprotein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "vegan-protein",
+          "title": "Healthwell Vegan Protein",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vegan-protein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "proteinpulver-uden-tilsat-sukker",
+      "route": "/protein-traening/proteinpulver-uden-tilsat-sukker",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 6 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified proteinpulver-uden-tilsat-sukker successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Clear Whey 90",
+      "products": [
+        {
+          "slug": "core-clear-whey-90",
+          "title": "Core Clear Whey 90",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-clear-whey-90.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-protein-pro",
+          "title": "Core Protein Pro",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-protein-pro.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-active-valleprotein-laktosefri",
+          "title": "Healthwell Active Valleprotein Laktosefri",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-active-valleprotein-laktosefri.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-vassleprotein",
+          "title": "Holistic Valleprotein",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\holistic-valleprotein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "bodylab-whey-100-iso-pure",
+          "title": "Bodylab Whey 100 ISO Pure - flere varianter",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\bodylab-whey-100-iso-pure-flere-varianter-750-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "pwo-med-koffein",
+      "route": "/protein-traening/pwo-med-koffein",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 4",
+        "PASS dynamic-slogan-count - slogan mentions 4",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 7 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 4 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 4 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified pwo-med-koffein successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 4,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Swedish Supplements Fucked Up Joker",
+      "expectedTopTitle": "Swedish Supplements Fucked Up Joker",
+      "products": [
+        {
+          "slug": "swedish-supplements-fucked-up-joker",
+          "title": "Swedish Supplements Fucked Up Joker",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\swedish-supplements-fucked-up-joker.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-performance",
+          "title": "Core Performance",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-performance.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "raw-rampage",
+          "title": "RAW Rampage",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\raw-rampage.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "viking-power-leviathan-hardcore-pwo",
+          "title": "Leviathan Hardcore PWO",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\leviathan-hardcore-pwo.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "pwo-med-kreatin",
+      "route": "/protein-traening/pwo-med-kreatin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 22 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 5 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified pwo-med-kreatin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core PWO Power",
+      "expectedTopTitle": "Core PWO Power",
+      "products": [
+        {
+          "slug": "core-pwo-power",
+          "title": "Core PWO Power",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-pwo-power.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "swedish-supplements-fucked-up-joker",
+          "title": "Swedish Supplements Fucked Up Joker",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\swedish-supplements-fucked-up-joker.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "jacked-cr3a-fusion-triple-creatine",
+          "title": "Cr3a fusion ‐ triple creatine ",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\cr3a-fusion-triple-creatine.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "xlnt-sports-pwo",
+          "title": "Pwo ",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\pwo.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "raw-rampage",
+          "title": "RAW Rampage",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\raw-rampage.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "risprotein",
+      "route": "/protein-traening/risprotein",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 10 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 1 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified risprotein successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Risprotein Økologisk",
+      "products": [
+        {
+          "slug": "holistic-risprotein-ekologiskt",
+          "title": "Risprotein Økologisk",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\risprotein-oekologisk-750-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "dragon-superfoods-risprotein",
+          "title": "Dragon Superfoods Risprotein 83% protein Ø - 200 g",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\dragon-superfoods-risprotein-83-protein-oe-200-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "plantforce-risprotein",
+          "title": "Plantforce Risprotein neutral",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\plantforce-risprotein-neutral-800-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-risprotein-oko",
+          "title": "Healthwell Risprotein ØKO",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-risprotein-oeko.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "natur-drogeriet-vegan-risprotein",
+          "title": "Natur-Drogeriet Vegan Risprotein 79%  - 600 g",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-oekologisk-risprotein-80-400-g.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "sojaprotein",
+      "route": "/protein-traening/sojaprotein",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified sojaprotein successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Star Nutrition Soy Protein Isolate",
+      "expectedTopTitle": "Star Nutrition Soy Protein Isolate",
+      "products": [
+        {
+          "slug": "star-nutrition-soy-protein-isolate",
+          "title": "Star Nutrition Soy Protein Isolate",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\sojaproteinisolat-1-kg-chocolate.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-soja-protein",
+          "title": "Core Soja Protein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-soja-protein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "its-heey-vegansk-protein",
+          "title": "Its Heey Vegansk Protein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\its-heey-vegansk-protein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "self-omninutrition-soy-protein",
+          "title": "Soy Protein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\soy-protein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-soy-isolate",
+          "title": "Body science Soy Isolate",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\soy-isolate.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "sportsdrik",
+      "route": "/protein-traening/sportsdrik",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 2 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified sportsdrik successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "vitaprana-electrolyte-powder",
+        "vitargo-electrolyte",
+        "enervit-isotonic-drink",
+        "core-sports-drink"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Energy Booster Sportsdrik 1500 g Red Berry",
+      "expectedTopTitle": "Energy Booster Sportsdrik 1500 g Red Berry",
+      "products": [
+        {
+          "slug": "vitaprana-electrolyte-powder",
+          "title": "Vitaprana Electrolyte Powder",
+          "store": "bodystore",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitargo-electrolyte",
+          "title": "Vitargo +Electrolyte",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "enervit-isotonic-drink",
+          "title": "G Sport",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "applied-nutrition-12-x-body-fuel-electrolyte-drink-500-ml-summer-fruits",
+          "title": "Energy Booster Sportsdrik 1500 g Red Berry",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\energy-booster-sportsdrik-1500-g-red-berry.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-sports-drink",
+          "title": "Core Sports Drink+",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "taurin",
+      "route": "/protein-traening/taurin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified taurin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-taurine",
+        "thorne-taurine",
+        "healthwell-taurin-500"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Taurin 500",
+      "products": [
+        {
+          "slug": "weightworld-taurin-1000mg",
+          "title": "Weight World Taurin 1000mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\l-taurin-1000mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-taurine-500-mg-50-kaps",
+          "title": "Solgar Taurine 500 mg - 50 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solgar-taurine-500-mg-50-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-taurine",
+          "title": "Core Taurine",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "thorne-taurine",
+          "title": "Thorne Taurine",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-taurin-500",
+          "title": "Healthwell Taurin 500",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "testo-booster",
+      "route": "/protein-traening/testo-booster",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified testo-booster successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "self-omninutrition-mega-tribulus",
+        "mutant-test",
+        "core-tribulus",
+        "raw-test"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Tribulus 90",
+      "products": [
+        {
+          "slug": "self-omninutrition-mega-tribulus",
+          "title": "Self Omninutrition Tribulus Terrestris",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "mutant-test",
+          "title": "Mutant Test",
+          "store": "bodystore",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-tribulus",
+          "title": "Tribulus 90",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "raw-test",
+          "title": "RAW Test",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "jacked-testo-booster",
+          "title": "Jacked Testo Booster",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\testo-booster.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "tyrosin",
+      "route": "/protein-traening/tyrosin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified tyrosin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "raw-tyrosine-mega-caps",
+        "core-tyrosine-caps",
+        "holistic-thyro-balans",
+        "healthwell-tyrosin-1000",
+        "solgar-l-tyrosine"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Tyrosine Caps",
+      "products": [
+        {
+          "slug": "raw-tyrosine-mega-caps",
+          "title": "RAW Tyrosine Mega Caps",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-tyrosine-caps",
+          "title": "Core Tyrosine Caps",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-thyro-balans",
+          "title": "Holistic Thyro Balans",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-tyrosin-1000",
+          "title": "Healthwell Tyrosin 1000",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-l-tyrosine",
+          "title": "Solgar L-Tyrosine",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vegansk-proteinpulver",
+      "route": "/protein-traening/vegansk-proteinpulver",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - delta-nutrition-supreme-vegan-pro: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "delta-nutrition-supreme-vegan-pro"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Vegan Protein",
+      "expectedTopTitle": "Its Heey Vegansk Protein",
+      "products": [
+        {
+          "slug": "haelthwell-vegan-protein",
+          "title": "Healthwell Vegan Protein",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vegan-protein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "its-heey-vegansk-protein",
+          "title": "Its Heey Vegansk Protein",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\its-heey-vegansk-protein.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "star-nutrition-vegan-protein-shake",
+          "title": "Vegansk proteinshake Vegansk proteinpulver 750 g Chocolate Hazelnut",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\vegansk-proteinshake-vegansk-proteinpulver-750-g-chocolate-hazelnut.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "delta-nutrition-supreme-vegan-pro",
+          "title": "Delta Nutrition Supreme Vegan PRO",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-sceince-vegan-protein",
+          "title": "Body Science Vegan Protein",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\vegan-protein.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "veganske-proteinbarer",
+      "route": "/protein-traening/veganske-proteinbarer",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 3",
+        "PASS dynamic-slogan-count - slogan mentions 3",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 4 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 3 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 3 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified veganske-proteinbarer successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore"
+      ],
+      "productCount": 3,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "12 x Frugt & Nødde bar 50 g Choklad",
+      "expectedTopTitle": "12 x Frugt & Nødde bar 50 g Choklad",
+      "products": [
+        {
+          "slug": "rawbite-bar",
+          "title": "12 x Frugt & Nødde bar 50 g Choklad",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\12-x-frugt-noedde-bar-50-g-choklad.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "barebells-vegan-bar",
+          "title": "12 x Barebells Vegan Protein Bar 55 g Peanut Caramel",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\12-x-barebells-vegan-protein-bar-55-g-peanut-caramel.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "star-nutrition-vegan-protein-bar",
+          "title": "12 x Vegansk proteinbar 55 g Raspberry Chocolate",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\12-x-vegansk-proteinbar-55-g-raspberry-chocolate.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "weight-gainer",
+      "route": "/protein-traening/weight-gainer",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 3 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified weight-gainer successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodylab",
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "RAW Extreme Gains",
+      "expectedTopTitle": "RAW Extreme Gains",
+      "products": [
+        {
+          "slug": "raw-extreme-gains",
+          "title": "RAW Extreme Gains",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\raw-extreme-gains.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "serious-mass",
+          "title": "Serious Mass",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\serious-mass.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "body-science-gainer",
+          "title": "Body Science Gainer",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\gainer.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "bodylab-weight-gainer",
+          "title": "Bodylab Weight Gainer (1,5 kg)",
+          "store": "bodylab",
+          "crawlPath": "content\\crawled-products\\bodylab\\bodylab-weight-gainer-1-5-kg.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-supreme-mass",
+          "title": "Supreme Mass Gainer 5400 g Choklad",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\supreme-mass-gainer-5400-g-choklad.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "zma",
+      "route": "/protein-traening/zma",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 18 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified zma successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-zma",
+        "core-zma-pro",
+        "muscle-zma"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core ZMA",
+      "products": [
+        {
+          "slug": "core-zma",
+          "title": "Healthwell Core ZMA",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-zma-pro",
+          "title": "Core ZMA Pro",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-zma",
+          "title": "Star Nutrition ZMA Star 90 kapsler",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\zma-star-90-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "muscle-zma",
+          "title": "Muscle ZMA",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-zma",
+          "title": "Body science ZMA",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\zma.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1274 @@
+{
+  "generatedAt": "2026-03-16T14:35:13.450Z",
+  "siloId": "mineraler",
+  "categoryCount": 12,
+  "categories": [
+    {
+      "categorySlug": "jern-tabletter",
+      "route": "/mineraler/jern-tabletter",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 10 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified jern-tabletter successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "livol-jern-tyggetabletter-75-tyggetabl",
+        "core-iron-caps-woman",
+        "jern-skonsam"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Jern+C 20 mg - 90 tabl.",
+      "products": [
+        {
+          "slug": "omni-jern-60-kaps",
+          "title": "Omni Jern - 60 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\omnijern-60-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solaray-jern-c-20-mg-90-tabl",
+          "title": "Solaray Jern+C 20 mg - 90 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solaray-jern-c-20-mg-90-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "livol-jern-tyggetabletter-75-tyggetabl",
+          "title": "Livol Jern Tyggetabletter - 75 tyggetabl.",
+          "store": "med24",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-iron-caps-woman",
+          "title": "Core Iron Caps Woman",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "jern-skonsam",
+          "title": "Healthwell Jern Skånsom",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "jod-tabletter",
+      "route": "/mineraler/jod-tabletter",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 8 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified jod-tabletter successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "healthwell",
+        "med24",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "natur-drogeriet-blaeretang-kapsler-90-stk",
+        "naerokaellan-okologisk-jod",
+        "berthelsen-jod-225-mcg-180-tabl",
+        "healthwell-jod-kelp-200"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Närokällan Jod EKO",
+      "products": [
+        {
+          "slug": "natur-drogeriet-blaeretang-kapsler-90-stk",
+          "title": "Natur-Drogeriet Blæretang kapsler - 90 stk",
+          "store": "med24",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "naerokaellan-okologisk-jod",
+          "title": "Healthwell Närokällan Jod EKO",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "berthelsen-jod-225-mcg-180-tabl",
+          "title": "Berthelsen Jod 225 mcg - 180 tabl.",
+          "store": "med24",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-jod-kelp-200",
+          "title": "Healthwell Jod Kelp 200",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "jodtabletter-400-mcg",
+          "title": "Weight World Jodtabletter 400 mcg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\jodtabletter-400-mcg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kalium",
+      "route": "/mineraler/kalium",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 8 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified kalium successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-kalium",
+        "core-kalium-complex"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Natur-Drogeriet Kalium 300 mg",
+      "expectedTopTitle": "Natur-Drogeriet Kalium 300 mg",
+      "products": [
+        {
+          "slug": "natur-drogeriet-kalium-300-mg-120-kaps",
+          "title": "Natur-Drogeriet Kalium 300 mg - 120 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-kalium-300-mg-120-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "berthelsen-kalium-300-mg-60-kaps",
+          "title": "Berthelsen Kalium 300 mg - 60 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\berthelsen-kalium-300-mg-60-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natur-drogeriet-kalium-complex-250-mg-90-stk",
+          "title": "Natur-Drogeriet Kalium Complex 250 mg - 90 stk.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-kalium-250-mg-90-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-kalium",
+          "title": "Healthwell Kalium 750",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-kalium-complex",
+          "title": "Core Kalium Complex",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kalktabletter",
+      "route": "/mineraler/kalktabletter",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 8 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified kalktabletter successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "kalcium-800",
+        "core-calcium-complex",
+        "alg-boerje-kalktabletter"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Alg-Börje Kalktabletter",
+      "products": [
+        {
+          "slug": "kalcium-800",
+          "title": "Healthwell Kalcium 800",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "futura-kalk-k-and-d-vitamin-300-tabl",
+          "title": "FUTURA Kalk + K & D vitamin - 300 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\futura-kalk-k-d-vitamin-300-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "unikalk-forte-180-tabl",
+          "title": "UniKalk Forte - 180 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\unikalk-forte-20-180-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-calcium-complex",
+          "title": "Core Calcium Complex+",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "alg-boerje-kalktabletter",
+          "title": "Alg-Börje Kalktabletter",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kobber-tabletter",
+      "route": "/mineraler/kobber-tabletter",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 9 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 5 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - holistic-koppar: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-thorne-copper-bisglycinate",
+        "holistic-koppar",
+        "healthwell-kobber"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Berthelsen Kobber - 200 tabl.",
+      "expectedTopTitle": "Berthelsen Kobber - 200 tabl.",
+      "products": [
+        {
+          "slug": "berthelsen-kobber-200-tabl",
+          "title": "Berthelsen Kobber - 200 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\berthelsen-kobber-200-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-thorne-copper-bisglycinate",
+          "title": "Healthwell Thorne Copper Bisglycinate",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-koppar",
+          "title": "Holistic Koppar",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-kobber",
+          "title": "Healthwell Kobber",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natures-own-zink-and-kobber-50-tabl",
+          "title": "Nature's Own Zink & Kobber - 50 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\nature-s-own-zink-kobber-50-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "krom",
+      "route": "/mineraler/krom",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 8 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified krom successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "solgar-chrom-picolinat-90-tabl",
+        "diet-chromium-caps"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Krom 200",
+      "expectedTopTitle": "Krom 200",
+      "products": [
+        {
+          "slug": "healthwell-krom",
+          "title": "Healthwell Krom 200",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\krom-200.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-chrom-picolinat-90-tabl",
+          "title": "Solgar Chromium Picolinate 500",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natur-drogeriet-chrom-100-g-60-tabl",
+          "title": "Natur-Drogeriet Chrom 100 µg - 60 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-chrom-100-g-60-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-wellness-series-chromium",
+          "title": "Body science wellness series Chromium",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\chromium.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "diet-chromium-caps",
+          "title": "Diet Chromium Caps+",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "magnesium",
+      "route": "/mineraler/magnesium",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 12 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 7 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified magnesium successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-magnesium-citrat"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Magnesium",
+      "expectedTopTitle": "Core Magnesium Citrat",
+      "products": [
+        {
+          "slug": "healthwell-magnesium-800",
+          "title": "Healthwell Magnesium 800",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-magnesium.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-trippel-magnesium",
+          "title": "Healthwell Trippel Magnesium",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\trippel-magnesium.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-magnesium",
+          "title": "Body science wellness series Magnesium+",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\magnesium-trippel-magnesium.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-magnesium-citrat",
+          "title": "Core Magnesium Citrat",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-ultimate-magnesium",
+          "title": "Star Nutrition Ultimate Magnesium",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\ultimate-magnesium-90-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "mangan",
+      "route": "/mineraler/mangan",
+      "httpStatus": 404,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 10 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified mangan successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-mangan",
+        "holistic-mangan",
+        "solgar-chelated-mangan"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Mangan",
+      "expectedTopTitle": "Berthelsen Mangan - 250 tabl.",
+      "products": [
+        {
+          "slug": "healthwell-mangan",
+          "title": "Healthwell Mangan",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "multimineraler",
+          "title": "Healthwell MultiMineraler",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\multimineraler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "holistic-mangan",
+          "title": "Holistic Mangan",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-chelated-mangan",
+          "title": "Solgar Chelated Mangan",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "berthelsen-mangan-250-tabl",
+          "title": "Berthelsen Mangan - 250 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\berthelsen-mangan-250-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "msm",
+      "route": "/mineraler/msm",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 6 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 5 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - holistic-msm: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "lignisul-msm",
+        "core-msm-caps",
+        "holistic-msm",
+        "healthwell-msm-kapsler"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Lignisul MSM",
+      "expectedTopTitle": "Healthwell MSM Kapsler",
+      "products": [
+        {
+          "slug": "lignisul-msm",
+          "title": "Healthwell Lignisul MSM",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-msm-caps",
+          "title": "MSM Caps",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-msm",
+          "title": "Holistic MSM",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-msm-kapsler",
+          "title": "Healthwell MSM Kapsler",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "weightworld-msm-med-c-vitamin-2400-mg",
+          "title": "Weight World MSM med C-vitamin 2400 mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\msm-med-c-vitamin-2400-mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "selen",
+      "route": "/mineraler/selen",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 10 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 6 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified selen successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-selenium-caps",
+        "healthwell-selen-100"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Omni Selen 3 - 100 tabl.",
+      "expectedTopTitle": "Omni Selen 3 - 100 tabl.",
+      "products": [
+        {
+          "slug": "omni-selen-3-120-tabl",
+          "title": "Omni Selen 3 - 120 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\omni-selen-3-100-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "bio-selenoprecise-150-tabl",
+          "title": "Bio-SelenoPrecise - 150 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\bio-selenoprecise-150-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "berthelsen-selen-120-tabl",
+          "title": "Berthelsen Selen - 120 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\berthelsen-selen-120-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-selenium-caps",
+          "title": "Core Selen 200",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-selen-100",
+          "title": "Healthwell Selen 100",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "silica",
+      "route": "/mineraler/silica",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 11 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 10 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified silica successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "helsegrossisten",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-silica",
+        "silica-beauty-caps"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Lekaform Silica - 300 tabl.",
+      "expectedTopTitle": "Silica Beauty Caps",
+      "products": [
+        {
+          "slug": "lekaform-silica-300-tabl",
+          "title": "Lekaform Silica - 300 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\lekaform-silica-300-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-silica",
+          "title": "Healthwell Silica 250",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-oceanic-silica-25-mg-50-kap",
+          "title": "Solgar Oceanic Silica - 50 kap.",
+          "store": "helsegrossisten",
+          "crawlPath": "content\\crawled-products\\helsegrossisten\\solgar-oceanic-silica-50-kap.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "silica-beauty-caps",
+          "title": "Silica Beauty Caps",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "berthelsen-silica-extra-60-kaps",
+          "title": "Berthelsen Silica Extra 60 kap.",
+          "store": "helsegrossisten",
+          "crawlPath": "content\\crawled-products\\helsegrossisten\\berthelsen-silica-extra-60-kap.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "zink",
+      "route": "/mineraler/zink",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "PASS internal-subpage-link-limit - 10 unique in-content internal targets checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified zink successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "xlnt-sports-zma"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Zink",
+      "expectedTopTitle": "ZMA+",
+      "products": [
+        {
+          "slug": "healthwell-zinc-25",
+          "title": "Healthwell Zink ",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\zink.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition-zinc",
+          "title": "Star Nutrition Zinc",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\zink-25-mg-90-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "xlnt-sports-zma",
+          "title": "Xlnt sports ZMA+",
+          "store": "mmsportsstore",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-zinc",
+          "title": "Body science wellness series Zinc",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\zinc.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "zinc-25-plus",
+          "title": "Healthwell Zink 25 Plus",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\zink-25-plus.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2573 @@
+{
+  "generatedAt": "2026-03-11T18:31:14.139Z",
+  "siloId": "vitaminer",
+  "categoryCount": 25,
+  "categories": [
+    {
+      "categorySlug": "b-vitamin",
+      "route": "/vitaminer/b-vitamin",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "PASS cta-no-underline",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 6 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - core-vitamin-b-complex: generic or invalid review pattern | pureness-premium-complex-b-vitamin: generic or invalid review pattern | body-science-wellness-series-vitamin-b-complex: generic or invalid review pattern | vitaprana-metyl-vitamin-b-kompleks: generic or invalid review pattern | healthwell-vitamin-b-kompleks-50: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - core-vitamin-b-complex: missing crawled product data behind active review | vitaprana-metyl-vitamin-b-kompleks: review lacks parsed product evidence | healthwell-vitamin-b-kompleks-50: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-vitamin-b-complex",
+        "healthwell-vitamin-b-kompleks-50"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core B-Complex",
+      "products": [
+        {
+          "slug": "core-vitamin-b-complex",
+          "title": "Core B-Complex",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "pureness-premium-complex-b-vitamin",
+          "title": "Pureness Premium Complex B-vitamin",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\premium-complex-b-vitamin-60-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-wellness-series-vitamin-b-complex",
+          "title": "Body science wellness series Vitamin B Complex",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\vitamin-b-complex.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitaprana-metyl-vitamin-b-kompleks",
+          "title": "Vitaprana Metyl Vitamin B-kompleks",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\metyl-vitamin-b-kompleks-50-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-b-kompleks-50",
+          "title": "Healthwell Vitamin B Kompleks 50",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "betacaroten",
+      "route": "/vitaminer/betacaroten",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 11 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified betacaroten successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": true,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Betacaroten 100",
+      "expectedTopTitle": "Core Betacaroten 100",
+      "products": [
+        {
+          "slug": "core-betacaroten-100",
+          "title": "Core Betacaroten 100",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-betacaroten-100.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-betacaroten-100",
+          "title": "Healthwell Betacaroten 100",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\betacaroten-100.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-betacaroten-50",
+          "title": "Healthwell Betacaroten 50",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-betacaroten-50.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "pharma-nord-bio-caroten",
+          "title": "Pharma Nord Bio-Caroten",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\pharma-nord-bio-caroten.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "maxosol",
+          "title": "Maxosol",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\maxosol.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "biotin",
+      "route": "/vitaminer/biotin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 22 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 2 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified biotin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "soglar-biotiini-5000"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Biotin 10000",
+      "expectedTopTitle": "Solgar Biotiini 5000 ug",
+      "products": [
+        {
+          "slug": "healthwell-biotin-10000",
+          "title": "Healthwell Biotin 10000",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-biotin-10000.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-biotin",
+          "title": "Healthwell Biotin 5000",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\biotin-5000.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-biotin",
+          "title": "Body science wellness series Vitamin B Complex",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\vitamin-b-complex.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "soglar-biotiini-5000",
+          "title": "Solgar Biotiini 5000 ug",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "weight-world-biotin-gummies-5000-mg",
+          "title": "Weight World Biotin Gummies 5000 mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\biotin-vingummier-5000-mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "c-vitamin",
+      "route": "/vitaminer/c-vitamin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 14 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified c-vitamin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Body Science Vitamin C",
+      "expectedTopTitle": "Body Science Vitamin C",
+      "products": [
+        {
+          "slug": "body-science-c-vitamin",
+          "title": "Body Science Vitamin C",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\vitamin-c.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitamin-c-1000-ph-neutral",
+          "title": "Healthwell Vitamin C 1000 pH-Neutral",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vitamin-c-1000-ph-neutral.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-vitamin-c-1000",
+          "title": "Core Vitamin C 1000+",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-vitamin-c-1000.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "dr-mercola-liposomal-vitamin-c",
+          "title": "Dr. Mercola Liposomal Vitamin C",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\dr-mercola-liposomal-vitamin-c.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-victamin-c-1000-plus",
+          "title": "Vitamin C 1000 Plus",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vitamin-c-1000-plus.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "d-vitamin",
+      "route": "/vitaminer/d-vitamin",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - holistic-d3-vitamin-5000-ie: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "holistic-d3-vitamin-5000-ie"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "D-vitamin",
+      "expectedTopTitle": "D3-Vitamin 4000IU (100mcg)",
+      "products": [
+        {
+          "slug": "body-science-d-vitamin",
+          "title": "D-vitamin",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\d-vitamin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-d3-5000",
+          "title": "Vitamin D3 5000 IE",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vitamin-d3-5000-ie.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "weightworld-d3-vitamin-4000iu",
+          "title": "D3-Vitamin 4000IU (100mcg)",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\d3-vitamin-4000iu-100mcg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-vitamin-d3-5000",
+          "title": "Core Vitamin D3 5000 IE+",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-vitamin-d3-5000-ie.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "holistic-d3-vitamin-5000-ie",
+          "title": "Holistic D3-vitamin 5000 IE",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "e-vitamin",
+      "route": "/vitaminer/e-vitamin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified e-vitamin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "helsegrossisten"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Camette E vitamin complex - 90 kap.",
+      "expectedTopTitle": "Camette E vitamin complex - 90 kap.",
+      "products": [
+        {
+          "slug": "swedish-supplements-vitamin-e",
+          "title": "Camette E vitamin complex - 90 kap.",
+          "store": "helsegrossisten",
+          "crawlPath": "content\\crawled-products\\helsegrossisten\\camette-e-vitamin-complex-90-kap.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-vitamin-e",
+          "title": "Core Vitamin E",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-vitamin-e.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-e-vitamin-flydende",
+          "title": "Healthwell E-vitamin Komplex Flydende",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\e-vitamin-komplex-flydende.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "solgar-vitamin-e-268-mg",
+          "title": "Solgar Vitamin E 268 mg",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\solgar-vitamin-e-268-mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-e",
+          "title": "E-vitamin",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\e-vitamin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "folinsyre",
+      "route": "/vitaminer/folinsyre",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "FAIL summary-award-order - Expected BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET, got BEDST I TEST -> BEDSTE PREMIUM",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "PASS cta-no-underline",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 7 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - healthwell-folinsyre-400: generic or invalid review pattern | healthwell-jern-folsyre-b12: generic or invalid review pattern | holistic-b6-b12-folat-methyleret: generic or invalid review pattern | thorne-5-mthf-5-mg: generic or invalid review pattern | solgar-solgar-folat-metafolin: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-jern-folsyre-b12: missing crawled product data behind active review | holistic-b6-b12-folat-methyleret: missing crawled product data behind active review | thorne-5-mthf-5-mg: missing crawled product data behind active review | solgar-solgar-folat-metafolin: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-jern-folsyre-b12",
+        "holistic-b6-b12-folat-methyleret",
+        "thorne-5-mthf-5-mg",
+        "solgar-solgar-folat-metafolin"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Folinsyre 400",
+      "products": [
+        {
+          "slug": "healthwell-folinsyre-400",
+          "title": "Healthwell Folinsyre 400",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\folinsyre-400.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-jern-folsyre-b12",
+          "title": "Healthwell Healthwell Jern, Folsyre, B12",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-b6-b12-folat-methyleret",
+          "title": "Holistic B6, B12 Folat Methyleret",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "thorne-5-mthf-5-mg",
+          "title": "Thorne 5-MTHF 5 mg",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-solgar-folat-metafolin",
+          "title": "Solgar Folat Metafolin 400mcg",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "lutein",
+      "route": "/vitaminer/lutein",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - ophtamin-20-lutein-zink-360-tabl: generic or invalid review pattern | lutein-50-plus: generic or invalid review pattern | fitness-pharma-blabaer-lutein-90-tabl: generic or invalid review pattern | solaray-lutein-eyes-30-kaps: generic or invalid review pattern | lutein-100-plus: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - ophtamin-20-lutein-zink-360-tabl: review lacks parsed product evidence | lutein-50-plus: missing crawled product data behind active review | lutein-100-plus: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "lutein-50-plus",
+        "lutein-100-plus"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Ophtamin 20 Lutein + Zink - 360 tabl.",
+      "products": [
+        {
+          "slug": "ophtamin-20-lutein-zink-360-tabl",
+          "title": "Ophtamin 20 Lutein + Zink - 360 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\ophtamin-20-lutein-zink-360-tabl.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "lutein-50-plus",
+          "title": "Healthwell Lutein 50 Plus",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "fitness-pharma-blabaer-lutein-90-tabl",
+          "title": "Fitness Pharma Blåbær + Lutein - 90 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\fitness-pharma-blaabaer-lutein-90-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solaray-lutein-eyes-30-kaps",
+          "title": "Solaray Lutein Eyes - 30 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solaray-lutein-eyes-30-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "lutein-100-plus",
+          "title": "Healthwell Lutein 100 Plus",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "lycopen",
+      "route": "/vitaminer/lycopen",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 6 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - imedeen-tan-optimizer-60-tabl: generic or invalid review pattern | natur-drogeriet-lycopen-60-kaps: generic or invalid review pattern | beet-boost: generic or invalid review pattern | healthwell-lycopen-15: generic or invalid review pattern | sunshine: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - imedeen-tan-optimizer-60-tabl: review lacks parsed product evidence | beet-boost: review lacks parsed product evidence | healthwell-lycopen-15: missing crawled product data behind active review | sunshine: review lacks parsed product evidence",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "healthwell",
+        "med24",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-lycopen-15"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Imedeen Tan Optimizer - 60 tabl.",
+      "products": [
+        {
+          "slug": "imedeen-tan-optimizer-60-tabl",
+          "title": "Imedeen Tan Optimizer - 60 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\imedeen-tan-optimizer-60-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natur-drogeriet-lycopen-60-kaps",
+          "title": "Natur-Drogeriet Lycopen - 60 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-lycopen-60-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "beet-boost",
+          "title": "Beet boost ",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\beet-boost.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-lycopen-15",
+          "title": "Healthwell Lycopen 15",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "sunshine",
+          "title": "Sunshine ",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\sunshine.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "multivitamin",
+      "route": "/vitaminer/multivitamin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 20 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified multivitamin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Healthwell Multivitamin Vegan",
+      "expectedTopTitle": "Healthwell Multivitamin Vegan",
+      "products": [
+        {
+          "slug": "healthwell-multivitamin-vegan",
+          "title": "Healthwell Multivitamin Vegan",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-multivitamin-vegan.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "core-vitamins-woman",
+          "title": "Core Vitamins Woman",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-vitamins-woman.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "healthwell-multivitamin-man",
+          "title": "Healthwell Multivitamin Man",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\multivitamin-mand.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-multivitaminer",
+          "title": "Healthwell MultiVitaminer",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-multivitaminer.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-vitamins",
+          "title": "Core Vitamins",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-vitamins.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "multivitamin-born",
+      "route": "/vitaminer/multivitamin-born",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 10 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - kidszoo-multivitamin: generic or invalid review pattern | vitayummy-kids-multi: generic or invalid review pattern | monkids-multivitamin: generic or invalid review pattern | active-care-vitaminbjorne: generic or invalid review pattern | healthwell-kids-multivitamin: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - kidszoo-multivitamin: missing crawled product data behind active review | vitayummy-kids-multi: review lacks parsed product evidence | active-care-vitaminbjorne: missing crawled product data behind active review | healthwell-kids-multivitamin: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "kidszoo-multivitamin",
+        "active-care-vitaminbjorne",
+        "healthwell-kids-multivitamin"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "KidsZoo Multivitamin",
+      "products": [
+        {
+          "slug": "kidszoo-multivitamin",
+          "title": "KidsZoo Multivitamin",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitayummy-kids-multi",
+          "title": "VITAYUMMY Multivitamin Barn Jordgubb 60 Gummies Jordgubb",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\multivitamin-kids-60-gummies-strawberry-jordgubb.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "monkids-multivitamin",
+          "title": "Healthwell Monkids Multivitamin",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\monkids-multivitamin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "active-care-vitaminbjorne",
+          "title": "Active Care Vitaminbjørne",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-kids-multivitamin",
+          "title": "Healthwell Kids Multivitamin",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "multivitamin-gravid-amning",
+      "route": "/vitaminer/multivitamin-gravid-amning",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "FAIL summary-award-order - Expected BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET, got BEDST I TEST -> BEDSTE BUDGET -> BEDSTE PREMIUM",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 7 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - healthwell-healthwell-multivitamin-gravid-and-ammende: generic or invalid review pattern | helhetshaelsa-mammaoptimal: generic or invalid review pattern | healthwell-metyl-b6-b12-folat: generic or invalid review pattern | solgar-female-multiple: generic or invalid review pattern | thorne-basic-prenatal: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-healthwell-multivitamin-gravid-and-ammende: missing crawled product data behind active review | helhetshaelsa-mammaoptimal: missing crawled product data behind active review | solgar-female-multiple: missing crawled product data behind active review | thorne-basic-prenatal: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-healthwell-multivitamin-gravid-and-ammende",
+        "helhetshaelsa-mammaoptimal",
+        "solgar-female-multiple",
+        "thorne-basic-prenatal"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Healthwell Multivitamin Gravid & Ammende",
+      "products": [
+        {
+          "slug": "healthwell-healthwell-multivitamin-gravid-and-ammende",
+          "title": "Healthwell Healthwell Multivitamin Gravid & Ammende",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "helhetshaelsa-mammaoptimal",
+          "title": "Helhetshälsa MammaOptimal",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-metyl-b6-b12-folat",
+          "title": "Healthwell Metyl B6, B12, Folat",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\metyl-b6-b12-folat.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-female-multiple",
+          "title": "Healthwell Solgar Female Multiple",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "thorne-basic-prenatal",
+          "title": "Thorne Basic Prenatal",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "multivitamin-kvinde",
+      "route": "/vitaminer/multivitamin-kvinde",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 9 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - core-female-vitamins: generic or invalid review pattern | thorne-womens-multi-50: generic or invalid review pattern | holistic-multivitamin: generic or invalid review pattern | multivitamin-kvinna-55: generic or invalid review pattern | healthwell-healthwell-active-multivitamin-kvinde: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - core-female-vitamins: missing crawled product data behind active review | thorne-womens-multi-50: missing crawled product data behind active review | holistic-multivitamin: review lacks parsed product evidence | multivitamin-kvinna-55: missing crawled product data behind active review | healthwell-healthwell-active-multivitamin-kvinde: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-female-vitamins",
+        "thorne-womens-multi-50",
+        "multivitamin-kvinna-55",
+        "healthwell-healthwell-active-multivitamin-kvinde"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Vitamins Woman",
+      "products": [
+        {
+          "slug": "core-female-vitamins",
+          "title": "Core Vitamins Woman",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "thorne-womens-multi-50",
+          "title": "Thorne Womens Multi +50",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-multivitamin",
+          "title": "Holistic Multivitamin",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\multivitamin-90-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "multivitamin-kvinna-55",
+          "title": "Healthwell Healthwell Multivitamin Kvinde 55+",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-healthwell-active-multivitamin-kvinde",
+          "title": "Healthwell Healthwell Active Multivitamin Kvinde",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "multivitamin-til-maend",
+      "route": "/vitaminer/multivitamin-til-maend",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 10 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - healthwell-multivitamin-man-55: generic or invalid review pattern | healthwell-multivitamin-man: generic or invalid review pattern | xlnt-sports-multivitamin: generic or invalid review pattern | core-vitamin-man: generic or invalid review pattern | ultimate-vitamins-and-minerals-athlete: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-multivitamin-man-55: missing crawled product data behind active review | ultimate-vitamins-and-minerals-athlete: review lacks parsed product evidence",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-multivitamin-man-55"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Healthwell Multivitamin Man 55+",
+      "products": [
+        {
+          "slug": "healthwell-multivitamin-man-55",
+          "title": "Healthwell Healthwell Multivitamin Man 55+",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-multivitamin-man",
+          "title": "Healthwell Multivitamin Man",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\multivitamin-mand.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "xlnt-sports-multivitamin",
+          "title": "Xlnt sports Day Multivitamin",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\multivitamin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-vitamin-man",
+          "title": "Core Vitamins Man",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-vitamins-man.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "ultimate-vitamins-and-minerals-athlete",
+          "title": "Star Nutrition Ultimate Vitamins & Minerals Athlete",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\ultimate-vitamins-minerals-athlete-60-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "niacin",
+      "route": "/vitaminer/niacin",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 19 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified niacin successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Thorne Niacinamide",
+      "expectedTopTitle": "Thorne Niacinamide",
+      "products": [
+        {
+          "slug": "thorne-niacinamide",
+          "title": "Thorne Niacinamide",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\thorne-niacinamide.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "niacin-500",
+          "title": "Healthwell Niacin 500",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\niacin-500.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-niacin",
+          "title": "Core Niacin",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\core-niacin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-no-flush-niacin",
+          "title": "Healthwell Solgar No-Flush Niacin",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\solgar-no-flush-niacin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "b3-vitamin-200-mg-90-tabl",
+          "title": "B3-vitamin, 200 mg - 90 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\b3-vitamin-200-mg-90-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "pantotensyre",
+      "route": "/vitaminer/pantotensyre",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - healthwell-b5-pantotensyre-1000: generic or invalid review pattern | b5-vitamin-100-mg-90-tabl: generic or invalid review pattern | body-science-b-vitamin-kompleks: generic or invalid review pattern | healthwell-b5-pantotensyre-500: generic or invalid review pattern | pantoten-and-biotin-beauty-caps: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-b5-pantotensyre-500: missing crawled product data behind active review | pantoten-and-biotin-beauty-caps: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-b5-pantotensyre-500",
+        "pantoten-and-biotin-beauty-caps"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell B5 Pantothensyre 1000",
+      "products": [
+        {
+          "slug": "healthwell-b5-pantotensyre-1000",
+          "title": "Healthwell B5 Pantothensyre 1000",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\b5-pantothensyre-1000.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "b5-vitamin-100-mg-90-tabl",
+          "title": "B5-vitamin, 100 mg - 90 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\b5-vitamin-200-mg-90-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-b-vitamin-kompleks",
+          "title": "Body science wellness series Vitamin B Complex",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\vitamin-b-complex.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-b5-pantotensyre-500",
+          "title": "Healthwell Healthwell B5 Pantothensyre 500",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "pantoten-and-biotin-beauty-caps",
+          "title": "Pantoten & Biotin Beauty Caps",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vegansk-vitamin-d",
+      "route": "/vitaminer/vegansk-vitamin-d",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - vitaprana-vitamin-d3-vegan-2000: generic or invalid review pattern | healthwell-multivitamin-vegansk: generic or invalid review pattern | healthwell-vitamin-d3-vegan: generic or invalid review pattern | vitaprana-vitamin-d3-vegan-5000: generic or invalid review pattern | healthwell-vitamin-d3-k2: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - vitaprana-vitamin-d3-vegan-2000: review lacks parsed product evidence | healthwell-vitamin-d3-k2: review lacks parsed product evidence",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Vitaprana Vitamin D3 Vegan 2000 IE",
+      "products": [
+        {
+          "slug": "vitaprana-vitamin-d3-vegan-2000",
+          "title": "Vitaprana Vitamin D3 Vegan 2000 IE",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\vitamin-d3-vegan-2000-ie-110-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-multivitamin-vegansk",
+          "title": "Healthwell Multivitamin Vegansk",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-multivitamin-vegan.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-d3-vegan",
+          "title": "Healthwell Vitamin D3 Vegan 3000 IE",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vitamin-d3-vegan-3000-ie.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitaprana-vitamin-d3-vegan-5000",
+          "title": "Vitaprana Vitamin D3 Vegan 5000 IE",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\vitamin-d3-vegan-5000-ie-110-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-d3-k2",
+          "title": "Healthwell Vitamin D3+K2",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-vitamin-d3-k2.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitamin-b1",
+      "route": "/vitaminer/vitamin-b1",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 19 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified vitamin-b1 successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Vitamin B1 100",
+      "products": [
+        {
+          "slug": "vitamin-b1-100",
+          "title": "Healthwell Vitamin B1 100",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\vitamin-b1-100.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natur-drogeriet-b1-vitamin-25-mg-100-tab",
+          "title": "Natur-Drogeriet B1 vitamin 25 mg - 100 tab",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-b1-thiamin-25-mg-100-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "naerokaellan-b1-250-mg",
+          "title": "Healthwell Närokällan B1 250 mg",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\n-rok-llan-b1-250-mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-vitamin-b1-100-mg-100-kap",
+          "title": "Solgar Vitamin B1 100 mg - 100 kap",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solgar-vitamin-b1-100-mg-100-kap.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "trikem-vimital-thiamin",
+          "title": "Healthwell Trikem Vimital Thiamin",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\trikem-vimital-thiamin.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitamin-b12",
+      "route": "/vitaminer/vitamin-b12",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "FAIL summary-award-order - Expected BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET, got BEDST I TEST",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 6 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - body-science-vitamin-b12: generic or invalid review pattern | solgar-vitamin-b12-1000: generic or invalid review pattern | healthwell-b12-1000-methyleret: generic or invalid review pattern | core-vitamin-b12: generic or invalid review pattern | healthwell-b12-1000-sugetabletter: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - solgar-vitamin-b12-1000: missing crawled product data behind active review | healthwell-b12-1000-methyleret: missing crawled product data behind active review | core-vitamin-b12: missing crawled product data behind active review | healthwell-b12-1000-sugetabletter: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "solgar-vitamin-b12-1000",
+        "healthwell-b12-1000-methyleret",
+        "core-vitamin-b12",
+        "healthwell-b12-1000-sugetabletter"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Body science Vitamin B12",
+      "products": [
+        {
+          "slug": "body-science-vitamin-b12",
+          "title": "Body science Vitamin B12",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\vitamin-b12.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-vitamin-b12-1000",
+          "title": "Solgar Vitamin B12 1000 mcg",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-b12-1000-methyleret",
+          "title": "Healthwell Vitamin B12 1000 Methyleret",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-vitamin-b12",
+          "title": "Core Vitamin B12",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-b12-1000-sugetabletter",
+          "title": "Healthwell Vitamin B12 1000 Sugetabletter",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitamin-b2-riboflavin",
+      "route": "/vitaminer/vitamin-b2-riboflavin",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 6 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - longovital-classic-180-tabl: generic or invalid review pattern | solgar-vitamin-b2-riboflavin-100-kap: generic or invalid review pattern | natur-drogeriet-b2-riboflavin-20-mg-100-tabl: generic or invalid review pattern | healthwell-b2-vitamin-100: generic or invalid review pattern | naerokaellan-b2-riboflavin-100-mg: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - longovital-classic-180-tabl: review lacks parsed product evidence | healthwell-b2-vitamin-100: missing crawled product data behind active review | naerokaellan-b2-riboflavin-100-mg: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-b2-vitamin-100",
+        "naerokaellan-b2-riboflavin-100-mg"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "LongoVital Classic - 180 tabl.",
+      "products": [
+        {
+          "slug": "longovital-classic-180-tabl",
+          "title": "LongoVital Classic - 180 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\longovital-classic-180-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-vitamin-b2-riboflavin-100-kap",
+          "title": "Solgar Vitamin B2 (Riboflavin) - 100 kap",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solgar-vitamin-b2-riboflavin-100-kap.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "natur-drogeriet-b2-riboflavin-20-mg-100-tabl",
+          "title": "Natur-Drogeriet B2 Riboflavin 20 mg - 100 tabl",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\natur-drogeriet-b2-riboflavin-20-mg-100-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-b2-vitamin-100",
+          "title": "Healthwell Vitamin B2 100",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "naerokaellan-b2-riboflavin-100-mg",
+          "title": "Närokällan B2 Riboflavin 100 mg",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitamin-b6",
+      "route": "/vitaminer/vitamin-b6",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 8 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - solgar-magnesium-med-vitamin-b6-250-tabl: generic or invalid review pattern | camette-gele-royal-m-salvie-vitamin-b6-120-kaps: generic or invalid review pattern | healthwell-vitamin-b6: generic or invalid review pattern | better-you-premium-vitamin-b6: generic or invalid review pattern | naerokaellan-b6-p-5-p: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-vitamin-b6: missing crawled product data behind active review | better-you-premium-vitamin-b6: missing crawled product data behind active review | naerokaellan-b6-p-5-p: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-vitamin-b6",
+        "better-you-premium-vitamin-b6",
+        "naerokaellan-b6-p-5-p"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solgar Magnesium med vitamin B6 - 250 tabl.",
+      "products": [
+        {
+          "slug": "solgar-magnesium-med-vitamin-b6-250-tabl",
+          "title": "Solgar Magnesium med vitamin B6 - 250 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solgar-magnesium-med-vitamin-b6-250-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "camette-gele-royal-m-salvie-vitamin-b6-120-kaps",
+          "title": "Camette Gelé Royal m. Salvie + Vitamin B6 - 120 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\camette-gel-royal-120-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-b6",
+          "title": "Healthwell Vitamin B6 25",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "better-you-premium-vitamin-b6",
+          "title": "Better You Premium Vitamin B6",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "naerokaellan-b6-p-5-p",
+          "title": "Healthwell Närokällan B6 P-5-P",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitamin-d3-k2",
+      "route": "/vitaminer/vitamin-d3-k2",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - better-you-vitamin-d3-k2: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "better-you-vitamin-d3-k2"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Solgar Ultimate Bone Support - 120 tabl",
+      "expectedTopTitle": "Solgar Ultimate Bone Support - 120 tabl",
+      "products": [
+        {
+          "slug": "solgar-ultimate-bone-support-120-tabl",
+          "title": "Solgar Ultimate Bone Support - 120 tabl",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solgar-ultimate-bone-support-120-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solaray-vitamin-d3-and-k2-60-kaps",
+          "title": "Solaray Vitamin D3 & K2",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solaray-vitamin-d3-k2-60-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "weightworld-vitamin-d3-k2-tabletter",
+          "title": "Vitamin D3 + K2 Tabletter",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\vitamin-d3-k2-tabletter.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-d3-k2",
+          "title": "Healthwell Vitamin D3+K2",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-vitamin-d3-k2.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "better-you-vitamin-d3-k2",
+          "title": "Better You Vitamin D3 + K2",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitamin-k2",
+      "route": "/vitaminer/vitamin-k2",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 7 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - holistic-k2-menakinon-7: generic or invalid review pattern | healthwell-vitamin-k2-200: generic or invalid review pattern | elexir-pharma-k2-d3: generic or invalid review pattern | healthwell-vitamin-d3-k2: generic or invalid review pattern | better-you-vitamin-d3-k2: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - holistic-k2-menakinon-7: missing crawled product data behind active review | healthwell-vitamin-d3-k2: review lacks parsed product evidence | better-you-vitamin-d3-k2: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "holistic-k2-menakinon-7",
+        "better-you-vitamin-d3-k2"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Holistic K2 Menakinon-7",
+      "products": [
+        {
+          "slug": "holistic-k2-menakinon-7",
+          "title": "Holistic K2 Menakinon-7",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-k2-200",
+          "title": "Healthwell Vitamin K2 200",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\vitamin-k2-200.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "elexir-pharma-k2-d3",
+          "title": "Elexir Pharma K2+D3 200 mcg",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\vitamin-k2-d3-200-mcg-60-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-vitamin-d3-k2",
+          "title": "Healthwell Vitamin D3+K2",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-vitamin-d3-k2.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "better-you-vitamin-d3-k2",
+          "title": "Better You Vitamin D3 + K2",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitaminer-til-har",
+      "route": "/vitaminer/vitaminer-til-har",
+      "httpStatus": 200,
+      "verifyOk": true,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 26 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "Verified vitaminer-til-har successfully.",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "healthwell",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Wonderful Hair",
+      "products": [
+        {
+          "slug": "healthwell-wonderful-hair",
+          "title": "Healthwell Wonderful Hair",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\wonderful-hair.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-biotin-10000",
+          "title": "Healthwell Biotin 10000",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\healthwell-biotin-10000.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "weight-world-biotin-12000-mcg",
+          "title": "Weight World Biotin 12000 mcg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\biotin-12000-mcg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitaprana-har-och-naglar",
+          "title": "VITAYUMMY Hår & Naglar Hallon 60 Gummies",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\haar-negle-vitaminer-60-gummies-hindbaer.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "weight-world-biotin-gummies-5000-mg",
+          "title": "Weight World Biotin Gummies 5000 mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\biotin-vingummier-5000-mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vitaminer-til-ojnene",
+      "route": "/vitaminer/vitaminer-til-ojnene",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "FAIL core-sections - Missing: Sådan har vi lavet vores test, <FAQ ",
+        "FAIL summary-award-order - Expected BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET, got BEDST I TEST -> BEDSTE PREMIUM",
+        "FAIL mobile-toplist-layout - Found old brand or price row in mobile toplist",
+        "FAIL cta-no-underline - CTA buttons do not appear to enforce no-underline classes",
+        "FAIL product-card-store-label - Missing store label under full product-card CTA",
+        "PASS internal-links - 10 internal links found",
+        "PASS no-links-in-headings",
+        "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
+        "PASS duplicate-extra-images",
+        "FAIL product-review-quality - solaray-lutein-eyes-30-kaps: generic or invalid review pattern | healthwell-biocare-ojen-komplex: generic or invalid review pattern | elexir-pharma-blue-eye: generic or invalid review pattern | healthwell-lutein-100: generic or invalid review pattern | fitness-pharma-blabaer-lutein-90-tabl: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-biocare-ojen-komplex: missing crawled product data behind active review | elexir-pharma-blue-eye: missing crawled product data behind active review | healthwell-lutein-100: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-biocare-ojen-komplex",
+        "elexir-pharma-blue-eye",
+        "healthwell-lutein-100"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Lutein Eyes - 30 kaps.",
+      "products": [
+        {
+          "slug": "solaray-lutein-eyes-30-kaps",
+          "title": "Solaray Lutein Eyes - 30 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\solaray-lutein-eyes-30-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-biocare-ojen-komplex",
+          "title": "Healthwell BioCare Øjen Komplex",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "elexir-pharma-blue-eye",
+          "title": "Elexir Pharma Blue Eye",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-lutein-100",
+          "title": "Healthwell Lutein 100 Plus",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "fitness-pharma-blabaer-lutein-90-tabl",
+          "title": "Fitness Pharma Blåbær + Lutein - 90 tabl.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\fitness-pharma-blaabaer-lutein-90-tabl.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    }
+  ]
+}

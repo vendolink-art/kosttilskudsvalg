@@ -1,0 +1,3594 @@
+{
+  "generatedAt": "2026-03-16T14:37:35.515Z",
+  "summary": {
+    "auditedPages": 166,
+    "fullReviewCandidates": 76,
+    "sourceEvidenceFollowUp": 28,
+    "backlogOnly": 41,
+    "keepAsIs": 21
+  },
+  "fullReviewCandidates": [
+    {
+      "page": "/omega-fedtsyrer/vegansk-omega-3",
+      "slug": "vegansk-omega-3",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "no-self-links",
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-omega-3-algolja",
+        "terranova-omega-3-6-7-9-organic-oil",
+        "great-earth-omega-3-vegan",
+        "healthwell-algeolie-omega-3",
+        "algeolie-omega-3"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Plantforce Omega 3",
+      "expectedTopTitle": "Terranova Omega 3-6-7-9 Organic Oil"
+    },
+    {
+      "page": "/sundhed-velvaere/braendenaelde-pulver",
+      "slug": "braendenaelde-pulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "oertagubben-braendenaelde",
+        "holistic-naelde",
+        "re-fresh-superfood-naelde-superfood",
+        "naeldepulver-oko-rawpowder"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Natur-Drogeriet Brændenældepulver Ø"
+    },
+    {
+      "page": "/sundhed-velvaere/gele-royal",
+      "slug": "gele-royal",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Apiforce Gelé Royal",
+      "expectedTopTitle": "Apiforce Gelé Royal"
+    },
+    {
+      "page": "/sundhed-velvaere/hyben-kapsler",
+      "slug": "hyben-kapsler",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "internal-subpage-link-limit",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "litomove-kapsler"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Lito Hyben Vegetabilske Kapsler"
+    },
+    {
+      "page": "/sundhed-velvaere/ingefaer-pulver",
+      "slug": "ingefaer-pulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "mother-earth-ingefaerpulver-oko",
+        "sonnentor-ingefaer-pulver",
+        "wellaware-ingefaerpulver",
+        "rawpowder-ingefarpulver"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Mother Earth Ingefærpulver ØKO"
+    },
+    {
+      "page": "/sundhed-velvaere/lions-mane",
+      "slug": "lions-mane",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-lions-mane",
+        "four-sigmatic-kaffe-instant",
+        "four-sigmatic-elixir-instant-lions-mane"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Lions Mane"
+    },
+    {
+      "page": "/sundhed-velvaere/reishi",
+      "slug": "reishi",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-reishi-svampeekstrakt",
+        "terranova-reishi",
+        "pureness-premium-research-reishiekstrakt",
+        "rawpowder-reishi-svampepulver"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Green Machine Reishi Ø"
+    },
+    {
+      "page": "/vitaminer/multivitamin-born",
+      "slug": "multivitamin-born",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "kidszoo-multivitamin",
+        "active-care-vitaminbjorne",
+        "healthwell-kids-multivitamin"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "KidsZoo Multivitamin"
+    },
+    {
+      "page": "/vitaminer/multivitamin-gravid-amning",
+      "slug": "multivitamin-gravid-amning",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-healthwell-multivitamin-gravid-and-ammende",
+        "helhetshaelsa-mammaoptimal",
+        "solgar-female-multiple",
+        "thorne-basic-prenatal"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Healthwell Multivitamin Gravid & Ammende"
+    },
+    {
+      "page": "/vitaminer/multivitamin-kvinde",
+      "slug": "multivitamin-kvinde",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-female-vitamins",
+        "thorne-womens-multi-50",
+        "multivitamin-kvinna-55",
+        "healthwell-healthwell-active-multivitamin-kvinde"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Vitamins Woman"
+    },
+    {
+      "page": "/vitaminer/vitamin-b2-riboflavin",
+      "slug": "vitamin-b2-riboflavin",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-b2-vitamin-100",
+        "naerokaellan-b2-riboflavin-100-mg"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "LongoVital Classic - 180 tabl."
+    },
+    {
+      "page": "/vitaminer/vitamin-b6",
+      "slug": "vitamin-b6",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-vitamin-b6",
+        "better-you-premium-vitamin-b6",
+        "naerokaellan-b6-p-5-p"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solgar Magnesium med vitamin B6 - 250 tabl."
+    },
+    {
+      "page": "/omega-fedtsyrer/fiskeolie",
+      "slug": "fiskeolie",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "elexir-omega-3-hojdosis-fiskeolie",
+        "arctic-omega-3-fiskeolie",
+        "healthwell-omega-3-fiskeolie",
+        "eskio-3-pure"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Omega-3 Fiskeolie 2000mg",
+      "expectedTopTitle": "Core Omega-3"
+    },
+    {
+      "page": "/omega-fedtsyrer/kaempenatlysolie",
+      "slug": "kaempenatlysolie",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "no-self-links",
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-gla-kaempe-natlysolie-oko",
+        "healthwell-gla-kaempe-natlys-olie"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Livets Olie - Oil of Life",
+      "expectedTopTitle": "Hørfrø- og natlysolie ØKO"
+    },
+    {
+      "page": "/omega-fedtsyrer/kokosolie",
+      "slug": "kokosolie",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "kokosolie-extra-virgin-oko",
+        "biofood-duftfri-kokosolie"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Dragon Superfoods Kokosolie Ø",
+      "expectedTopTitle": "Cosmoveda Kokosolie uden smag"
+    },
+    {
+      "page": "/omega-fedtsyrer/krillolie",
+      "slug": "krillolie",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "islandsk-omega-3",
+        "naerokaellan-krillolie",
+        "antarctic-krill-oil"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Islandsk Omega-3",
+      "expectedTopTitle": "Krillolie 1200mg"
+    },
+    {
+      "page": "/omega-fedtsyrer/lecithin",
+      "slug": "lecithin",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "no-self-links",
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "lecithin-pulver",
+        "solgar-lecithin",
+        "lecithin-fra-a-vogel"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Berthelsen Lecithin",
+      "expectedTopTitle": "Solgar Lecithin"
+    },
+    {
+      "page": "/omega-fedtsyrer/omega-3",
+      "slug": "omega-3",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "no-self-links",
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-omega-3",
+        "healthwell-omega-3-plus",
+        "elexir-pharma-omega-3-forte"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Omega-3 Fiskeolie 2000mg",
+      "expectedTopTitle": "Core Omega-3+"
+    },
+    {
+      "page": "/sundhed-velvaere/acetyl-l-carnitin",
+      "slug": "acetyl-l-carnitin",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-alc-pulver",
+        "diet-carnitine",
+        "solgar-l-carnitine-liquid-1500",
+        "core-alc-caps",
+        "healthwell-acetyl-l-carnitin"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Acetyl L-Carnitin",
+      "expectedTopTitle": "Core ALC"
+    },
+    {
+      "page": "/sundhed-velvaere/astragalus",
+      "slug": "astragalus",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-astragalus-root-kapsler",
+        "healthwell-astragalus-kapsler",
+        "terranova-astragalus"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Astragalus"
+    },
+    {
+      "page": "/sundhed-velvaere/bedste-maltidserstatning",
+      "slug": "bedste-maltidserstatning",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-heey-food-shake",
+        "healthwell-diet-shake"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Creatine Caps Pro"
+    },
+    {
+      "page": "/sundhed-velvaere/bukkehornsklover",
+      "slug": "bukkehornsklover",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-fenugreek-bukkehornsklover",
+        "healthwell-bukkehornsklover-kapsler"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Økologisk Bukkehorn 1500 mg"
+    },
+    {
+      "page": "/sundhed-velvaere/byggraes",
+      "slug": "byggraes",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "veganske-healthwell-super-greens",
+        "holistic-byggraes",
+        "naerokaellan-byggraes"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Super Greens"
+    },
+    {
+      "page": "/sundhed-velvaere/chaga",
+      "slug": "chaga",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "premium-research-chaga-extract",
+        "healthwell-mother-earth-chagapulver-vild",
+        "healthwell-chaga-pulver",
+        "terranova-chaga"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Pureness Premium Research Chaga Ekstrakt"
+    },
+    {
+      "page": "/sundhed-velvaere/cholin",
+      "slug": "cholin",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-choline-inositol",
+        "cholin-inositol",
+        "solgar-choline",
+        "naerokaellan-cholin-og-inositol"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solgar Choline+Inositol"
+    },
+    {
+      "page": "/sundhed-velvaere/gron-te",
+      "slug": "gron-te",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "rawpowder-matcha-supreme"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Matcha te (green tea powder) Ø"
+    },
+    {
+      "page": "/sundhed-velvaere/gurkmeje",
+      "slug": "gurkmeje",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-gurkemeje-pro",
+        "healthwells-gurkemeje",
+        "healthwell-kurkuma-premium"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Gurkemeje Pro"
+    },
+    {
+      "page": "/sundhed-velvaere/hvedegraes-pulver",
+      "slug": "hvedegraes-pulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-hvedegraes-oko",
+        "naerokaellan-hvedegraesjuicepulver"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Økologisk Super Greens Pulver"
+    },
+    {
+      "page": "/sundhed-velvaere/hvidlogspiller",
+      "slug": "hvidlogspiller",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "allicinmax",
+        "kyolic-original-600-mg",
+        "healthwell-hvidlogspiller"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "AllicinMAX"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-overgangsalderen",
+      "slug": "kosttilskud-til-overgangsalderen",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-femme-paus",
+        "new-nordic-meno-joy",
+        "elexir-pharma-me-no"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Kæmpenatlysolie-kapsler 1000mg"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-veganere",
+      "slug": "kosttilskud-til-veganere",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-vitamin-b12-1000-mcg",
+        "healthwell-jern-folsyre-b12",
+        "algeolie-omega-3"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Terranova Vollagen Complex Vegan Collagen"
+    },
+    {
+      "page": "/sundhed-velvaere/l-theanin",
+      "slug": "l-theanin",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-l-theanine-250",
+        "healthwell-l-theanine-100",
+        "thorne-theanine",
+        "healthwell-l-theanin-400"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core L-theanine 250"
+    },
+    {
+      "page": "/sundhed-velvaere/moringa-tilskud",
+      "slug": "moringa-tilskud",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "kiki-health-organic-moringa",
+        "healthwell-moringa-oko",
+        "mother-earth-moringapulver-eko"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Superfruit Organic greens pulver Ø"
+    },
+    {
+      "page": "/sundhed-velvaere/schisandra",
+      "slug": "schisandra",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-schisandra",
+        "oertspecialisten-schizandra"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Spektro Energy"
+    },
+    {
+      "page": "/sundhed-velvaere/shiitake",
+      "slug": "shiitake",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "rawpowder-shiitake-pulver-oko"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Øko Svampe Complex"
+    },
+    {
+      "page": "/sundhed-velvaere/super-greens-pulver",
+      "slug": "super-greens-pulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-super-greens",
+        "detox-greens",
+        "rawpowder-dulse-algeblanding-oko"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Økologisk Super Greens Pulver"
+    },
+    {
+      "page": "/vitaminer/vegansk-vitamin-d",
+      "slug": "vegansk-vitamin-d",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Vitaprana Vitamin D3 Vegan 2000 IE"
+    },
+    {
+      "page": "/vitaminer/vitaminer-til-ojnene",
+      "slug": "vitaminer-til-ojnene",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-biocare-ojen-komplex",
+        "elexir-pharma-blue-eye",
+        "healthwell-lutein-100"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Lutein Eyes - 30 kaps."
+    },
+    {
+      "page": "/omega-fedtsyrer/cla",
+      "slug": "cla",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "no-self-links",
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "CLA (Konjugeret Linolsyre) 3000 mg",
+      "expectedTopTitle": "Diet CLA"
+    },
+    {
+      "page": "/omega-fedtsyrer/mct-olie",
+      "slug": "mct-olie",
+      "siloId": "omega-fedtsyrer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "no-self-links",
+        "internal-subpage-link-limit"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-c8-mct-oil"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Mutant Core Series MCT Oil",
+      "expectedTopTitle": "Mutant Core Series MCT Oil"
+    },
+    {
+      "page": "/sundhed-velvaere/acai",
+      "slug": "acai",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-acai-kapsler",
+        "healthwell-acai-pulver",
+        "healthwell-mother-earth-frysetorret-acaipulver-oko-and-raw"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Dragon Superfoods Acai pulver Ø"
+    },
+    {
+      "page": "/sundhed-velvaere/animalske-kosttilskud",
+      "slug": "animalske-kosttilskud",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "dense-beef-liver",
+        "dense-beef-organs",
+        "dense-beef-heart",
+        "dense-beef-testicles"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Dense Beef Liver"
+    },
+    {
+      "page": "/sundhed-velvaere/bedste-fedtforbraender",
+      "slug": "bedste-fedtforbraender",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "self-omninutrition-ripped-burn",
+        "elit-super-shred"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "BURN"
+    },
+    {
+      "page": "/sundhed-velvaere/betain",
+      "slug": "betain",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-betaine-hydrochloride",
+        "healthwell-betain-hcl",
+        "naerokaellan-betain-hcl-and-pepsin",
+        "pureness-betaine-hcl-saltsyre"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solgar Betaine Hydrochloride"
+    },
+    {
+      "page": "/sundhed-velvaere/blabaertilskud",
+      "slug": "blabaertilskud",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "rawpowder-blabars-pulver-oko",
+        "blabar-ekstrakt"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "New Nordic Blåbærpillen - 30 tabl."
+    },
+    {
+      "page": "/sundhed-velvaere/chiafro",
+      "slug": "chiafro",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-okologisk-chiafro",
+        "mother-earth-sorte-chiafro"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Chiafrø",
+      "expectedTopTitle": "Chiafrø"
+    },
+    {
+      "page": "/sundhed-velvaere/collagen-kapsler",
+      "slug": "collagen-kapsler",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "terranova-vollagen-complex",
+        "core-collagen-1000",
+        "healthwell-collagen-skin-and-nails"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Collagen Plus"
+    },
+    {
+      "page": "/sundhed-velvaere/gaba",
+      "slug": "gaba",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "thorne-pharmagaba-100",
+        "raw-gaba-mega-caps",
+        "healthwell-gaba-500",
+        "core-gaba",
+        "solgar-500-gaba"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Thorne PharmaGABA-100"
+    },
+    {
+      "page": "/sundhed-velvaere/granataebletilskud",
+      "slug": "granataebletilskud",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-granataebleekstrakt"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Granatæble"
+    },
+    {
+      "page": "/sundhed-velvaere/gron-te-piller",
+      "slug": "gron-te-piller",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "bio-t-pharma-nord",
+        "healthwell-thorne-green-tea-phytosome",
+        "healthwell-gron-teekstrakt"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Grøn te",
+      "expectedTopTitle": "Grøn te"
+    },
+    {
+      "page": "/sundhed-velvaere/guarana",
+      "slug": "guarana",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-guarana-ekstrakt",
+        "gerimax-instant-energy"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Guarana Ekstrakt"
+    },
+    {
+      "page": "/sundhed-velvaere/hormonel-balance-hos-kvinder",
+      "slug": "hormonel-balance-hos-kvinder",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-femme-balans",
+        "4-her-hormonal-balance",
+        "apta-medica-more-woman",
+        "thorne-ovarian-care"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Holistic Femme Balans"
+    },
+    {
+      "page": "/sundhed-velvaere/hormonel-balance-hos-maend",
+      "slug": "hormonel-balance-hos-maend",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-fenugreek",
+        "mutant-test-testosteron",
+        "4-him-t8-testobalance",
+        "raw-test",
+        "great-earth-testoman"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Fenugreek"
+    },
+    {
+      "page": "/sundhed-velvaere/ingefaer-piller",
+      "slug": "ingefaer-piller",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "ingefaer-kapsler",
+        "solgar-ginger-root",
+        "healthwell-ingefaer-premium"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Ingefær Ekstrakt"
+    },
+    {
+      "page": "/sundhed-velvaere/inositol",
+      "slug": "inositol",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "naerokaellan-inositol"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solgar Inositol 500 mg"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-gummier",
+      "slug": "kosttilskud-gummier",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "internal-subpage-link-limit",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "matters-apple-cider-vinegar-krom"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Multivitamin Vingummier"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-mod-stress",
+      "slug": "kosttilskud-mod-stress",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-rosenrod-ekstrakt",
+        "super-b-vitamin-kompleks",
+        "naerokaellan-rolig",
+        "ashwagandha-premium",
+        "wellatomin-premium"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Rosenrod Ekstrakt"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-detox",
+      "slug": "kosttilskud-til-detox",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-detox-te"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Detox Te"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-keto-diaet",
+      "slug": "kosttilskud-til-keto-diaet",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-omega-3",
+        "core-b-complex-pro",
+        "kalcium-800",
+        "healthwell-d3-vitamin-3000-iu",
+        "healthwell-qure-magnesium"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Omega-3+"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-lob",
+      "slug": "kosttilskud-til-lob",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-zma",
+        "core-sports-drink",
+        "vitargo-gel",
+        "healthwell-inflamin-collagen-premium",
+        "core-collagen-pro"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core ZMA"
+    },
+    {
+      "page": "/sundhed-velvaere/matchatilskud",
+      "slug": "matchatilskud",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "rawpowder-matcha-supreme",
+        "matters-matcha-collagen",
+        "healthwell-healthwell-matcha-pulver-oko",
+        "naerokaellan-ceremoniel-matcha-te-oko",
+        "healthwell-terranova-matcha-green-tea"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell RawPowder Matcha Supreme"
+    },
+    {
+      "page": "/sundhed-velvaere/olivenbladsekstrakt",
+      "slug": "olivenbladsekstrakt",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-olivenbladsekstrakt"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "NDS Olivenbladsekstrakt 500 mg - 90 kap"
+    },
+    {
+      "page": "/sundhed-velvaere/rodbedepulver",
+      "slug": "rodbedepulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-beet-power",
+        "healthwell-rodbedepulver",
+        "solgar-beetroot-extract-500-mg",
+        "skip-beet-speed",
+        "rawpowder-rodbedepulver"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Beet Power"
+    },
+    {
+      "page": "/sundhed-velvaere/shirataki-nudler",
+      "slug": "shirataki-nudler",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "slender-chef-shirataki-spaghetti",
+        "core-shirataki-nudler"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Diæt Shirataki nudler"
+    },
+    {
+      "page": "/sundhed-velvaere/slankepiller",
+      "slug": "slankepiller",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "internal-subpage-link-limit",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "BURN"
+    },
+    {
+      "page": "/sundhed-velvaere/tranebaerkapsler",
+      "slug": "tranebaerkapsler",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-tranebaertabletter",
+        "cran-cure"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Tranebær Ekstrakt"
+    },
+    {
+      "page": "/sundhed-velvaere/tribulus-terrestris",
+      "slug": "tribulus-terrestris",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label"
+      ],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "RAW Tribulus Mega Caps",
+      "expectedTopTitle": "RAW Tribulus Mega Caps"
+    },
+    {
+      "page": "/sundhed-velvaere/vanddrivende-piller",
+      "slug": "vanddrivende-piller",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "waterloss",
+        "waterloss-2",
+        "healthwell-solgar-dandelion-root-maelkebotterod"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Mælkebøtte Rod Ekstrakt"
+    },
+    {
+      "page": "/vitaminer/b-vitamin",
+      "slug": "b-vitamin",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-vitamin-b-complex",
+        "healthwell-vitamin-b-kompleks-50"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core B-Complex"
+    },
+    {
+      "page": "/vitaminer/folinsyre",
+      "slug": "folinsyre",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-jern-folsyre-b12",
+        "holistic-b6-b12-folat-methyleret",
+        "thorne-5-mthf-5-mg",
+        "solgar-solgar-folat-metafolin"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Folinsyre 400"
+    },
+    {
+      "page": "/vitaminer/lutein",
+      "slug": "lutein",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "lutein-50-plus",
+        "lutein-100-plus"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Ophtamin 20 Lutein + Zink - 360 tabl."
+    },
+    {
+      "page": "/vitaminer/lycopen",
+      "slug": "lycopen",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-lycopen-15"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Imedeen Tan Optimizer - 60 tabl."
+    },
+    {
+      "page": "/vitaminer/multivitamin-til-maend",
+      "slug": "multivitamin-til-maend",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-multivitamin-man-55"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Healthwell Multivitamin Man 55+"
+    },
+    {
+      "page": "/vitaminer/pantotensyre",
+      "slug": "pantotensyre",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-b5-pantotensyre-500",
+        "pantoten-and-biotin-beauty-caps"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell B5 Pantothensyre 1000"
+    },
+    {
+      "page": "/vitaminer/vitamin-b12",
+      "slug": "vitamin-b12",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "summary-award-order",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-vitamin-b12-1000",
+        "healthwell-b12-1000-methyleret",
+        "core-vitamin-b12",
+        "healthwell-b12-1000-sugetabletter"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Body science Vitamin B12"
+    },
+    {
+      "page": "/vitaminer/vitamin-k2",
+      "slug": "vitamin-k2",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [
+        "core-sections",
+        "mobile-toplist-layout",
+        "cta-no-underline",
+        "product-card-store-label",
+        "product-review-quality"
+      ],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-k2-menakinon-7",
+        "better-you-vitamin-d3-k2"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Holistic K2 Menakinon-7"
+    }
+  ],
+  "sourceEvidenceFollowUp": [
+    {
+      "page": "/mineraler/jern-tabletter",
+      "slug": "jern-tabletter",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "livol-jern-tyggetabletter-75-tyggetabl",
+        "core-iron-caps-woman",
+        "jern-skonsam"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Solaray Jern+C 20 mg - 90 tabl."
+    },
+    {
+      "page": "/mineraler/jod-tabletter",
+      "slug": "jod-tabletter",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "natur-drogeriet-blaeretang-kapsler-90-stk",
+        "naerokaellan-okologisk-jod",
+        "berthelsen-jod-225-mcg-180-tabl",
+        "healthwell-jod-kelp-200"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Närokällan Jod EKO"
+    },
+    {
+      "page": "/mineraler/kalium",
+      "slug": "kalium",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-kalium",
+        "core-kalium-complex"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Natur-Drogeriet Kalium 300 mg",
+      "expectedTopTitle": "Natur-Drogeriet Kalium 300 mg"
+    },
+    {
+      "page": "/mineraler/kalktabletter",
+      "slug": "kalktabletter",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "kalcium-800",
+        "core-calcium-complex",
+        "alg-boerje-kalktabletter"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Alg-Börje Kalktabletter"
+    },
+    {
+      "page": "/mineraler/krom",
+      "slug": "krom",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "solgar-chrom-picolinat-90-tabl",
+        "diet-chromium-caps"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Krom 200",
+      "expectedTopTitle": "Krom 200"
+    },
+    {
+      "page": "/mineraler/magnesium",
+      "slug": "magnesium",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-magnesium-citrat"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Magnesium",
+      "expectedTopTitle": "Core Magnesium Citrat"
+    },
+    {
+      "page": "/mineraler/mangan",
+      "slug": "mangan",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 404,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-mangan",
+        "holistic-mangan",
+        "solgar-chelated-mangan"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Mangan",
+      "expectedTopTitle": "Berthelsen Mangan - 250 tabl."
+    },
+    {
+      "page": "/mineraler/selen",
+      "slug": "selen",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-selenium-caps",
+        "healthwell-selen-100"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Omni Selen 3 - 100 tabl.",
+      "expectedTopTitle": "Omni Selen 3 - 100 tabl."
+    },
+    {
+      "page": "/mineraler/silica",
+      "slug": "silica",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-silica",
+        "silica-beauty-caps"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Lekaform Silica - 300 tabl.",
+      "expectedTopTitle": "Silica Beauty Caps"
+    },
+    {
+      "page": "/mineraler/zink",
+      "slug": "zink",
+      "siloId": "mineraler",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "xlnt-sports-zma"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Zink",
+      "expectedTopTitle": "ZMA+"
+    },
+    {
+      "page": "/protein-traening/bcaa",
+      "slug": "bcaa",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "better-you-bcaa-pulver",
+        "bodylab-bcaa"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Xlnt sports BCAA Energidrik"
+    },
+    {
+      "page": "/protein-traening/koffeintabletter",
+      "slug": "koffeintabletter",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-caffeine",
+        "core-caffeine-pro"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Caffeine Pro"
+    },
+    {
+      "page": "/protein-traening/kulhydratpulver",
+      "slug": "kulhydratpulver",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-carboloader",
+        "core-carbs"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Carbs"
+    },
+    {
+      "page": "/protein-traening/lysin",
+      "slug": "lysin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-lysin-1000",
+        "core-lysine",
+        "solgar-l-lysine-1000-mg"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "KAL Ultra Lysin • 60 tab."
+    },
+    {
+      "page": "/protein-traening/testo-booster",
+      "slug": "testo-booster",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "self-omninutrition-mega-tribulus",
+        "mutant-test",
+        "core-tribulus",
+        "raw-test"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Tribulus 90"
+    },
+    {
+      "page": "/protein-traening/tyrosin",
+      "slug": "tyrosin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "raw-tyrosine-mega-caps",
+        "core-tyrosine-caps",
+        "holistic-thyro-balans",
+        "healthwell-tyrosin-1000",
+        "solgar-l-tyrosine"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Tyrosine Caps"
+    },
+    {
+      "page": "/protein-traening/zma",
+      "slug": "zma",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-zma",
+        "core-zma-pro",
+        "muscle-zma"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core ZMA"
+    },
+    {
+      "page": "/sundhed-velvaere/chlorella",
+      "slug": "chlorella",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "holistic-chlorella",
+        "healthwell-chlorella-kapsler",
+        "healthwell-chlorella-pulver",
+        "healthwell-rawpowder-chlorellapulver"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Økologisk Chlorella"
+    },
+    {
+      "page": "/sundhed-velvaere/hyaluronsyre",
+      "slug": "hyaluronsyre",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-hyaluronsyre-250",
+        "hyaluron-beauty-caps",
+        "terranova-hyaluronic-acid-complex",
+        "trikem-human-hyaluronsyre"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Hyaluronsyre 250",
+      "expectedTopTitle": "Terranova Hyaluronic Acid Complex"
+    },
+    {
+      "page": "/sundhed-velvaere/hybenpulver",
+      "slug": "hybenpulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-hybenpulver-oko",
+        "litomove",
+        "re-fresh-superfood-hyben-superfood"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Hybenpulver ØKO",
+      "expectedTopTitle": "Re-fresh Superfood Hyben Superfood"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-hjertet",
+      "slug": "kosttilskud-til-hjertet",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-lycopen-15",
+        "core-omega-3",
+        "healthwell-q10-300",
+        "healthwell-hvidlog"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "K2-Vitamin 200 mcg"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-led",
+      "slug": "kosttilskud-til-led",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-inflamin-collagen-premium"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Collagen Plus",
+      "expectedTopTitle": "Healthwell Inflamin Collagen Premium"
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-leveren",
+      "slug": "kosttilskud-til-leveren",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "leverfunktion",
+        "solgar-choline",
+        "holistic-siboba"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Leverfunktion",
+      "expectedTopTitle": "Marietidsel Kapsler 2000mg"
+    },
+    {
+      "page": "/sundhed-velvaere/loppefroskaller",
+      "slug": "loppefroskaller",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "fiberhusk",
+        "holistic-loppefroskaller"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "HUSK Psyllium Mavebalance",
+      "expectedTopTitle": "Holistic Psyllium-frøskaller"
+    },
+    {
+      "page": "/sundhed-velvaere/nad",
+      "slug": "nad",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-nad-resveratrol",
+        "healthwell-nad",
+        "body-science-nad"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell NAD+ Resveratrol Plus"
+    },
+    {
+      "page": "/sundhed-velvaere/probiotika",
+      "slug": "probiotika",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "probiotic-active",
+        "probiotic-vital"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Probiotic Active",
+      "expectedTopTitle": "Healthwell Probiotic Vital"
+    },
+    {
+      "page": "/sundhed-velvaere/q10",
+      "slug": "q10",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-q10-100",
+        "healthwell-q10-100-plus",
+        "pharma-nord-bio-qinon-active-q10-gold"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Coenzyme Q10",
+      "expectedTopTitle": "CoQ10 200 mg"
+    },
+    {
+      "page": "/sundhed-velvaere/quercetin",
+      "slug": "quercetin",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "solgar-quercetin-kompleks",
+        "healthwell-super-quercetin",
+        "core-quercetin-500",
+        "dr-mercola-quercetin-and-pterostilben",
+        "terranova-quercetin-and-nettle-complex"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Solgar Quercetin Complex",
+      "expectedTopTitle": "Dr Mercola Quercetin & Pterostilben"
+    }
+  ],
+  "backlogOnly": [
+    {
+      "page": "/sundhed-velvaere/nac",
+      "slug": "nac",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 4,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "better-you-nac",
+        "holistic-nac",
+        "healthwell-nac-n-acetylcystein",
+        "solgar-nac-600",
+        "naerokaellan-n-acetyl-cystein"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Better You NAC",
+      "expectedTopTitle": "Solgar NAC"
+    },
+    {
+      "page": "/protein-traening/laktosefrit-proteinpulver",
+      "slug": "laktosefrit-proteinpulver",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Egg Protein ‐ Æggeprotein på ren æggehvide"
+    },
+    {
+      "page": "/protein-traening/peanut-butter",
+      "slug": "peanut-butter",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-peanut-butter",
+        "peanutbutter-crunchy-oko"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Peanut Butter"
+    },
+    {
+      "page": "/protein-traening/proteinbar-med-lavt-sukkerindhold",
+      "slug": "proteinbar-med-lavt-sukkerindhold",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-morgenmadsbar"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "ProPud Protein Bar",
+      "expectedTopTitle": "Core Probar XL"
+    },
+    {
+      "page": "/sundhed-velvaere/ashwagandha",
+      "slug": "ashwagandha",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "solgar-ashwagandha-root-extract",
+        "rawpowder-ashwagandha-pulver",
+        "ashwagandha-premium",
+        "healthwell-ashwagandha-extrakt"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Solgar Ashwagandha Root Extract",
+      "expectedTopTitle": "Healthwell Ashwagandha Ekstrakt"
+    },
+    {
+      "page": "/sundhed-velvaere/bromelain",
+      "slug": "bromelain",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "helhetshaelsa-bromelain",
+        "healthwell-solgar-bromelain-300-mg",
+        "viking-power-hrungnir-the-insatiable",
+        "naerokaellan-bromelain"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Bromelain 1000"
+    },
+    {
+      "page": "/sundhed-velvaere/glutathion",
+      "slug": "glutathion",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 2,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "aurora-liposomal-glutation",
+        "healthwell-glutathione-250",
+        "qure-liposomal-glutathion",
+        "helhetshaelsa-glutation"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Healthwell Aurora Liposomal Glutation",
+      "expectedTopTitle": "Healthwell Aurora Liposomal Glutation"
+    },
+    {
+      "page": "/mineraler/kobber-tabletter",
+      "slug": "kobber-tabletter",
+      "siloId": "mineraler",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-thorne-copper-bisglycinate",
+        "holistic-koppar",
+        "healthwell-kobber"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Berthelsen Kobber - 200 tabl.",
+      "expectedTopTitle": "Berthelsen Kobber - 200 tabl."
+    },
+    {
+      "page": "/mineraler/msm",
+      "slug": "msm",
+      "siloId": "mineraler",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "lignisul-msm",
+        "core-msm-caps",
+        "holistic-msm",
+        "healthwell-msm-kapsler"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Lignisul MSM",
+      "expectedTopTitle": "Healthwell MSM Kapsler"
+    },
+    {
+      "page": "/protein-traening/aggeprotein",
+      "slug": "aggeprotein",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "core-egg-protein"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Flydende æggehvide",
+      "expectedTopTitle": "Egg Protein ‐ Æggeprotein på ren æggehvide"
+    },
+    {
+      "page": "/protein-traening/arteprotein",
+      "slug": "arteprotein",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Holistic Ærteprotein Isolat Økologisk"
+    },
+    {
+      "page": "/protein-traening/elektrolytter",
+      "slug": "elektrolytter",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "upgrit-elektrolytter",
+        "core-electrolytes",
+        "pureness-elektrolytpulver",
+        "healthwell-active-mineral-og-vaeskebalance"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Elektrolytter 900mg",
+      "expectedTopTitle": "Elektrolytter 900mg"
+    },
+    {
+      "page": "/protein-traening/energibarer",
+      "slug": "energibarer",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Enervit Power Crunchy Sport Bar"
+    },
+    {
+      "page": "/protein-traening/eaa",
+      "slug": "eaa",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Better You Amino Tabletter",
+      "expectedTopTitle": "Better You Amino Tabletter"
+    },
+    {
+      "page": "/protein-traening/glutamin",
+      "slug": "glutamin",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "thorne-l-glutamine"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell L-Glutamin 1000"
+    },
+    {
+      "page": "/protein-traening/glycin",
+      "slug": "glycin",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Thorne Glycine",
+      "expectedTopTitle": "Thorne Glycine"
+    },
+    {
+      "page": "/protein-traening/hamp-protein",
+      "slug": "hamp-protein",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-hampeprotein"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Hampprotein ECO"
+    },
+    {
+      "page": "/protein-traening/proteinbarer",
+      "slug": "proteinbarer",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "barbells-vegan-bar"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Body science Delight Bar, 50 gram"
+    },
+    {
+      "page": "/protein-traening/proteinpulver-uden-sodestoffer",
+      "slug": "proteinpulver-uden-sodestoffer",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-hampaprotein"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Core Protein Pro",
+      "expectedTopTitle": "Healthwell Risprotein ØKO"
+    },
+    {
+      "page": "/protein-traening/sportsdrik",
+      "slug": "sportsdrik",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "vitaprana-electrolyte-powder",
+        "vitargo-electrolyte",
+        "enervit-isotonic-drink",
+        "core-sports-drink"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Energy Booster Sportsdrik 1500 g Red Berry",
+      "expectedTopTitle": "Energy Booster Sportsdrik 1500 g Red Berry"
+    },
+    {
+      "page": "/protein-traening/taurin",
+      "slug": "taurin",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-taurine",
+        "thorne-taurine",
+        "healthwell-taurin-500"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Taurin 500"
+    },
+    {
+      "page": "/protein-traening/vegansk-proteinpulver",
+      "slug": "vegansk-proteinpulver",
+      "siloId": "protein-traening",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "delta-nutrition-supreme-vegan-pro"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Vegan Protein",
+      "expectedTopTitle": "Its Heey Vegansk Protein"
+    },
+    {
+      "page": "/sundhed-velvaere/alfa-liponsyre",
+      "slug": "alfa-liponsyre",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "great-earth-alpha-lipoic-acid",
+        "aurora-liposomal-r-ala-complex",
+        "diet-ala"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Alfa Liponsyre 300",
+      "expectedTopTitle": "Diet ALA"
+    },
+    {
+      "page": "/sundhed-velvaere/aloe-vera-juice",
+      "slug": "aloe-vera-juice",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "lifestream-aloe-vera-juice",
+        "avivir-aloe-vera-juice-naturel",
+        "nobe-aloe-vera"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Urtegaarden Aloe Vera Juice",
+      "expectedTopTitle": "Urtegaarden Aloe Vera Juice"
+    },
+    {
+      "page": "/sundhed-velvaere/astaxanthin",
+      "slug": "astaxanthin",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "super-astaxantin",
+        "dr-mercola-astaxanthin"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Astaxanthin 18 mg"
+    },
+    {
+      "page": "/sundhed-velvaere/boswellia",
+      "slug": "boswellia",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "solgar-boswellia",
+        "rawpowder-boswelliaekstrakt",
+        "healthwell-boswellia-serrata"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Boswellia Serrata",
+      "expectedTopTitle": "Boswellia Serrata"
+    },
+    {
+      "page": "/sundhed-velvaere/fibertabletter",
+      "slug": "fibertabletter",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Frugt og Fibre - 30 tabl.",
+      "expectedTopTitle": "Thorne FiberMend"
+    },
+    {
+      "page": "/sundhed-velvaere/fordojelsesenzym",
+      "slug": "fordojelsesenzym",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-digestive-enzymes",
+        "pureness-fordojelsesenzym",
+        "gallbladder-enzymes-fra-dr-mercola"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Nogasin GO - 50 tyggetabl.",
+      "expectedTopTitle": "Dr Mercola Gallbladder Enzymes"
+    },
+    {
+      "page": "/sundhed-velvaere/ginseng",
+      "slug": "ginseng",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "naerokaellan-ginseng-kompleks",
+        "healthwell-ginseng",
+        "gerimax-ginseng",
+        "rawpowder-panax-ginseng"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Amerikansk Ginseng 500 mg",
+      "expectedTopTitle": "Amerikansk Ginseng 500 mg"
+    },
+    {
+      "page": "/sundhed-velvaere/glucomannan",
+      "slug": "glucomannan",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 404,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "core-diet-glucomanna",
+        "allevo-weight-loss"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Glucomannan Fiber",
+      "expectedTopTitle": "Glucomannan 3000 mg"
+    },
+    {
+      "page": "/sundhed-velvaere/kollagenpulver",
+      "slug": "kollagenpulver",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "rawpowder-fisk-collagen-plus",
+        "matters-multi-collagen",
+        "nyttoteket-clean-collagen",
+        "healthwell-collagen-pulver",
+        "core-collagen-pro"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Collagen Pulver Marint"
+    },
+    {
+      "page": "/sundhed-velvaere/maelkesyrebakterier",
+      "slug": "maelkesyrebakterier",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "probiotic-vital",
+        "healthwell-probiotic-premium",
+        "terranova-probiotic-complex"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Mælkesyrebakterier",
+      "expectedTopTitle": "Mælkesyrebakterier"
+    },
+    {
+      "page": "/sundhed-velvaere/resveratrol",
+      "slug": "resveratrol",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "healthwell-super-resveratrol",
+        "solgar-resveratrol",
+        "healthwell-nad-resveratrol-plus",
+        "core-resveratrol-200",
+        "dr-mercola-purple-defense"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Resveratrol 250",
+      "expectedTopTitle": "Healthwell NAD+ Resveratrol Plus"
+    },
+    {
+      "page": "/sundhed-velvaere/spirulina",
+      "slug": "spirulina",
+      "siloId": "sundhed-velvaere",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "healthwell-spirulina-kapsler",
+        "kiki-health-organic-premium-spirulina-tablets",
+        "healthwell-spirulina-pulver",
+        "holistic-active-spirulina-tabletter"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Spirulina Kapsler ØKO",
+      "expectedTopTitle": "Holistic Active Spirulina Tabletter"
+    },
+    {
+      "page": "/vitaminer/biotin",
+      "slug": "biotin",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [
+        "soglar-biotiini-5000"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Biotin 10000",
+      "expectedTopTitle": "Solgar Biotiini 5000 ug"
+    },
+    {
+      "page": "/vitaminer/c-vitamin",
+      "slug": "c-vitamin",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Body Science Vitamin C",
+      "expectedTopTitle": "Body Science Vitamin C"
+    },
+    {
+      "page": "/vitaminer/d-vitamin",
+      "slug": "d-vitamin",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "holistic-d3-vitamin-5000-ie"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "D-vitamin",
+      "expectedTopTitle": "D3-Vitamin 4000IU (100mcg)"
+    },
+    {
+      "page": "/vitaminer/e-vitamin",
+      "slug": "e-vitamin",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Camette E vitamin complex - 90 kap.",
+      "expectedTopTitle": "Camette E vitamin complex - 90 kap."
+    },
+    {
+      "page": "/vitaminer/multivitamin",
+      "slug": "multivitamin",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Healthwell Multivitamin Vegan",
+      "expectedTopTitle": "Healthwell Multivitamin Vegan"
+    },
+    {
+      "page": "/vitaminer/vitamin-b1",
+      "slug": "vitamin-b1",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Vitamin B1 100"
+    },
+    {
+      "page": "/vitaminer/vitamin-d3-k2",
+      "slug": "vitamin-d3-k2",
+      "siloId": "vitaminer",
+      "pageStatus": "open",
+      "brokenCount": 1,
+      "verifyOk": false,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [
+        "parsed-review-evidence"
+      ],
+      "missingCrawlProducts": [
+        "better-you-vitamin-d3-k2"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Solgar Ultimate Bone Support - 120 tabl",
+      "expectedTopTitle": "Solgar Ultimate Bone Support - 120 tabl"
+    }
+  ],
+  "keepAsIs": [
+    {
+      "page": "/protein-traening/arginin",
+      "slug": "arginin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "RAW Arginine Mega Caps",
+      "expectedTopTitle": "RAW Arginine Mega Caps"
+    },
+    {
+      "page": "/protein-traening/beta-alanin",
+      "slug": "beta-alanin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Beta Alanine",
+      "expectedTopTitle": "Core Beta Alanine"
+    },
+    {
+      "page": "/protein-traening/energi-drik",
+      "slug": "energi-drik",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Xlnt sports BCAA Energidrik"
+    },
+    {
+      "page": "/protein-traening/kasein",
+      "slug": "kasein",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Casein",
+      "expectedTopTitle": "Core Casein"
+    },
+    {
+      "page": "/protein-traening/koffeinfri-pwo",
+      "slug": "koffeinfri-pwo",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Preload + BCAA",
+      "expectedTopTitle": "Core Preload + BCAA"
+    },
+    {
+      "page": "/protein-traening/kreatin",
+      "slug": "kreatin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Star Nutrition Kreatinmonohydrat 500 g"
+    },
+    {
+      "page": "/protein-traening/l-leucin",
+      "slug": "l-leucin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "BCAA med B6- og B12-vitamin",
+      "expectedTopTitle": "BCAA med B6- og B12-vitamin"
+    },
+    {
+      "page": "/protein-traening/pre-workout",
+      "slug": "pre-workout",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core PWO Zero",
+      "expectedTopTitle": "Core PWO Zero"
+    },
+    {
+      "page": "/protein-traening/proteinpulver",
+      "slug": "proteinpulver",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Protein Pro",
+      "expectedTopTitle": "Core Protein Pro"
+    },
+    {
+      "page": "/protein-traening/proteinpulver-til-restitution",
+      "slug": "proteinpulver-til-restitution",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Body science Muscle Protein",
+      "expectedTopTitle": "Body science Muscle Protein"
+    },
+    {
+      "page": "/protein-traening/proteinpulver-til-vaegttab",
+      "slug": "proteinpulver-til-vaegttab",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Clear Whey 90",
+      "expectedTopTitle": "Core Clear Whey 90"
+    },
+    {
+      "page": "/protein-traening/proteinpulver-uden-tilsat-sukker",
+      "slug": "proteinpulver-uden-tilsat-sukker",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Core Clear Whey 90"
+    },
+    {
+      "page": "/protein-traening/pwo-med-koffein",
+      "slug": "pwo-med-koffein",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Swedish Supplements Fucked Up Joker",
+      "expectedTopTitle": "Swedish Supplements Fucked Up Joker"
+    },
+    {
+      "page": "/protein-traening/pwo-med-kreatin",
+      "slug": "pwo-med-kreatin",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core PWO Power",
+      "expectedTopTitle": "Core PWO Power"
+    },
+    {
+      "page": "/protein-traening/risprotein",
+      "slug": "risprotein",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Risprotein Økologisk"
+    },
+    {
+      "page": "/protein-traening/sojaprotein",
+      "slug": "sojaprotein",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Star Nutrition Soy Protein Isolate",
+      "expectedTopTitle": "Star Nutrition Soy Protein Isolate"
+    },
+    {
+      "page": "/protein-traening/veganske-proteinbarer",
+      "slug": "veganske-proteinbarer",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "12 x Frugt & Nødde bar 50 g Choklad",
+      "expectedTopTitle": "12 x Frugt & Nødde bar 50 g Choklad"
+    },
+    {
+      "page": "/protein-traening/weight-gainer",
+      "slug": "weight-gainer",
+      "siloId": "protein-traening",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "RAW Extreme Gains",
+      "expectedTopTitle": "RAW Extreme Gains"
+    },
+    {
+      "page": "/vitaminer/betacaroten",
+      "slug": "betacaroten",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Core Betacaroten 100",
+      "expectedTopTitle": "Core Betacaroten 100"
+    },
+    {
+      "page": "/vitaminer/niacin",
+      "slug": "niacin",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Thorne Niacinamide",
+      "expectedTopTitle": "Thorne Niacinamide"
+    },
+    {
+      "page": "/vitaminer/vitaminer-til-har",
+      "slug": "vitaminer-til-har",
+      "siloId": "vitaminer",
+      "pageStatus": "green",
+      "brokenCount": 0,
+      "verifyOk": true,
+      "httpStatus": 200,
+      "hardFailureNames": [],
+      "softFailureNames": [],
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": null,
+      "expectedTopTitle": "Healthwell Wonderful Hair"
+    }
+  ]
+}

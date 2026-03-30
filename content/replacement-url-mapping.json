@@ -1,0 +1,433 @@
+[
+  {
+    "slug": "allevo-weight-loss",
+    "newUrl": "https://www.healthwell.dk/glucomannan-fiber"
+  },
+  {
+    "slug": "aurora-liposomal-glutation",
+    "newUrl": "https://www.corenutrition.dk/thorne-glutathione-sr"
+  },
+  {
+    "slug": "barbells-vegan-bar",
+    "newUrl": "https://www.healthwell.dk/propud-protein-bar"
+  },
+  {
+    "slug": "better-you-nac",
+    "newUrl": "https://www.healthwell.dk/nac-600"
+  },
+  {
+    "slug": "better-you-premium-eaa",
+    "newUrl": "https://www.healthwell.dk/core-eaa-powder"
+  },
+  {
+    "slug": "better-you-premium-vitamin-b6",
+    "newUrl": "https://www.healthwell.dk/holistic-b6-b12-folat-methyleret"
+  },
+  {
+    "slug": "better-you-vitamin-d3-k2",
+    "newUrl": "https://www.healthwell.dk/healthwell-vitamin-d3-plus-k2"
+  },
+  {
+    "slug": "bidronning-gele",
+    "newUrl": "https://www.healthwell.dk/bidronning-gele"
+  },
+  {
+    "slug": "biofood-duftfri-kokosolie",
+    "newUrl": "https://www.corenutrition.dk/produkter/kokosolie_koldpresset_oko"
+  },
+  {
+    "slug": "core-alc-pulver",
+    "newUrl": "https://www.corenutrition.dk/acetyl-l-carnitin"
+  },
+  {
+    "slug": "core-beet-power",
+    "newUrl": "https://www.corenutrition.dk/rodbedepulver-oko"
+  },
+  {
+    "slug": "core-egg-protein",
+    "newUrl": "https://www.healthwell.dk/helt-arligt-aggepulver"
+  },
+  {
+    "slug": "core-gurkemeje-pro",
+    "newUrl": "https://www.healthwell.dk/gurkemeje-ekstrakt"
+  },
+  {
+    "slug": "core-morgenmadsbar",
+    "newUrl": "https://www.healthwell.dk/core-whipped-protein-bar"
+  },
+  {
+    "slug": "core-peanut-butter",
+    "newUrl": "https://www.healthwell.dk/core-peanut-butter"
+  },
+  {
+    "slug": "delta-nutrition-supreme-vegan-pro",
+    "newUrl": "https://www.healthwell.dk/core-plant-protein"
+  },
+  {
+    "slug": "dense-beef-organs",
+    "newUrl": "https://www.healthwell.dk/nordic-kings-grasfodret-organmix-oko"
+  },
+  {
+    "slug": "dr-mercola-astaxanthin",
+    "newUrl": "https://www.corenutrition.dk/solgar-astaxanthin-complex"
+  },
+  {
+    "slug": "dr-mercola-liposomal-vitamin-c",
+    "newUrl": "https://www.healthwell.dk/solaray-liposomal-vitamin-c"
+  },
+  {
+    "slug": "dr-mercola-purple-defense",
+    "newUrl": "https://www.healthwell.dk/healthwell-resveratrol-250"
+  },
+  {
+    "slug": "elexir-pharma-blue-eye",
+    "newUrl": "https://www.healthwell.dk/holistic-b6-b12-folat-methyleret"
+  },
+  {
+    "slug": "four-sigmatic-elixir-instant-lions-mane",
+    "newUrl": "https://www.healthwell.dk/kiki-health-organic-lions-mane-mushroom-extract"
+  },
+  {
+    "slug": "four-sigmatic-kaffe-instant",
+    "newUrl": "https://www.healthwell.dk/ra-hygge-lions-mane-svampeekstrakt-pulverform"
+  },
+  {
+    "slug": "gallbladder-enzymes-fra-dr-mercola",
+    "newUrl": "https://www.healthwell.dk/core-digestive-enzymes"
+  },
+  {
+    "slug": "great-earth-alpha-lipoic-acid",
+    "newUrl": "https://www.corenutrition.dk/diet-ala"
+  },
+  {
+    "slug": "great-earth-omega-3-vegan",
+    "newUrl": "https://www.healthwell.dk/algeolie-omega-3"
+  },
+  {
+    "slug": "healthwell-active-mineral-og-vaeskebalance",
+    "newUrl": "https://www.healthwell.dk/core-electrolytes"
+  },
+  {
+    "slug": "healthwell-active-valleprotein-laktosefri",
+    "newUrl": "https://www.healthwell.dk/core-whey-protein-laktosefri"
+  },
+  {
+    "slug": "healthwell-arteprotein",
+    "newUrl": "https://www.healthwell.dk/arteprotein-oko"
+  },
+  {
+    "slug": "healthwell-b2-vitamin-100",
+    "newUrl": "https://www.healthwell.dk/vitamin-b2-100"
+  },
+  {
+    "slug": "healthwell-bidronning-gele",
+    "newUrl": "https://www.healthwell.dk/bidronning-gele"
+  },
+  {
+    "slug": "healthwell-biotin",
+    "newUrl": "https://www.healthwell.dk/biotin-5000"
+  },
+  {
+    "slug": "healthwell-ginseng",
+    "newUrl": "https://www.healthwell.dk/ginseng-kompleks"
+  },
+  {
+    "slug": "healthwell-gla-kaempe-natlysolie-oko",
+    "newUrl": "https://www.healthwell.dk/gla-kampe-natlys-olie-kapsler"
+  },
+  {
+    "slug": "healthwell-glycin-1000",
+    "newUrl": "https://www.healthwell.dk/core-glycine"
+  },
+  {
+    "slug": "healthwell-healthwell-active-multivitamin-kvinde",
+    "newUrl": "https://www.healthwell.dk/multivitamin-kvinde"
+  },
+  {
+    "slug": "healthwell-healthwell-active-valleprotein-laktosefri",
+    "newUrl": "https://www.healthwell.dk/core-whey-protein-laktosefri"
+  },
+  {
+    "slug": "healthwell-heey-food-shake",
+    "newUrl": "https://www.healthwell.dk/diet-shake"
+  },
+  {
+    "slug": "healthwell-hyben-ekstrakt",
+    "newUrl": "https://www.corenutrition.dk/hyben-ekstrakt"
+  },
+  {
+    "slug": "healthwell-multivitamin-vegan",
+    "newUrl": "https://www.healthwell.dk/healthwell-multivitamin-vegan"
+  },
+  {
+    "slug": "healthwell-multivitamin-vegansk",
+    "newUrl": "https://www.healthwell.dk/healthwell-vitamin-d3-plus-k2-vegan"
+  },
+  {
+    "slug": "healthwell-nac-n-acetylcystein",
+    "newUrl": "https://www.healthwell.dk/nac-600"
+  },
+  {
+    "slug": "healthwell-omega-3-fiskeolie",
+    "newUrl": "https://www.healthwell.dk/omega-3-fiskeolie"
+  },
+  {
+    "slug": "healthwell-omega-3-plus",
+    "newUrl": "https://www.healthwell.dk/omega-3-plus"
+  },
+  {
+    "slug": "healthwell-rosenrod-ekstrakt",
+    "newUrl": "https://www.healthwell.dk/healthwell-rosenrod-ekstrakt"
+  },
+  {
+    "slug": "healthwell-vitamin-b6",
+    "newUrl": "https://www.healthwell.dk/vitamin-b6-100"
+  },
+  {
+    "slug": "helhetshaelsa-bromelain",
+    "newUrl": "https://www.corenutrition.dk/bromelain-1000"
+  },
+  {
+    "slug": "helhetshaelsa-mammaoptimal",
+    "newUrl": "https://www.healthwell.dk/healthwell-multivitamin-gravid-og-ammende"
+  },
+  {
+    "slug": "holistic-byggraes",
+    "newUrl": "https://www.healthwell.dk/narokallan-byggras"
+  },
+  {
+    "slug": "holistic-d3-vitamin-5000-ie",
+    "newUrl": "https://www.healthwell.dk/vitamin-d3-5000-ie"
+  },
+  {
+    "slug": "holistic-hampaprotein",
+    "newUrl": "https://www.healthwell.dk/renee-voltaire-hampeprotein"
+  },
+  {
+    "slug": "holistic-hampeprotein",
+    "newUrl": "https://www.healthwell.dk/hampeprotein-oko"
+  },
+  {
+    "slug": "holistic-koppar",
+    "newUrl": "https://www.corenutrition.dk/thorne-copper-bisglycinate"
+  },
+  {
+    "slug": "holistic-msm",
+    "newUrl": "https://www.corenutrition.dk/msm-kapsler"
+  },
+  {
+    "slug": "holistic-nac",
+    "newUrl": "https://www.healthwell.dk/nac-600"
+  },
+  {
+    "slug": "holistic-naelde",
+    "newUrl": "https://www.healthwell.dk/healthwell-brandenaldepulver-oko"
+  },
+  {
+    "slug": "kiki-health-organic-premium-spirulina-tablets",
+    "newUrl": "https://www.healthwell.dk/spirulina-kapsler-oko"
+  },
+  {
+    "slug": "kyolic-original-600-mg",
+    "newUrl": "https://www.corenutrition.dk/wallda-hvidlogskapsler"
+  },
+  {
+    "slug": "lecithin-pulver",
+    "newUrl": "https://www.healthwell.dk/lecitin-pulver"
+  },
+  {
+    "slug": "litomove-kapsler",
+    "newUrl": "https://www.healthwell.dk/hyben-ekstrakt"
+  },
+  {
+    "slug": "mother-earth-moringapulver-eko",
+    "newUrl": "https://www.healthwell.dk/healthwell-moringa-oko"
+  },
+  {
+    "slug": "multivitamin-vegansk",
+    "newUrl": "https://www.corenutrition.dk/healthwell-multivitamin-vegan"
+  },
+  {
+    "slug": "naeldepulver-oko-rawpowder",
+    "newUrl": "https://www.healthwell.dk/healthwell-brandenaldepulver-oko"
+  },
+  {
+    "slug": "naerokaellan-b2-riboflavin-100-mg",
+    "newUrl": "https://www.healthwell.dk/vitamin-b2-100"
+  },
+  {
+    "slug": "naerokaellan-bromelain",
+    "newUrl": "https://www.corenutrition.dk/bromelain-1000"
+  },
+  {
+    "slug": "naerokaellan-cholin-og-inositol",
+    "newUrl": "https://www.healthwell.dk/cholin-plus-inositol"
+  },
+  {
+    "slug": "naerokaellan-hvedegraesjuicepulver",
+    "newUrl": "https://www.healthwell.dk/hvedegras-oko"
+  },
+  {
+    "slug": "naerokaellan-krillolie",
+    "newUrl": "https://www.corenutrition.dk/healthwell-antarctic-krill-olie"
+  },
+  {
+    "slug": "naerokaellan-n-acetyl-cystein",
+    "newUrl": "https://www.healthwell.dk/trace-minerals-nac-powder"
+  },
+  {
+    "slug": "nobe-aloe-vera",
+    "newUrl": "https://www.corenutrition.dk/lifestream-aloe-vera-juice"
+  },
+  {
+    "slug": "oertspecialisten-schizandra",
+    "newUrl": "https://helsegrossisten.dk/sundhed/solaray-schisandra-580-mg-100-kap"
+  },
+  {
+    "slug": "peanutbutter-crunchy-oko",
+    "newUrl": "https://www.healthwell.dk/core-peanut-butter"
+  },
+  {
+    "slug": "pharma-nord-bio-fiber",
+    "newUrl": "https://www.healthwell.dk/diet-fiber"
+  },
+  {
+    "slug": "power-sport-bar-crunchy",
+    "newUrl": "https://www.healthwell.dk/enervit-power-crunchy-sport-bar"
+  },
+  {
+    "slug": "premium-research-chaga-extract",
+    "newUrl": "https://www.corenutrition.dk/chaga-eko"
+  },
+  {
+    "slug": "propud-protein-bar",
+    "newUrl": "https://www.healthwell.dk/propud-protein-bar"
+  },
+  {
+    "slug": "pureness-premium-research-reishiekstrakt",
+    "newUrl": "https://www.corenutrition.dk/reishi-extrakt"
+  },
+  {
+    "slug": "qure-liposomal-glutathion",
+    "newUrl": "https://www.healthwell.dk/healthwell-glutathion-250"
+  },
+  {
+    "slug": "rawpowder-ashwagandha-pulver",
+    "newUrl": "https://www.healthwell.dk/mother-earth-ashwagandhapulver-oko"
+  },
+  {
+    "slug": "rawpowder-dulse-algeblanding-oko",
+    "newUrl": "https://www.healthwell.dk/super-greens"
+  },
+  {
+    "slug": "rawpowder-fisk-collagen-plus",
+    "newUrl": "https://www.healthwell.dk/healthwell-collagen-pulver-marint"
+  },
+  {
+    "slug": "rawpowder-matcha-supreme",
+    "newUrl": "https://www.healthwell.dk/healthwell-matcha-pulver-oko"
+  },
+  {
+    "slug": "rawpowder-reishi-svampepulver",
+    "newUrl": "https://www.healthwell.dk/reishi-extrakt"
+  },
+  {
+    "slug": "rawpowder-shiitake-pulver-oko",
+    "newUrl": "https://www.healthwell.dk/kaapa-shiitake-extract-tincture"
+  },
+  {
+    "slug": "royal-jelly",
+    "newUrl": "https://www.healthwell.dk/bidronning-gele"
+  },
+  {
+    "slug": "self-omninutrition-tribulus-terrestris",
+    "newUrl": null,
+    "reason": "No tribulus product found on any approved store"
+  },
+  {
+    "slug": "solgar-ashwagandha-root-extract",
+    "newUrl": "https://www.healthwell.dk/solgar-ashwagandha-root-extract"
+  },
+  {
+    "slug": "solgar-boswellia",
+    "newUrl": "https://www.healthwell.dk/solgar-boswellia"
+  },
+  {
+    "slug": "solgar-female-multiple",
+    "newUrl": "https://www.healthwell.dk/healthwell-multivitamin-gravid-og-ammende"
+  },
+  {
+    "slug": "solgar-solgar-folat-metafolin",
+    "newUrl": "https://www.healthwell.dk/solgar-folat-metafolin-400mcg"
+  },
+  {
+    "slug": "solgar-vitamin-e-268-mg",
+    "newUrl": "https://www.healthwell.dk/solgar-vitamin-e-268-mg"
+  },
+  {
+    "slug": "sonnentor-ingefaer-pulver",
+    "newUrl": "https://www.healthwell.dk/mother-earth-ingefarpulver-oko"
+  },
+  {
+    "slug": "terranova-astragalus",
+    "newUrl": "https://www.healthwell.dk/astragalus"
+  },
+  {
+    "slug": "terranova-omega-3-6-7-9-organic-oil",
+    "newUrl": "https://www.healthwell.dk/algeolie-omega-3"
+  },
+  {
+    "slug": "terranova-probiotic-complex",
+    "newUrl": "https://www.healthwell.dk/healthwell-triple-probiotics"
+  },
+  {
+    "slug": "thorne-l-glutamine",
+    "newUrl": "https://www.healthwell.dk/healthwell-l-glutamin-1000"
+  },
+  {
+    "slug": "thorne-taurine",
+    "newUrl": "https://www.healthwell.dk/taurin-500"
+  },
+  {
+    "slug": "thorne-theanine",
+    "newUrl": "https://www.healthwell.dk/l-teanin-200"
+  },
+  {
+    "slug": "thorne-womens-multi-50",
+    "newUrl": "https://www.healthwell.dk/multivitamin-kvinde"
+  },
+  {
+    "slug": "tribulus-90",
+    "newUrl": null,
+    "reason": "No tribulus product found on any approved store"
+  },
+  {
+    "slug": "viking-power-odin-test-o-war-testosteron-booster",
+    "newUrl": null,
+    "reason": "No tribulus/testosterone booster found on any approved store"
+  },
+  {
+    "slug": "vitamin-b1-100",
+    "newUrl": "https://www.healthwell.dk/vitamin-b1-100"
+  },
+  {
+    "slug": "vitargo-electrolyte",
+    "newUrl": "https://www.corenutrition.dk/vitargo-plus-electrolyte"
+  },
+  {
+    "slug": "waterloss",
+    "newUrl": "https://www.healthwell.dk/waterloss"
+  },
+  {
+    "slug": "weightworld-okologisk-bukkehorn",
+    "newUrl": "https://www.healthwell.dk/bukkehornsklover"
+  },
+  {
+    "slug": "wellatomin-premium",
+    "newUrl": "https://www.healthwell.dk/wellatomin-premium"
+  },
+  {
+    "slug": "wellaware-ingefaerpulver",
+    "newUrl": "https://www.healthwell.dk/mother-earth-ingefarpulver-oko"
+  }
+]

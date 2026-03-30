@@ -1,0 +1,999 @@
+{
+  "generatedAt": "2026-03-16T14:33:56.681Z",
+  "siloId": "omega-fedtsyrer",
+  "categoryCount": 9,
+  "categories": [
+    {
+      "categorySlug": "cla",
+      "route": "/omega-fedtsyrer/cla",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 13 internal links found",
+        "PASS no-links-in-headings",
+        "FAIL no-self-links - Found self-referential internal links: /cla",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: zink (2: /zink), multivitamin (2: /multivitamin)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "CLA (Konjugeret Linolsyre) 3000 mg",
+      "expectedTopTitle": "Diet CLA",
+      "products": [
+        {
+          "slug": "weightworld-konjugeret-linolsyre-cla",
+          "title": "CLA (Konjugeret Linolsyre) 3000 mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\cla-konjugeret-linolsyre-3000-mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "diet-cla",
+          "title": "Diet CLA",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\diet-cla.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "ultimate-cla-90-caps",
+          "title": "Ultimative CLA",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\ultimative-cla-90-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        },
+        {
+          "slug": "elit-clal-carnitine-powder",
+          "title": "ELIT CLA+L-Carnitine Powder",
+          "store": "corenutrition",
+          "crawlPath": "content\\crawled-products\\corenutrition\\elit-cla-l-carnitine-powder.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "elit-cla",
+          "title": "ELIT CLA Fat Burner 90 Softgel Kapsler",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\elit-cla-fat-burner-90-softgel-kapsler.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": true
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "fiskeolie",
+      "route": "/omega-fedtsyrer/fiskeolie",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 20 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: multivitamin (5: /multivitamin), e-vitamin (4: /e-vitamin | /vitaminer/e-vitamin), zink (2: /zink)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - arctic-omega-3-fiskeolie: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "elexir-omega-3-hojdosis-fiskeolie",
+        "arctic-omega-3-fiskeolie",
+        "healthwell-omega-3-fiskeolie",
+        "eskio-3-pure"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Omega-3 Fiskeolie 2000mg",
+      "expectedTopTitle": "Core Omega-3",
+      "products": [
+        {
+          "slug": "weightworld-fiskeolie",
+          "title": "Weight World Omega-3 Fiskeolie 2000mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\omega-3-fiskeolie-2000mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "elexir-omega-3-hojdosis-fiskeolie",
+          "title": "Healthwell Elexir Pharma Omega-3 Forte",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "arctic-omega-3-fiskeolie",
+          "title": "Core Omega-3",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-omega-3-fiskeolie",
+          "title": "Healthwell Omega-3 Fiskeolie",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "eskio-3-pure",
+          "title": "Healthwell Eskio-3 Pure",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kaempenatlysolie",
+      "route": "/omega-fedtsyrer/kaempenatlysolie",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 15 internal links found",
+        "PASS no-links-in-headings",
+        "FAIL no-self-links - Found self-referential internal links: /kaempenatlysolie",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: zink (3: /zink), multivitamin (3: /multivitamin)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "healthwell-gla-kaempe-natlysolie-oko",
+        "healthwell-gla-kaempe-natlys-olie"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Livets Olie - Oil of Life",
+      "expectedTopTitle": "Hørfrø- og natlysolie ØKO",
+      "products": [
+        {
+          "slug": "livets-olie-oil-of-life",
+          "title": "Livets Olie - Oil of Life - 500ml",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\livets-olie-oil-of-life-500ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "oil-of-life-kaempenatlysolie",
+          "title": "Kæmpenatlysolie, koldpresset og økologisk - 250ml",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\kaempenatlysolie-koldpresset-og-oekologisk-250ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "urtekram-horfro-og-natlysolie-oko",
+          "title": "Urtekram Hørfrø- og natlysolie ØKO",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\hoerfroe-og-natlysolie-oeko-500-ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-gla-kaempe-natlysolie-oko",
+          "title": "Healthwell GLA Kæmpe-natlysolie ØKO",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-gla-kaempe-natlys-olie",
+          "title": "Healthwell GLA Kæmpe-natlys olie kapsler",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "kokosolie",
+      "route": "/omega-fedtsyrer/kokosolie",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 11 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: multivitamin (2: /multivitamin), zink (2: /zink)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - biofood-duftfri-kokosolie: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "kokosolie-extra-virgin-oko",
+        "biofood-duftfri-kokosolie"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Dragon Superfoods Kokosolie Ø",
+      "expectedTopTitle": "Cosmoveda Kokosolie uden smag",
+      "products": [
+        {
+          "slug": "dragon-superfoods-kokosolie-o-100-ml",
+          "title": "Dragon Superfoods Kokosolie Ø - 100 ml",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\dragon-superfoods-kokosolie-oe-100-ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "kokosolie-koldpresset-jomfru-o-500-ml",
+          "title": "kokosolie koldpresset jomfru Ø - 450 ml",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\kokosolie-koldpresset-jomfru-oe-450-ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "kokosolie-uden-smag-300-ml",
+          "title": "Kokosolie uden smag - 300 ml",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\kokosolie-uden-smag-300-ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "kokosolie-extra-virgin-oko",
+          "title": "Healthwell Kokosolie Extra Virgin ØKO",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "biofood-duftfri-kokosolie",
+          "title": "Biofood Duftfri Kokosolie",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "krillolie",
+      "route": "/omega-fedtsyrer/krillolie",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 19 internal links found",
+        "PASS no-links-in-headings",
+        "PASS no-self-links",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: multivitamin (5: /multivitamin), zink (3: /zink)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - naerokaellan-krillolie: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "islandsk-omega-3",
+        "naerokaellan-krillolie",
+        "antarctic-krill-oil"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Healthwell Islandsk Omega-3",
+      "expectedTopTitle": "Krillolie 1200mg",
+      "products": [
+        {
+          "slug": "islandsk-omega-3",
+          "title": "Healthwell Islandsk Omega-3",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "pureness-krillolie",
+          "title": "Pureness Krill Omega-3 120 kapsler",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\krill-omega-3-120-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "weightworld-krillolie",
+          "title": "Krillolie 1200mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\krillolie-1200mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "naerokaellan-krillolie",
+          "title": "Närokällan Krillolie",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "antarctic-krill-oil",
+          "title": "Healthwell Antarctic Krill Oil",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "lecithin",
+      "route": "/omega-fedtsyrer/lecithin",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 17 internal links found",
+        "PASS no-links-in-headings",
+        "FAIL no-self-links - Found self-referential internal links: /lecithin",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: zink (3: /zink), multivitamin (4: /multivitamin)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "lecithin-pulver",
+        "solgar-lecithin",
+        "lecithin-fra-a-vogel"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Berthelsen Lecithin",
+      "expectedTopTitle": "Solgar Lecithin",
+      "products": [
+        {
+          "slug": "berthelsen-lecithin-90-kaps",
+          "title": "Berthelsen Lecithin - 90 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\berthelsen-lecithin-90-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "lecithin-pulver",
+          "title": "Healthwell Lecitin Pulver",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "solgar-lecithin",
+          "title": "Solgar Lecithin",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "camette-lecithin-1200-mg-100-kap",
+          "title": "Camette Lecithin 1200 mg - 100 kap",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\camette-lecithin-1200-mg-100-kaps.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "lecithin-fra-a-vogel",
+          "title": "Healthwell A.Vogel Lecithin",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "mct-olie",
+      "route": "/omega-fedtsyrer/mct-olie",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 16 internal links found",
+        "PASS no-links-in-headings",
+        "FAIL no-self-links - Found self-referential internal links: /mct-olie",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: proteinpulver (2: /proteinpulver | /protein-traening/proteinpulver), mct-olie (2: /mct-olie), multivitamin (3: /multivitamin)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "mmsportsstore"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-c8-mct-oil"
+      ],
+      "introMentionsDifferentWinner": false,
+      "introMentionedTitle": "Mutant Core Series MCT Oil",
+      "expectedTopTitle": "Mutant Core Series MCT Oil",
+      "products": [
+        {
+          "slug": "mutant-mct-oil",
+          "title": "Mutant Core Series MCT Oil",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\core-series-mct-oil-946ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-c8-mct-oil",
+          "title": "Core C8 MCT Oil",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "body-science-pure-mct-olie",
+          "title": "Body science Pure MCT Oil ‐ 100% MCT-olie",
+          "store": "mmsportsstore",
+          "crawlPath": "content\\crawled-products\\mmsportsstore\\pure-mct-oil-100-mct-olie.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-mct",
+          "title": "Healthwell MCT Olie ØKO",
+          "store": "healthwell",
+          "crawlPath": "content\\crawled-products\\healthwell\\mct-olie-ko.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "star-nutrition",
+          "title": "Star Nutrition C8 MCT Oil",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\c8-mct-olie-500-ml.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "omega-3",
+      "route": "/omega-fedtsyrer/omega-3",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 5",
+        "PASS dynamic-slogan-count - slogan mentions 5",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 19 internal links found",
+        "PASS no-links-in-headings",
+        "FAIL no-self-links - Found self-referential internal links: /omega-3",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: multivitamin (5: /multivitamin), vitamin-e (3: /vitamin-e), zink (2: /zink)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 5 product reviews follow GPT template",
+        "PASS parsed-review-evidence - 5 product reviews reference crawled product facts",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "weightworld"
+      ],
+      "productCount": 5,
+      "missingCrawlProducts": [
+        "core-omega-3",
+        "healthwell-omega-3-plus",
+        "elexir-pharma-omega-3-forte"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Omega-3 Fiskeolie 2000mg",
+      "expectedTopTitle": "Core Omega-3+",
+      "products": [
+        {
+          "slug": "weightworld-omega-3",
+          "title": "Weight World Omega-3 Fiskeolie 2000mg",
+          "store": "weightworld",
+          "crawlPath": "content\\crawled-products\\weightworld\\omega-3-fiskeolie-2000mg.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "core-omega-3",
+          "title": "Core Omega-3+",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-omega-3-plus",
+          "title": "Healthwell Omega-3 Plus",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "elexir-pharma-omega-3-forte",
+          "title": "Elexir Pharma Omega-3 Forte",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "ultimate-omega-3",
+          "title": "Star Nutrition Ultimate Omega-3",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\ultimate-omega-3-90-kapsler-35-1000mg.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        }
+      ]
+    },
+    {
+      "categorySlug": "vegansk-omega-3",
+      "route": "/omega-fedtsyrer/vegansk-omega-3",
+      "httpStatus": 200,
+      "verifyOk": false,
+      "verifySummary": [
+        "PASS required-frontmatter",
+        "PASS dynamic-description-count - description mentions 9",
+        "PASS dynamic-slogan-count - slogan mentions 9",
+        "PASS mobile-toplist",
+        "PASS desktop-toplist",
+        "PASS toc",
+        "PASS core-sections",
+        "PASS summary-award-order - BEDST I TEST -> BEDSTE PREMIUM -> BEDSTE BUDGET",
+        "PASS mobile-toplist-layout",
+        "PASS cta-no-underline",
+        "PASS product-card-store-label",
+        "PASS internal-links - 21 internal links found",
+        "PASS no-links-in-headings",
+        "FAIL no-self-links - Found self-referential internal links: /vegansk-omega-3",
+        "FAIL internal-subpage-link-limit - Expected max 1 in-content link per target subpage before Kilder & Forskning, found duplicates: multivitamin (7: /multivitamin), zink (2: /zink), e-vitamin (2: /e-vitamin), vegansk-omega-3 (2: /vegansk-omega-3)",
+        "PASS duplicate-extra-images",
+        "PASS product-review-quality - 9 product reviews follow GPT template",
+        "FAIL parsed-review-evidence - great-earth-omega-3-vegan: missing crawled product data behind active review",
+        "PASS brand-leaks",
+        "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
+      ],
+      "inSignalCache": false,
+      "stores": [
+        "bodystore",
+        "corenutrition",
+        "healthwell",
+        "med24"
+      ],
+      "productCount": 9,
+      "missingCrawlProducts": [
+        "holistic-omega-3-algolja",
+        "terranova-omega-3-6-7-9-organic-oil",
+        "great-earth-omega-3-vegan",
+        "healthwell-algeolie-omega-3",
+        "algeolie-omega-3"
+      ],
+      "introMentionsDifferentWinner": true,
+      "introMentionedTitle": "Plantforce Omega 3",
+      "expectedTopTitle": "Terranova Omega 3-6-7-9 Organic Oil",
+      "products": [
+        {
+          "slug": "plantforce-omega-3",
+          "title": "Plantforce Omega 3 - 120 softgels",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\plantforce-omega-3-120-softgels.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "aliga-aqtive-vegansk-omega-3-60-kaps",
+          "title": "Aliga Aqtive Vegansk Omega-3 - 60 kaps.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\aliga-aqtive-vegansk-omega-3-60-softgels.json",
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitaprana-omega-3-vegan",
+          "title": "Vitaprana Omega-3 Vegan 60 kapsler",
+          "store": "bodystore",
+          "crawlPath": "content\\crawled-products\\bodystore\\omega-3-vegan-60-kapsler.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": true,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "holistic-omega-3-algolja",
+          "title": "Holistic Omega-3 Algolja",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "vitayummy-omega-3",
+          "title": "VitaYummy Omega 3 - 60 stk.",
+          "store": "med24",
+          "crawlPath": "content\\crawled-products\\med24\\vitayummy-omega-3-60-stk.json",
+          "coreFieldPresence": {
+            "size": true,
+            "ingredients": false,
+            "nutritionInfo": true,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "terranova-omega-3-6-7-9-organic-oil",
+          "title": "Healthwell Terranova Omega 3-6-7-9 Organic Oil",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "great-earth-omega-3-vegan",
+          "title": "Great Earth Omega 3 Vegan",
+          "store": "corenutrition",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "healthwell-algeolie-omega-3",
+          "title": "Healthwell Algeolie Omega-3",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        },
+        {
+          "slug": "algeolie-omega-3",
+          "title": "Healthwell Algeolie Omega-3",
+          "store": "healthwell",
+          "crawlPath": null,
+          "coreFieldPresence": {
+            "size": false,
+            "ingredients": false,
+            "nutritionInfo": false,
+            "dosage": false
+          }
+        }
+      ]
+    }
+  ]
+}

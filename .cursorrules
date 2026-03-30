@@ -1,0 +1,100 @@
+You are working in `Kostmag`, a Next.js 15 / App Router / MDX-driven Danish supplement review site.
+
+Priority:
+1. Preserve user intent and existing rankings/slots.
+2. Prefer targeted updates over broad regeneration.
+3. Keep `localhost:3000` usable during work.
+4. Verify user-visible output, not only data files.
+
+Project map:
+- Category pages: `src/app/(da)/kosttilskud/<category-slug>/page.mdx`
+- Product pages: `src/app/(da)/kosttilskud/produkter/<product-slug>/content.mdx`
+- Canonical category page spec: `docs/category-page-canonical-spec.md`
+- Broken links report: `content/broken-links-report.json`
+- Buy links: `content/product-buy-links.json`
+- Product images: `content/product-images.json`
+- Crawled product cache: `content/crawled-products/**`
+- 404 replace API: `src/app/api/admin/404/replace/route.ts`
+- 404 admin UI: `src/app/(da)/admin/404/Admin404Table.tsx`
+- Category rebuild script: `scripts/rebuild-category-pages.ts`
+- Product rewrite script: `scripts/rewrite-product-content.ts`
+- Crawler entrypoint: `scripts/crawlers/crawl.ts`
+
+Core product/content rules:
+- The site uses a personal, hands-on, "tested in practice" tone. Product copy should feel grounded in real usage, not generic SEO filler.
+- For category-page rebuilds, treat `docs/category-page-canonical-spec.md` as the primary source of truth for layout, ranking, frontmatter, CTA behavior, sections, and QA.
+- Product titles must be cleaned when needed:
+  - remove redundant quantity suffixes in display title when they make titles clumsy
+  - remove incorrect brand prefixes when the product is not truly branded that way
+  - keep genuine brand names when they are correct
+- Button standard across category pages:
+  - CTA button text is only `Til butik`
+  - small toplists do NOT show the store label below the button
+  - full product cards keep the store name below the button in smaller grey text
+  - no underline on buttons in any state
+- Intro/product count text must reflect the actual number of shown products dynamically.
+- Core ranking contract for category pages:
+  - visible rank 1 must be `BEDST I TEST`
+  - visible rank 2 must be `BEDSTE PREMIUM`
+  - visible rank 3 must be `BEDSTE BUDGET`
+  - this order must stay consistent across toplists, summary, product cards, comparison table, and JSON-LD
+
+Critical `/admin/404` replacement rules:
+- A replacement is "replace in place", not "add a new product".
+- Preserve the existing product slug/slot identity used on the category page.
+- Preserve the ranking/order of all other products.
+- Update only the relevant product-linked sections of the category page.
+- Do NOT regenerate or alter intro, FAQ, buying guide, or other non-product content during a targeted 404 replacement.
+- If a custom image is uploaded in admin, prefer it over remote download.
+- Remove the stale broken-link row only after the replacement and category rebuild succeed.
+- The UI should show stepwise progress, not one static loading state.
+
+Current 404 architecture:
+- `POST /api/admin/404/replace` starts an async job and returns a `jobId`.
+- `GET /api/admin/404/replace?jobId=...` is polled for status.
+- Replacement jobs are serialized through a queue in `replace/route.ts`.
+- The admin table polls job status and keeps completed rows visible with DONE/hide-row behavior.
+
+Critical category rebuild rule:
+- For targeted product replacement rebuilds, always preserve non-product content.
+- Use `scripts/rebuild-category-pages.ts` with `--preserve-non-product-content` when the task is a 404 replacement or a single-slot product swap.
+- Product rebuilds should update product cards, toplist/comparison sections, and affected product sections only.
+
+Crawler and parsing rules:
+- Crawl the new URL before switching buy links so failure does not corrupt the live page.
+- Do not trust a URL blindly just because it returns 200. Some stores can resolve to the wrong product.
+- Validate crawled content semantically against the requested URL/product before declaring success.
+- If the crawled result is obviously a different product, abort the replacement instead of publishing bad content.
+- Bodylab, Healthwell, CoreNutrition and similar stores may have redirect/discontinued quirks; verify the actual rendered product title/content.
+
+Known pitfalls to avoid:
+- Never let internal-link insertion touch YAML frontmatter in MDX files.
+- Do not let a targeted replacement rewrite the entire category page.
+- Do not create a fresh slug just because the replacement product name changed.
+- Do not mark `/admin/404` as complete before the category page actually reflects the new product.
+- Do not assume the broken-links report is perfectly current; when matching a row, fall back by slug, old URL, or position.
+
+When the user says "continue" after a long session:
+- First verify the dev server on `localhost:3000`.
+- Then inspect whether the relevant `/admin/404` row still exists.
+- Then verify the real page output, not just the admin status.
+
+Server/dev workflow:
+- If `localhost:3000` hangs or no listener exists, cleanly restart the Next dev server and verify with an HTTP request.
+- Keep the server on port `3000` when possible so local links remain valid.
+
+Recommended verification after substantive work:
+- Read lints for edited files.
+- Verify affected file content.
+- Verify the rendered local page on `http://localhost:3000/...`.
+- For 404 replacements, verify all of:
+  - `content/product-buy-links.json`
+  - product `content.mdx`
+  - category page render
+  - `content/broken-links-report.json`
+
+User preference summary:
+- The user cares a lot about reliable `/admin/404` replacement flow.
+- They prefer narrow, deterministic fixes over "smart" full-page rewrites.
+- They want frequent progress updates during long tasks.
+- They are sensitive to regressions caused by broad rebuilds.

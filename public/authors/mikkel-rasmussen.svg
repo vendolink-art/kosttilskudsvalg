@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="Portraet af Mikkel Rasmussen">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dbeafe" />
+      <stop offset="100%" stop-color="#93c5fd" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="160" fill="url(#bg)" />
+  <circle cx="160" cy="156" r="70" fill="#efc8ac" />
+  <path d="M88 274c10-45 43-68 72-68 29 0 61 22 72 68z" fill="#1e3a8a" />
+  <path d="M95 150c0-41 28-72 65-72 40 0 67 33 67 73v10c-7-8-15-15-24-20-13 6-27 10-43 10-25 0-46-8-65-23z" fill="#1f2937" />
+  <circle cx="134" cy="157" r="5" fill="#111827" />
+  <circle cx="186" cy="157" r="5" fill="#111827" />
+  <path d="M136 185c10 6 39 6 49 0" fill="none" stroke="#92400e" stroke-width="4" stroke-linecap="round" />
+  <path d="M157 166c1 5 1 10-1 13" fill="none" stroke="#d29c7f" stroke-width="3" stroke-linecap="round" />
+  <rect x="120" y="148" width="28" height="20" rx="8" fill="none" stroke="#334155" stroke-width="3" />
+  <rect x="172" y="148" width="28" height="20" rx="8" fill="none" stroke="#334155" stroke-width="3" />
+  <path d="M148 158h24" stroke="#334155" stroke-width="3" />
+</svg>

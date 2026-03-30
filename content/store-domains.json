@@ -1,0 +1,462 @@
+[
+  {
+    "domain": "healthwell.dk",
+    "count": 8534,
+    "samples": [
+      "https://www.healthwell.dk/collagen-plus",
+      "https://www.healthwell.dk/hyben-ekstrakt",
+      "https://www.healthwell.dk/bromelain-500"
+    ]
+  },
+  {
+    "domain": "med24.dk",
+    "count": 3383,
+    "samples": [
+      "https://www.med24.dk/kosttilskud/anvendelsesomraad",
+      "https://www.med24.dk/kosttilskud/vitaminer/b-vitam",
+      "https://www.med24.dk/kosttilskud/vitaminer/b-vitam"
+    ]
+  },
+  {
+    "domain": "bodystore.dk",
+    "count": 1954,
+    "samples": [
+      "https://www.bodystore.dk/vitamin-e-60-caps/890992-",
+      "https://www.bodystore.dk/zinc-25-mg-90-caps/6576.h",
+      "https://www.bodystore.dk/ultimate-magnesium-90-cap"
+    ]
+  },
+  {
+    "domain": "pubmed.ncbi.nlm.nih.gov",
+    "count": 1926,
+    "samples": [
+      "https://pubmed.ncbi.nlm.nih.gov/24831048/",
+      "https://pubmed.ncbi.nlm.nih.gov/24831048/",
+      "https://pubmed.ncbi.nlm.nih.gov/33600918/"
+    ]
+  },
+  {
+    "domain": "corenutrition.dk",
+    "count": 8677,
+    "note": "Includes former svenskkosttilskud.dk (redirects here)",
+    "samples": [
+      "https://www.corenutrition.dk/core-joints",
+      "https://www.corenutrition.dk/core-vitamin-e",
+      "https://www.corenutrition.dk/core-vitamins"
+    ]
+  },
+  {
+    "domain": "protein.dk",
+    "count": 1307,
+    "samples": [
+      "https://protein.dk/naturlig-detox",
+      "https://protein.dk/vitamin-c",
+      "https://protein.dk/vitamin-d"
+    ]
+  },
+  {
+    "domain": "mmsportsstore.dk",
+    "count": 1189,
+    "samples": [
+      "https://www.mmsportsstore.dk/Kosttilskud/Efter-tra",
+      "https://www.mmsportsstore.dk/Kosttilskud/Vitaminer",
+      "https://www.mmsportsstore.dk/Kosttilskud/Vitaminer"
+    ]
+  },
+  {
+    "domain": "weightworld.dk",
+    "count": 965,
+    "samples": [
+      "https://www.weightworld.dk/okologisk-gurkemeje-med",
+      "https://www.weightworld.dk/quercetin-complex.html",
+      "https://www.weightworld.dk/detox-og-cleanse-til-ud"
+    ]
+  },
+  {
+    "domain": "kostmagasinet.dk",
+    "count": 852,
+    "samples": [
+      "https://KOSTTILSKUDSVALG.DK/goto/mm-sports/967?ref=btb&rurl=www.mmsportsstore.dk/Traeningstilbehor/Traeningstasker-og-rygsa",
+      "https://KOSTTILSKUDSVALG.DK/goto/mm-sports/971?ref=btb&rurl=www.mmsportsstore.dk/Traeningstilbehor/Traeningstasker-og-rygsa",
+      "https://KOSTTILSKUDSVALG.DK/goto/mm-sports/967?ref=btb&rurl=www.mmsportsstore.dk/Traeningstilbehor/Traeningstasker-og-rygsa"
+    ]
+  },
+  {
+    "domain": "eur-lex.europa.eu",
+    "count": 675,
+    "samples": [
+      "https://eur-lex.europa.eu/legal-content/SV/TXT/PDF/?uri=CELEX:02007R0834-20130701",
+      "https://eur-lex.europa.eu/legal-content/SV/TXT/PDF/?uri=CELEX:02007R0834-20130701",
+      "https://eur-lex.europa.eu/legal-content/SV/TXT/PDF/?uri=CELEX:02007R0834-20130701"
+    ]
+  },
+  {
+    "domain": "youtube.com",
+    "count": 605,
+    "samples": [
+      "https://www.youtube.com/embed/HM_tiCkFuDw?rel=0&amp;wmode=transparent",
+      "https://www.youtube.com/embed/G_eRI-m0KxA?rel=0&amp;wmode=transparent",
+      "https://www.youtube.com/embed/be5sGbjq_UU?rel=0&amp;wmode=transparent"
+    ]
+  },
+  {
+    "domain": "ncbi.nlm.nih.gov",
+    "count": 373,
+    "samples": [
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8762185/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8762185/",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8762185/"
+    ]
+  },
+  {
+    "domain": "helsegrossisten.dk",
+    "count": 248,
+    "samples": [
+      "https://helsegrossisten.dk/kal-ultra-lysin-60-tab",
+      "https://helsegrossisten.dk/solgar-l-arginin",
+      "https://helsegrossisten.dk/l-glutamine"
+    ]
+  },
+  {
+    "domain": "product_info.php",
+    "count": 139,
+    "samples": [
+      "http://product_info.php?products_id=12493",
+      "http://product_info.php?products_id=17486",
+      "http://product_info.php?products_id=15943"
+    ]
+  },
+  {
+    "domain": "biorxiv.org",
+    "count": 112,
+    "samples": [
+      "https://www.biorxiv.org/content/10.1101/2021.03.19.435959v1",
+      "https://www.biorxiv.org/content/10.1101/2021.03.19.435959v1",
+      "https://www.biorxiv.org/content/10.1101/2021.03.19.435959v1"
+    ]
+  },
+  {
+    "domain": "efsa.onlinelibrary.wiley.com",
+    "count": 101,
+    "samples": [
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2011.2056",
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2009.1217",
+      "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2011.2056"
+    ]
+  },
+  {
+    "domain": "sciencedirect.com",
+    "count": 99,
+    "samples": [
+      "https://www.sciencedirect.com/science/article/abs/pii/030698779590512X",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0944711315003359?via%3Dihub",
+      "https://www.sciencedirect.com/science/article/abs/pii/S0944711315003359?via%3Dihub"
+    ]
+  },
+  {
+    "domain": "flowlife.com",
+    "count": 73,
+    "samples": [
+      "https://www.flowlife.com/dk/produkt/flowgun-pro",
+      "https://www.flowlife.com/dk/produkt/flowgun-one/",
+      "https://www.flowlife.com/eu/product/flowgun-heat/"
+    ]
+  },
+  {
+    "domain": "mdpi.com",
+    "count": 57,
+    "samples": [
+      "https://www.mdpi.com/2072-6643/10/9/1321",
+      "https://www.mdpi.com/2072-6643/10/9/1321",
+      "https://www.mdpi.com/2072-6643/10/9/1321"
+    ]
+  },
+  {
+    "domain": "livsmedelsverket.se",
+    "count": 56,
+    "samples": [
+      "https://www.livsmedelsverket.se/produktion-handel--kontroll/produktion-av-livsmedel/kontroll-och-markning-av-ekologisk-m",
+      "https://www.livsmedelsverket.se/livsmedel-och-innehall/kosttillskott/amnen-i-kosttillskott/taurin",
+      "https://www.livsmedelsverket.se/livsmedel-och-innehall/naringsamne/fett/fleromattat-fett-omega-3-och-omega-6"
+    ]
+  },
+  {
+    "domain": "upcare.dk",
+    "count": 49,
+    "samples": [
+      "https://upcare.dk/products/massagepistol",
+      "https://upcare.dk/products/badevaegt-med-kropsanal",
+      "https://upcare.dk/products/wifi-smart-body-fat-sca"
+    ]
+  },
+  {
+    "domain": "musclepain.dk",
+    "count": 43,
+    "samples": [
+      "https://musclepain.dk/products/massagepistol",
+      "https://musclepain.dk/products/sleepmat-black-edit",
+      "https://musclepain.dk/products/musclefeet%E2%84%A2"
+    ]
+  },
+  {
+    "domain": "liebertpub.com",
+    "count": 38,
+    "samples": [
+      "https://www.liebertpub.com/doi/abs/10.1089/acm.2008.0152</p><p>",
+      "https://www.liebertpub.com/doi/abs/10.1089/acm.2008.0152</p><p>",
+      "https://www.liebertpub.com/doi/abs/10.1089/acm.2008.0152</p><p>"
+    ]
+  },
+  {
+    "domain": "partner-ads.com",
+    "count": 33,
+    "samples": [
+      "https://www.partner-ads.com/dk/klikbanner.php?partnerid=22511&bannerid=11522",
+      "https://www.partner-ads.com/dk/klikbanner.php?partnerid=22511&bannerid=68420",
+      "https://www.partner-ads.com/dk/klikbanner.php?partnerid=22511&bannerid=9718"
+    ]
+  },
+  {
+    "domain": "frontiersin.org",
+    "count": 28,
+    "samples": [
+      "https://www.frontiersin.org/articles/10.3389/fnut.2021.746703/full",
+      "https://www.frontiersin.org/articles/10.3389/fnut.2021.746703/full",
+      "https://www.frontiersin.org/articles/10.3389/fnut.2021.746703/full"
+    ]
+  },
+  {
+    "domain": "chat.openai.com",
+    "count": 21,
+    "samples": [
+      "https://chat.openai.com/c/448f1edf-db14-410d-8564-fbeaaf0e4994",
+      "https://chat.openai.com/c/448f1edf-db14-410d-8564-fbeaaf0e4994",
+      "https://chat.openai.com/c/448f1edf-db14-410d-8564-fbeaaf0e4994"
+    ]
+  },
+  {
+    "domain": "ajog.org",
+    "count": 18,
+    "samples": [
+      "https://www.ajog.org/article/S0002-9378(15",
+      "https://www.ajog.org/article/S0002-9378(15",
+      "https://www.ajog.org/article/S0002-9378(15"
+    ]
+  },
+  {
+    "domain": "click.adrecord.com",
+    "count": 17,
+    "samples": [
+      "https://click.adrecord.com/?c=160019&p=1094",
+      "https://click.adrecord.com/?c=31703&p=1160",
+      "https://click.adrecord.com/?c=160019&p=1094"
+    ]
+  },
+  {
+    "domain": "bodystore.com",
+    "count": 15,
+    "samples": [
+      "https://www.bodystore.com/hcl-plus-180-tabletter/A",
+      "https://www.bodystore.com/ekologiskt-maca-pulver-1",
+      "https://www.bodystore.com/ekologiskt-maca-koncentr"
+    ]
+  },
+  {
+    "domain": "ifmkliniken.se",
+    "count": 10,
+    "samples": [
+      "https://www.ifmkliniken.se/integrerad-funktionsmedicin/harmineralanalys/sDoser",
+      "https://www.ifmkliniken.se/integrerad-funktionsmedicin/harmineralanalys/sDoser",
+      "https://www.ifmkliniken.se/integrerad-funktionsmedicin/harmineralanalys/sDoser"
+    ]
+  },
+  {
+    "domain": "google.dk",
+    "count": 10,
+    "samples": [
+      "https://www.google.dk/",
+      "https://www.google.dk/",
+      "https://www.google.dk/"
+    ]
+  },
+  {
+    "domain": "go.adt291.com",
+    "count": 8,
+    "samples": [
+      "https://go.adt291.com/t/t?a=1951492630&as=1828659410&t=2&tk=1",
+      "https://go.adt291.com/t/t?a=1954030600&as=1828659410&t=2&tk=1",
+      "https://go.adt291.com/t/t?a=1951492630&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "matbloggar.nu",
+    "count": 8,
+    "samples": [
+      "https://www.matbloggar.nu/",
+      "https://www.matbloggar.nu/button.php?u=kosttilskudsvalg",
+      "https://www.matbloggar.nu/"
+    ]
+  },
+  {
+    "domain": "bodylab.dk",
+    "count": 5,
+    "samples": [
+      "https://www.bodylab.dk/shop/bodylab-pre-workout-4424p.html",
+      "https://www.bodylab.dk/shop/bodylab-weight-gainer-658p.html",
+      "https://www.bodylab.dk/shop/creatine-4147p.html"
+    ]
+  },
+  {
+    "domain": "vitargo.se",
+    "count": 4,
+    "samples": [
+      "https://vitargo.se/upload/PDF-filer/vitargo_gastric.pdf",
+      "https://vitargo.se/upload/PDF-filer/KarinPiehl.pdf",
+      "https://vitargo.se/upload/PDF-filer/vitargo_gastric.pdf"
+    ]
+  },
+  {
+    "domain": "do.fit-direct.dk",
+    "count": 4,
+    "samples": [
+      "https://do.fit-direct.dk/t/t?a=1892630499&as=1828659410&t=2&tk=1",
+      "https://do.fit-direct.dk/t/t?a=1892630499&as=1828659410&t=2&tk=1",
+      "https://do.fit-direct.dk/t/t?a=1892630499&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "track.adtraction.com",
+    "count": 4,
+    "samples": [
+      "https://track.adtraction.com/t/t?a=1954031669&as=1828659410&t=2&tk=1",
+      "https://track.adtraction.com/t/t?a=1954031669&as=1828659410&t=2&tk=1",
+      "https://track.adtraction.com/t/t?a=1466242320&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "bestekasein.dk",
+    "count": 4,
+    "samples": [
+      "https://bestekasein.dk",
+      "https://bestekasein.dk",
+      "https://bestekasein.dk"
+    ]
+  },
+  {
+    "domain": "researchgate.net",
+    "count": 4,
+    "samples": [
+      "https://www.researchgate.net/publication/322672162_The_Effects_of_Protein_and_Amino_Acid_Supplementation_on_Performance_",
+      "https://www.researchgate.net/publication/322672162_The_Effects_of_Protein_and_Amino_Acid_Supplementation_on_Performance_",
+      "https://www.researchgate.net/publication/322672162_The_Effects_of_Protein_and_Amino_Acid_Supplementation_on_Performance_"
+    ]
+  },
+  {
+    "domain": "go.adt242.com",
+    "count": 3,
+    "samples": [
+      "https://go.adt242.com/t/t?a=1951492874&as=1828659410&t=2&tk=1",
+      "https://go.adt242.com/t/t?a=1951492874&as=1828659410&t=2&tk=1",
+      "https://go.adt242.com/t/t?a=1951492874&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "go.adt267.com",
+    "count": 3,
+    "samples": [
+      "https://go.adt267.com/t/t?a=1466242320&as=1828659410&t=2&tk=1",
+      "https://go.adt267.com/t/t?a=1466242320&as=1828659410&t=2&tk=1",
+      "https://go.adt267.com/t/t?a=1466242320&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "to.musclepain.dk",
+    "count": 3,
+    "samples": [
+      "https://to.musclepain.dk/t/t?a=1982905113&as=1828659410&t=2&tk=1",
+      "https://to.musclepain.dk/t/t?a=1982905113&as=1828659410&t=2&tk=1",
+      "https://to.musclepain.dk/t/t?a=1982905113&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "go.adt228.com",
+    "count": 3,
+    "samples": [
+      "https://go.adt228.com/t/t?a=1948251634&as=1828659410&t=2&tk=1",
+      "https://go.adt228.com/t/t?a=1948251634&as=1828659410&t=2&tk=1",
+      "https://go.adt228.com/t/t?a=1948251634&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "at.watery.dk",
+    "count": 3,
+    "samples": [
+      "https://at.watery.dk/t/t?a=1964450204&as=1828659410&t=2&tk=1",
+      "https://at.watery.dk/t/t?a=1964450204&as=1828659410&t=2&tk=1",
+      "https://at.watery.dk/t/t?a=1964450204&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "ion.anodyne.dk",
+    "count": 3,
+    "samples": [
+      "https://ion.anodyne.dk/t/t?a=1987884441&as=1828659410&t=2&tk=1",
+      "https://ion.anodyne.dk/t/t?a=1987884441&as=1828659410&t=2&tk=1",
+      "https://ion.anodyne.dk/t/t?a=1987884441&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "id.musclehouse.dk",
+    "count": 3,
+    "samples": [
+      "https://id.musclehouse.dk/t/t?a=1893906901&as=1828659410&t=2&tk=1",
+      "https://id.musclehouse.dk/t/t?a=1893906901&as=1828659410&t=2&tk=1",
+      "https://id.musclehouse.dk/t/t?a=1893906901&as=1828659410&t=2&tk=1"
+    ]
+  },
+  {
+    "domain": "er_proteinpulver_sikkert_at_indtage.dk",
+    "count": 2,
+    "samples": [
+      "https://er_proteinpulver_sikkert_at_indtage.dk",
+      "https://er_proteinpulver_sikkert_at_indtage.dk"
+    ]
+  },
+  {
+    "domain": "bedsteproteinpulvertilmuskler.dk",
+    "count": 2,
+    "samples": [
+      "http://www.bedsteproteinpulvertilmuskler.dk",
+      "http://www.bedsteproteinpulvertilmuskler.dk"
+    ]
+  },
+  {
+    "domain": "bedsteproteinpulvertilmuskelopbygning.dk",
+    "count": 2,
+    "samples": [
+      "http://www.bedsteproteinpulvertilmuskelopbygning.dk",
+      "http://www.bedsteproteinpulvertilmuskelopbygning.dk"
+    ]
+  },
+  {
+    "domain": "instagram.com",
+    "count": 1,
+    "samples": [
+      "http://www.instagram.com/kosttilskudsdanmark"
+    ]
+  },
+  {
+    "domain": "veganske.proteinpulveralternativer.dk",
+    "count": 1,
+    "samples": [
+      "https://veganske.proteinpulveralternativer.dk"
+    ]
+  },
+  {
+    "domain": "example.com",
+    "count": 1,
+    "samples": [
+      "https://example.com/proteinpulver-og-viktnedgang"
+    ]
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "core-gainer": {
+    "price": "245 kr",
+    "sizeOptions": [
+      {
+        "grams": 1600,
+        "price": 245
+      },
+      {
+        "grams": 4000,
+        "price": 465
+      },
+      {
+        "grams": 8000,
+        "price": 699
+      },
+      {
+        "grams": 12000,
+        "price": 995
+      }
+    ]
+  },
+  "core-protein-pro": {
+    "price": "395 kr",
+    "sizeOptions": [
+      {
+        "grams": 800,
+        "price": 395
+      },
+      {
+        "grams": 3000,
+        "price": 1205
+      }
+    ]
+  },
+  "core-whey-protein": {
+    "price": "239 kr",
+    "sizeOptions": [
+      {
+        "grams": 1000,
+        "price": 239
+      },
+      {
+        "grams": 4000,
+        "price": 795
+      }
+    ]
+  },
+  "chained-nutrition-micellar-casein": {
+    "price": "449 kr",
+    "sizeOptions": [
+      {
+        "grams": 1560,
+        "price": 449,
+        "portions": 30
+      }
+    ]
+  },
+  "optimum-nutrition-casein": {
+    "price": "385 kr",
+    "sizeOptions": [
+      {
+        "grams": 924,
+        "price": 385,
+        "portions": 28
+      },
+      {
+        "grams": 1818,
+        "price": 755,
+        "portions": 56
+      }
+    ]
+  },
+  "protein-dk-proteinpulver": {
+    "price": "395 kr",
+    "sizeOptions": [
+      {
+        "grams": 800,
+        "price": 395
+      },
+      {
+        "grams": 3000,
+        "price": 1205
+      }
+    ]
+  },
+  "body-science-whey-100": {
+    "price": "249 kr",
+    "sizeOptions": [
+      {
+        "grams": 1000,
+        "price": 249,
+        "portions": 33
+      }
+    ]
+  }
+}

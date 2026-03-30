@@ -1,0 +1,1998 @@
+{
+  "summary": {
+    "generatedAt": "2026-03-16T14:25:21.050Z",
+    "totalPages": 166,
+    "openPages": 79,
+    "greenPages": 87,
+    "totalBrokenSlots": 100,
+    "bySilo": [
+      [
+        "sundhed-velvaere",
+        52
+      ],
+      [
+        "protein-traening",
+        19
+      ],
+      [
+        "vitaminer",
+        19
+      ],
+      [
+        "omega-fedtsyrer",
+        8
+      ],
+      [
+        "mineraler",
+        2
+      ]
+    ],
+    "topPriorityPages": [
+      {
+        "page": "/sundhed-velvaere/nac",
+        "brokenCount": 4
+      },
+      {
+        "page": "/omega-fedtsyrer/vegansk-omega-3",
+        "brokenCount": 2
+      },
+      {
+        "page": "/protein-traening/laktosefrit-proteinpulver",
+        "brokenCount": 2
+      },
+      {
+        "page": "/protein-traening/peanut-butter",
+        "brokenCount": 2
+      },
+      {
+        "page": "/protein-traening/proteinbar-med-lavt-sukkerindhold",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/ashwagandha",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/braendenaelde-pulver",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/bromelain",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/gele-royal",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/glutathion",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/hyben-kapsler",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/ingefaer-pulver",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/lions-mane",
+        "brokenCount": 2
+      },
+      {
+        "page": "/sundhed-velvaere/reishi",
+        "brokenCount": 2
+      },
+      {
+        "page": "/vitaminer/multivitamin-born",
+        "brokenCount": 2
+      },
+      {
+        "page": "/vitaminer/multivitamin-gravid-amning",
+        "brokenCount": 2
+      },
+      {
+        "page": "/vitaminer/multivitamin-kvinde",
+        "brokenCount": 2
+      },
+      {
+        "page": "/vitaminer/vitamin-b2-riboflavin",
+        "brokenCount": 2
+      },
+      {
+        "page": "/vitaminer/vitamin-b6",
+        "brokenCount": 2
+      },
+      {
+        "page": "/mineraler/kobber-tabletter",
+        "brokenCount": 1
+      }
+    ]
+  },
+  "openPages": [
+    {
+      "page": "/sundhed-velvaere/nac",
+      "status": "open",
+      "brokenCount": 4,
+      "products": [
+        {
+          "productSlug": "healthwell-nac-n-acetylcystein",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/nac"
+          ]
+        },
+        {
+          "productSlug": "better-you-nac",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/nac"
+          ]
+        },
+        {
+          "productSlug": "holistic-nac",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/nac"
+          ]
+        },
+        {
+          "productSlug": "naerokaellan-n-acetyl-cystein",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/nac"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/vegansk-omega-3",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "terranova-omega-3-6-7-9-organic-oil",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/vegansk-omega-3"
+          ]
+        },
+        {
+          "productSlug": "great-earth-omega-3-vegan",
+          "statusCode": 410,
+          "testPosition": 8,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/vegansk-omega-3"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/laktosefrit-proteinpulver",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "healthwell-active-valleprotein-laktosefri",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/laktosefrit-proteinpulver",
+            "/protein-traening/proteinpulver-uden-tilsat-sukker"
+          ]
+        },
+        {
+          "productSlug": "healthwell-healthwell-active-valleprotein-laktosefri",
+          "statusCode": 410,
+          "testPosition": null,
+          "categoryPageUrls": [
+            "/protein-traening/laktosefrit-proteinpulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/peanut-butter",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "core-peanut-butter",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/protein-traening/peanut-butter"
+          ]
+        },
+        {
+          "productSlug": "peanutbutter-crunchy-oko",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/peanut-butter"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/proteinbar-med-lavt-sukkerindhold",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "core-morgenmadsbar",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/protein-traening/proteinbar-med-lavt-sukkerindhold"
+          ]
+        },
+        {
+          "productSlug": "propud-protein-bar",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/protein-traening/proteinbar-med-lavt-sukkerindhold"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/ashwagandha",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "solgar-ashwagandha-root-extract",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/ashwagandha"
+          ]
+        },
+        {
+          "productSlug": "rawpowder-ashwagandha-pulver",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/ashwagandha"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/braendenaelde-pulver",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "holistic-naelde",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/braendenaelde-pulver"
+          ]
+        },
+        {
+          "productSlug": "naeldepulver-oko-rawpowder",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/braendenaelde-pulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/bromelain",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "helhetshaelsa-bromelain",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/bromelain"
+          ]
+        },
+        {
+          "productSlug": "naerokaellan-bromelain",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/bromelain"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/gele-royal",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "healthwell-bidronning-gele",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/gele-royal"
+          ]
+        },
+        {
+          "productSlug": "royal-jelly",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/gele-royal"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/glutathion",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "aurora-liposomal-glutation",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/glutathion"
+          ]
+        },
+        {
+          "productSlug": "qure-liposomal-glutathion",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/glutathion"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/hyben-kapsler",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "healthwell-hyben-ekstrakt",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/hyben-kapsler",
+            "/sundhed-velvaere/kosttilskud-til-led"
+          ]
+        },
+        {
+          "productSlug": "litomove-kapsler",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/hyben-kapsler"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/ingefaer-pulver",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "sonnentor-ingefaer-pulver",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/ingefaer-pulver"
+          ]
+        },
+        {
+          "productSlug": "wellaware-ingefaerpulver",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/ingefaer-pulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/lions-mane",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "four-sigmatic-kaffe-instant",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/lions-mane"
+          ]
+        },
+        {
+          "productSlug": "four-sigmatic-elixir-instant-lions-mane",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/lions-mane"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/reishi",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "pureness-premium-research-reishiekstrakt",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/reishi"
+          ]
+        },
+        {
+          "productSlug": "rawpowder-reishi-svampepulver",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/reishi"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/multivitamin-born",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "active-care-vitaminbjorne",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin-born"
+          ]
+        },
+        {
+          "productSlug": "healthwell-kids-multivitamin",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin-born"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/multivitamin-gravid-amning",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "helhetshaelsa-mammaoptimal",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin-gravid-amning"
+          ]
+        },
+        {
+          "productSlug": "solgar-female-multiple",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin-gravid-amning"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/multivitamin-kvinde",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "thorne-womens-multi-50",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin-kvinde"
+          ]
+        },
+        {
+          "productSlug": "healthwell-healthwell-active-multivitamin-kvinde",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin-kvinde"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/vitamin-b2-riboflavin",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "healthwell-b2-vitamin-100",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/vitamin-b2-riboflavin"
+          ]
+        },
+        {
+          "productSlug": "naerokaellan-b2-riboflavin-100-mg",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/vitaminer/vitamin-b2-riboflavin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/vitamin-b6",
+      "status": "open",
+      "brokenCount": 2,
+      "products": [
+        {
+          "productSlug": "healthwell-vitamin-b6",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/vitaminer/vitamin-b6"
+          ]
+        },
+        {
+          "productSlug": "better-you-premium-vitamin-b6",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/vitamin-b6"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/mineraler/kobber-tabletter",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "holistic-koppar",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/mineraler/kobber-tabletter"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/mineraler/msm",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "holistic-msm",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/mineraler/msm"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/fiskeolie",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-omega-3-fiskeolie",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/fiskeolie"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/kaempenatlysolie",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-gla-kaempe-natlysolie-oko",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/kaempenatlysolie"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/kokosolie",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "biofood-duftfri-kokosolie",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/kokosolie"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/krillolie",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "naerokaellan-krillolie",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/krillolie"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/lecithin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "lecithin-pulver",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/lecithin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/omega-fedtsyrer/omega-3",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-omega-3-plus",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/omega-fedtsyrer/omega-3"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/aggeprotein",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "core-egg-protein",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/protein-traening/aggeprotein"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/arteprotein",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-arteprotein",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/arteprotein"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/elektrolytter",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-active-mineral-og-vaeskebalance",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/elektrolytter"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/energibarer",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "power-sport-bar-crunchy",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/protein-traening/energibarer"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/eaa",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "better-you-premium-eaa",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/protein-traening/eaa"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/glutamin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "thorne-l-glutamine",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/protein-traening/glutamin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/glycin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-glycin-1000",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/protein-traening/glycin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/hamp-protein",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "holistic-hampeprotein",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/protein-traening/hamp-protein"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/proteinbarer",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "barbells-vegan-bar",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/proteinbarer"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/proteinpulver-uden-sodestoffer",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "holistic-hampaprotein",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/proteinpulver-uden-sodestoffer"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/sportsdrik",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "vitargo-electrolyte",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/protein-traening/sportsdrik"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/taurin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "thorne-taurine",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/protein-traening/taurin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/protein-traening/vegansk-proteinpulver",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "delta-nutrition-supreme-vegan-pro",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/protein-traening/vegansk-proteinpulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/acetyl-l-carnitin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "core-alc-pulver",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/acetyl-l-carnitin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/alfa-liponsyre",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "great-earth-alpha-lipoic-acid",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/alfa-liponsyre"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/aloe-vera-juice",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "nobe-aloe-vera",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/aloe-vera-juice"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/astaxanthin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "dr-mercola-astaxanthin",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/astaxanthin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/astragalus",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "terranova-astragalus",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/astragalus"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/bedste-maltidserstatning",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-heey-food-shake",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/bedste-maltidserstatning"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/boswellia",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "solgar-boswellia",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/boswellia"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/bukkehornsklover",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "weightworld-okologisk-bukkehorn",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/bukkehornsklover"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/byggraes",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "holistic-byggraes",
+          "statusCode": 410,
+          "testPosition": 3,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/byggraes"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/chaga",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "premium-research-chaga-extract",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/chaga"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/cholin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "naerokaellan-cholin-og-inositol",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/cholin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/fibertabletter",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "pharma-nord-bio-fiber",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/fibertabletter"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/fordojelsesenzym",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "gallbladder-enzymes-fra-dr-mercola",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/fordojelsesenzym"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/ginseng",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-ginseng",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/ginseng"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/glucomannan",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "allevo-weight-loss",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/glucomannan"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/gron-te",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "rawpowder-matcha-supreme",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/gron-te",
+            "/sundhed-velvaere/matchatilskud"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/gurkmeje",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "core-gurkemeje-pro",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/gurkmeje"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/hvedegraes-pulver",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "naerokaellan-hvedegraesjuicepulver",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/hvedegraes-pulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/hvidlogspiller",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "kyolic-original-600-mg",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/hvidlogspiller"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/kollagenpulver",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "rawpowder-fisk-collagen-plus",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/kollagenpulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-overgangsalderen",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "bidronning-gele",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/kosttilskud-til-overgangsalderen"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-veganere",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "multivitamin-vegansk",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/kosttilskud-til-veganere"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/l-theanin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "thorne-theanine",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/l-theanin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/maelkesyrebakterier",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "terranova-probiotic-complex",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/maelkesyrebakterier"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/moringa-tilskud",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "mother-earth-moringapulver-eko",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/moringa-tilskud"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/resveratrol",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "dr-mercola-purple-defense",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/resveratrol"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/schisandra",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "oertspecialisten-schizandra",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/schisandra"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/shiitake",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "rawpowder-shiitake-pulver-oko",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/shiitake"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/spirulina",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "kiki-health-organic-premium-spirulina-tablets",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/spirulina"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/sundhed-velvaere/super-greens-pulver",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "rawpowder-dulse-algeblanding-oko",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/sundhed-velvaere/super-greens-pulver"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/biotin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-biotin",
+          "statusCode": 410,
+          "testPosition": 2,
+          "categoryPageUrls": [
+            "/vitaminer/biotin",
+            "/vitaminer/vitaminer-til-har"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/c-vitamin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "dr-mercola-liposomal-vitamin-c",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/c-vitamin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/d-vitamin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "holistic-d3-vitamin-5000-ie",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/vitaminer/d-vitamin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/e-vitamin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "solgar-vitamin-e-268-mg",
+          "statusCode": 410,
+          "testPosition": 4,
+          "categoryPageUrls": [
+            "/vitaminer/e-vitamin"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/multivitamin",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-multivitamin-vegan",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/vitaminer/multivitamin",
+            "/vitaminer/vegansk-vitamin-d"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/vegansk-vitamin-d",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "healthwell-multivitamin-vegansk",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/vitaminer/vegansk-vitamin-d"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/vitamin-b1",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "vitamin-b1-100",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/vitaminer/vitamin-b1"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/vitamin-d3-k2",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "better-you-vitamin-d3-k2",
+          "statusCode": 410,
+          "testPosition": 5,
+          "categoryPageUrls": [
+            "/vitaminer/vitamin-d3-k2",
+            "/vitaminer/vitamin-k2"
+          ]
+        }
+      ]
+    },
+    {
+      "page": "/vitaminer/vitaminer-til-ojnene",
+      "status": "open",
+      "brokenCount": 1,
+      "products": [
+        {
+          "productSlug": "elexir-pharma-blue-eye",
+          "statusCode": 410,
+          "testPosition": 1,
+          "categoryPageUrls": [
+            "/vitaminer/vitaminer-til-ojnene"
+          ]
+        }
+      ]
+    }
+  ],
+  "greenPages": [
+    {
+      "page": "/mineraler/jern-tabletter",
+      "slug": "jern-tabletter",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/jod-tabletter",
+      "slug": "jod-tabletter",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/kalium",
+      "slug": "kalium",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/kalktabletter",
+      "slug": "kalktabletter",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/krom",
+      "slug": "krom",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/magnesium",
+      "slug": "magnesium",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/mangan",
+      "slug": "mangan",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/selen",
+      "slug": "selen",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/silica",
+      "slug": "silica",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/mineraler/zink",
+      "slug": "zink",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/omega-fedtsyrer/cla",
+      "slug": "cla",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/omega-fedtsyrer/mct-olie",
+      "slug": "mct-olie",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/arginin",
+      "slug": "arginin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/bcaa",
+      "slug": "bcaa",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/beta-alanin",
+      "slug": "beta-alanin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/energi-drik",
+      "slug": "energi-drik",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/kasein",
+      "slug": "kasein",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/koffeinfri-pwo",
+      "slug": "koffeinfri-pwo",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/koffeintabletter",
+      "slug": "koffeintabletter",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/kreatin",
+      "slug": "kreatin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/kulhydratpulver",
+      "slug": "kulhydratpulver",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/l-leucin",
+      "slug": "l-leucin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/lysin",
+      "slug": "lysin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/pre-workout",
+      "slug": "pre-workout",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/proteinpulver",
+      "slug": "proteinpulver",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/proteinpulver-til-restitution",
+      "slug": "proteinpulver-til-restitution",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/proteinpulver-til-vaegttab",
+      "slug": "proteinpulver-til-vaegttab",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/proteinpulver-uden-tilsat-sukker",
+      "slug": "proteinpulver-uden-tilsat-sukker",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/pwo-med-koffein",
+      "slug": "pwo-med-koffein",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/pwo-med-kreatin",
+      "slug": "pwo-med-kreatin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/risprotein",
+      "slug": "risprotein",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/sojaprotein",
+      "slug": "sojaprotein",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/testo-booster",
+      "slug": "testo-booster",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/tyrosin",
+      "slug": "tyrosin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/veganske-proteinbarer",
+      "slug": "veganske-proteinbarer",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/weight-gainer",
+      "slug": "weight-gainer",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/protein-traening/zma",
+      "slug": "zma",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/acai",
+      "slug": "acai",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/animalske-kosttilskud",
+      "slug": "animalske-kosttilskud",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/bedste-fedtforbraender",
+      "slug": "bedste-fedtforbraender",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/betain",
+      "slug": "betain",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/blabaertilskud",
+      "slug": "blabaertilskud",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/chiafro",
+      "slug": "chiafro",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/chlorella",
+      "slug": "chlorella",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/collagen-kapsler",
+      "slug": "collagen-kapsler",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/gaba",
+      "slug": "gaba",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/granataebletilskud",
+      "slug": "granataebletilskud",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/gron-te-piller",
+      "slug": "gron-te-piller",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/guarana",
+      "slug": "guarana",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/hormonel-balance-hos-kvinder",
+      "slug": "hormonel-balance-hos-kvinder",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/hormonel-balance-hos-maend",
+      "slug": "hormonel-balance-hos-maend",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/hyaluronsyre",
+      "slug": "hyaluronsyre",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/hybenpulver",
+      "slug": "hybenpulver",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/ingefaer-piller",
+      "slug": "ingefaer-piller",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/inositol",
+      "slug": "inositol",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-gummier",
+      "slug": "kosttilskud-gummier",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-mod-stress",
+      "slug": "kosttilskud-mod-stress",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-detox",
+      "slug": "kosttilskud-til-detox",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-hjertet",
+      "slug": "kosttilskud-til-hjertet",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-keto-diaet",
+      "slug": "kosttilskud-til-keto-diaet",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-led",
+      "slug": "kosttilskud-til-led",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-leveren",
+      "slug": "kosttilskud-til-leveren",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/kosttilskud-til-lob",
+      "slug": "kosttilskud-til-lob",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/loppefroskaller",
+      "slug": "loppefroskaller",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/matchatilskud",
+      "slug": "matchatilskud",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/nad",
+      "slug": "nad",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/olivenbladsekstrakt",
+      "slug": "olivenbladsekstrakt",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/probiotika",
+      "slug": "probiotika",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/q10",
+      "slug": "q10",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/quercetin",
+      "slug": "quercetin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/rodbedepulver",
+      "slug": "rodbedepulver",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/shirataki-nudler",
+      "slug": "shirataki-nudler",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/slankepiller",
+      "slug": "slankepiller",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/tranebaerkapsler",
+      "slug": "tranebaerkapsler",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/tribulus-terrestris",
+      "slug": "tribulus-terrestris",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/sundhed-velvaere/vanddrivende-piller",
+      "slug": "vanddrivende-piller",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/b-vitamin",
+      "slug": "b-vitamin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/betacaroten",
+      "slug": "betacaroten",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/folinsyre",
+      "slug": "folinsyre",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/lutein",
+      "slug": "lutein",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/lycopen",
+      "slug": "lycopen",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/multivitamin-til-maend",
+      "slug": "multivitamin-til-maend",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/niacin",
+      "slug": "niacin",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/pantotensyre",
+      "slug": "pantotensyre",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/vitamin-b12",
+      "slug": "vitamin-b12",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/vitamin-k2",
+      "slug": "vitamin-k2",
+      "status": "green",
+      "brokenCount": 0
+    },
+    {
+      "page": "/vitaminer/vitaminer-til-har",
+      "slug": "vitaminer-til-har",
+      "status": "green",
+      "brokenCount": 0
+    }
+  ]
+}

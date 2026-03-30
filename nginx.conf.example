@@ -1,0 +1,109 @@
+# Nginx-konfiguration for kosttilskudsvalg.dk
+# Kopiera till: /etc/nginx/sites-available/kosttilskudsvalg
+# Symlink:      ln -s /etc/nginx/sites-available/kosttilskudsvalg /etc/nginx/sites-enabled/
+
+# HTTP -> HTTPS redirect
+server {
+    listen 80;
+    server_name kosttilskudsvalg.dk www.kosttilskudsvalg.dk;
+    return 301 https://www.kosttilskudsvalg.dk$request_uri;
+}
+
+# non-www -> www redirect (HTTPS)
+server {
+    listen 443 ssl http2;
+    server_name kosttilskudsvalg.dk;
+
+    ssl_certificate /etc/letsencrypt/live/kosttilskudsvalg.dk/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/kosttilskudsvalg.dk/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    return 301 https://www.kosttilskudsvalg.dk$request_uri;
+}
+
+# Huvudserver (www)
+server {
+    listen 443 ssl http2;
+    server_name www.kosttilskudsvalg.dk;
+
+    ssl_certificate /etc/letsencrypt/live/kosttilskudsvalg.dk/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/kosttilskudsvalg.dk/privkey.pem;
+    include /etc/letsencrypt/options-ssl-nginx.conf;
+    ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem;
+
+    # Gzip
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1024;
+    gzip_proxied any;
+    gzip_types text/plain text/css text/xml text/javascript application/javascript application/json application/xml+rss image/svg+xml;
+
+    # Security headers
+    add_header X-Frame-Options "SAMEORIGIN" always;
+    add_header X-Content-Type-Options "nosniff" always;
+    add_header X-XSS-Protection "1; mode=block" always;
+    add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+
+    # Statiska filer - lang cache (1 ar)
+    location ~* \.(jpg|jpeg|png|gif|ico|svg|webp|avif|woff|woff2|ttf|eot|css|js)$ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+
+        add_header Cache-Control "public, max-age=31536000, immutable";
+        add_header X-Frame-Options "SAMEORIGIN" always;
+        add_header X-Content-Type-Options "nosniff" always;
+    }
+
+    # Next.js statiska filer (_next/static)
+    location /_next/static/ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+
+    # Bilder i public-mappen
+    location ~* ^/(vendor|images|generated|authors)/ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+
+        add_header Cache-Control "public, max-age=2592000";
+    }
+
+    # API-routes - ingen cache
+    location /api/ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cache_bypass $http_upgrade;
+
+        add_header Cache-Control "no-store, no-cache, must-revalidate";
+    }
+
+    # Allt annat (HTML-sidor)
+    location / {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_cache_bypass $http_upgrade;
+
+        add_header Cache-Control "public, max-age=0, s-maxage=3600, stale-while-revalidate=86400";
+    }
+}
