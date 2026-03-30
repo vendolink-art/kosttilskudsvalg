@@ -47,6 +47,9 @@ kostmagasinet_dk-db-*.sql
 deploy.log
 .deploy-cache/
 
+# adtraction transaction dedup
+/data/transactions.json
+
 # test artifacts
 test_*.js
 test_*.txt

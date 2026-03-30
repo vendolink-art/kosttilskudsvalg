@@ -47,10 +47,10 @@ export default async function Page() {
                   Se vores metode
                 </Link>
                 <Link
-                  href="/kosttilskud"
+                  href="/sidekort"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-300 bg-white px-5 py-2.5 text-sm font-medium text-slate-700 transition hover:bg-slate-50"
                 >
-                  Find det rigtige tilskud
+                  Udforsk alle kategorier
                 </Link>
               </div>
 
@@ -87,7 +87,7 @@ export default async function Page() {
               <h2 className="text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl">
                 Seneste tester & opdateringer
               </h2>
-              <Link href="/kosttilskud" className="hidden text-sm font-medium text-green-700 hover:text-green-800 sm:flex sm:items-center sm:gap-1">
+              <Link href="/guider" className="hidden text-sm font-medium text-green-700 hover:text-green-800 sm:flex sm:items-center sm:gap-1">
                 Vis alle
                 <svg className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" /></svg>
               </Link>
@@ -174,7 +174,7 @@ export default async function Page() {
               icon={Beaker}
               title="Pris pr. dagsdosis & ingrediensprofil"
               desc="Vi beregner den reelle pris pr. dagsdosis og analyserer aktive ingredienser, ikke kun det producenten fremhæver."
-              link={{ label: "Se et eksempel", href: "/kosttilskud" }}
+              link={{ label: "Se et eksempel", href: "/protein-traening/kreatin" }}
             />
             <FeatureBlock
               icon={BookOpen}
