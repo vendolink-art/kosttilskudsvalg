@@ -1,31 +1,12 @@
-import { promises as fs } from "fs"
-import path from "path"
 import { getAllGuides } from "@/lib/mdx"
 import { categoryToPath } from "@/config/nav"
 import { SILOS, SLUG_TO_SILO } from "@/lib/silo-config"
 
 const BASE = "https://www.kosttilskudsvalg.dk"
 
-async function getProductSlugs(): Promise<string[]> {
-  const dir = path.join(
-    process.cwd(), "src", "app", "(da)", "kosttilskud", "produkter",
-  )
-  try {
-    const entries = await fs.readdir(dir, { withFileTypes: true })
-    return entries
-      .filter((e) => e.isDirectory() && !e.name.startsWith("["))
-      .map((e) => e.name)
-  } catch {
-    return []
-  }
-}
-
 export default async function sitemap() {
   const now = new Date().toISOString()
-  const [guides, productSlugs] = await Promise.all([
-    getAllGuides(),
-    getProductSlugs(),
-  ])
+  const guides = await getAllGuides()
 
   const guideUrls = guides.map((g) => ({
     url: `${BASE}/${categoryToPath(g.category)}/${g.slug}`,
@@ -48,13 +29,6 @@ export default async function sitemap() {
     priority: 0.85,
   }))
 
-  const productUrls = productSlugs.map((slug) => ({
-    url: `${BASE}/kosttilskud/produkter/${slug}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }))
-
   return [
     { url: BASE, lastModified: now, changeFrequency: "daily" as const, priority: 1 },
     { url: `${BASE}/kosttilskud`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.6 },
@@ -72,6 +46,5 @@ export default async function sitemap() {
     { url: `${BASE}/cookies`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.2 },
 
     ...guideUrls,
-    ...productUrls,
   ]
 }
