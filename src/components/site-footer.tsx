@@ -84,9 +84,9 @@ export function SiteFooter() {
                 </Link>
               </li>
               <li>
-                <a href="/sitemap.xml" className="text-sm text-slate-700 hover:text-slate-900 hover:underline underline-offset-4">
-                  Sitemap
-                </a>
+                <Link href="/sidekort" className="text-sm text-slate-700 hover:text-slate-900 hover:underline underline-offset-4">
+                  Sidekort
+                </Link>
               </li>
             </ul>
           </nav>

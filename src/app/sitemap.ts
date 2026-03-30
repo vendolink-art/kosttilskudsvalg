@@ -44,6 +44,7 @@ export default async function sitemap() {
     { url: `${BASE}/kontakt`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.4 },
     { url: `${BASE}/integritet`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.2 },
     { url: `${BASE}/cookies`, lastModified: now, changeFrequency: "monthly" as const, priority: 0.2 },
+    { url: `${BASE}/sidekort`, lastModified: now, changeFrequency: "weekly" as const, priority: 0.4 },
 
     ...guideUrls,
   ]
