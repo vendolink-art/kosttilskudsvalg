@@ -2,6 +2,9 @@ import { getAllGuides } from "@/lib/mdx"
 import { categoryToPath } from "@/config/nav"
 import { SILOS, SLUG_TO_SILO } from "@/lib/silo-config"
 
+export const dynamic = "force-static"
+export const revalidate = 86400
+
 const BASE = "https://www.kosttilskudsvalg.dk"
 
 export default async function sitemap() {
