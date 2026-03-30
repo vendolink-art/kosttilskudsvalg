@@ -65,7 +65,7 @@ check-links.ts
 
 # misc one-off files
 HYBRID_MIGRATION_PLAYBOOK.md
-prompts/
+/prompts/
 
 # temp test/debug scripts and files
 test-404-*.js
