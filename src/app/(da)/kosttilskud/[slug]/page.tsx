@@ -10,7 +10,7 @@ import { Breadcrumbs } from "@/components/breadcrumbs"
 import { ProductCard } from "@/components/product-card"
 import { ProsCons } from "@/components/pros-cons"
 import { FAQ } from "@/components/faq"
-import { ProductRating } from "@/components/product-rating"
+import { ProductRating, RatingBar } from "@/components/product-rating"
 import { ComparisonTable } from "@/components/comparison-table"
 import { EditorialSignoff } from "@/components/editorial-signoff"
 import { MethodBox } from "@/components/method-box"
@@ -74,6 +74,7 @@ async function getCategoryContent(slug: string) {
         ProsCons,
         FAQ,
         ProductRating,
+        RatingBar,
         ComparisonTable,
         Breadcrumbs,
         EditorialSignoff,

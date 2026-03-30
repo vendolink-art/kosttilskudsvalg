@@ -10,7 +10,7 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { ProductCard } from "@/components/product-card";
 import { ProsCons } from "@/components/pros-cons";
 import { FAQ } from "@/components/faq";
-import { ProductRating } from "@/components/product-rating";
+import { ProductRating, RatingBar } from "@/components/product-rating";
 import { ComparisonTable } from "@/components/comparison-table";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { ProductFit } from "@/components/product-fit";
@@ -238,6 +238,7 @@ export const getGuideBySlug = cache(async (slug: string) => {
       ProsCons,
       FAQ,
       ProductRating,
+      RatingBar,
       ComparisonTable,
       Breadcrumbs,
       Toc,
