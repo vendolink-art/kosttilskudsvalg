@@ -1,11 +1,7 @@
 import { permanentRedirect } from "next/navigation"
 import { getSiloForSlug } from "@/lib/silo-config"
-import { getCategorySlugs } from "@/lib/static-params"
 
-export async function generateStaticParams() {
-  const slugs = await getCategorySlugs()
-  return slugs.map((slug) => ({ slug }))
-}
+export const dynamic = "force-dynamic"
 
 interface PageProps {
   params: Promise<{ slug: string }>
