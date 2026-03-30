@@ -22,6 +22,12 @@ import { EvidenceTable } from "@/components/evidence-table"
 import { SegmentPicker } from "@/components/segment-picker"
 import type { Metadata } from "next"
 import type { Frontmatter } from "@/lib/mdx"
+import { getProductSlugs } from "@/lib/static-params"
+
+export async function generateStaticParams() {
+  const slugs = await getProductSlugs()
+  return slugs.map((slug) => ({ slug }))
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>

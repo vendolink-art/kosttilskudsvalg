@@ -44,6 +44,12 @@ import { ScenarioBoxes } from "@/components/methodology/scenario-boxes"
 import { DifferenceHighlights } from "@/components/methodology/difference-highlights"
 import type { Metadata } from "next"
 import type { Frontmatter } from "@/lib/mdx"
+import { getCategorySlugs } from "@/lib/static-params"
+
+export async function generateStaticParams() {
+  const slugs = await getCategorySlugs()
+  return slugs.map((slug) => ({ slug }))
+}
 
 interface PageProps {
   params: Promise<{ slug: string }>

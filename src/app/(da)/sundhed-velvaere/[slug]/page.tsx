@@ -1,5 +1,11 @@
 import type { Metadata } from "next"
 import { generateSiloPageMetadata, SiloCategoryPage } from "@/lib/category-page-handler"
+import { getSiloCategorySlugs } from "@/lib/static-params"
+
+export async function generateStaticParams() {
+  const slugs = await getSiloCategorySlugs("sundhed-velvaere")
+  return slugs.map((slug) => ({ slug }))
+}
 
 interface PageProps { params: Promise<{ slug: string }> }
 
