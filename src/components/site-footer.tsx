@@ -83,6 +83,11 @@ export function SiteFooter() {
                   Annonce- &amp; affiliatepolitik
                 </Link>
               </li>
+              <li>
+                <a href="/sitemap.xml" className="text-sm text-slate-700 hover:text-slate-900 hover:underline underline-offset-4">
+                  Sitemap
+                </a>
+              </li>
             </ul>
           </nav>
 
