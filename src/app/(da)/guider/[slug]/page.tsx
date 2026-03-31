@@ -25,6 +25,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: meta.meta_title || meta.title,
       description: meta.description,
+      alternates: {
+        canonical: `https://www.kosttilskudsvalg.dk/guider/${slug}`,
+      },
     }
   } catch {
     return { title: "Guide ikke fundet" }
