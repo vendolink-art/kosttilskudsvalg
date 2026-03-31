@@ -56,7 +56,7 @@ import { TestSteps } from "@/components/methodology/test-steps"
 import { MeasurementPoints } from "@/components/methodology/measurement-points"
 import { ScenarioBoxes } from "@/components/methodology/scenario-boxes"
 import { DifferenceHighlights } from "@/components/methodology/difference-highlights"
-import { CommentSection } from "@/components/comment-section"
+
 
 const MDX_COMPONENTS = {
   ProductCard, ProsCons, FAQ, ProductRating, RatingBar, ComparisonTable, Breadcrumbs,
@@ -68,7 +68,6 @@ const MDX_COMPONENTS = {
   SupplementStacking, SupplementRoutine, ConsumerProfiles,
   DosageGuide, CommonMistakes, TestSteps, MeasurementPoints,
   ScenarioBoxes, DifferenceHighlights,
-  CommentSection,
 }
 
 /** Read & compile MDX from the original kosttilskud directory */

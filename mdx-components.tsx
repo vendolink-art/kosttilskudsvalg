@@ -46,8 +46,7 @@ import { ConsumerProfiles } from "@/components/buying-guide/consumer-profiles"
 import { DosageGuide } from "@/components/buying-guide/dosage-guide"
 import { CommonMistakes } from "@/components/buying-guide/common-mistakes"
 
-// Comments
-import { CommentSection } from "@/components/comment-section"
+
 
 // Methodology
 import { TestSteps } from "@/components/methodology/test-steps"
@@ -98,8 +97,6 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ConsumerProfiles,
     DosageGuide,
     CommonMistakes,
-    // Comments
-    CommentSection,
     // Methodology
     TestSteps,
     MeasurementPoints,

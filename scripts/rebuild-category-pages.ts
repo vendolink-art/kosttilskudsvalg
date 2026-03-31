@@ -6609,7 +6609,6 @@ async function buildCompleteMDX(p: BuildParams): Promise<string> {
   lines.push(`    </div>`)
   
   lines.push(`  </div>`)
-  lines.push(`  <CommentSection />`)
   lines.push(`</div>`)
   lines.push(``)
 
