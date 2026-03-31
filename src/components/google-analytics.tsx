@@ -1,11 +1,34 @@
 "use client"
 
 import Script from "next/script"
+import { useState, useEffect } from "react"
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID
+const COOKIE_CONSENT_KEY = "cookie-consent"
 
 export function GoogleAnalytics() {
-  if (!GA_MEASUREMENT_ID) return null
+  const [hasConsent, setHasConsent] = useState(false)
+
+  useEffect(() => {
+    const check = () => {
+      setHasConsent(localStorage.getItem(COOKIE_CONSENT_KEY) === "accepted")
+    }
+    check()
+
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === COOKIE_CONSENT_KEY) check()
+    }
+    window.addEventListener("storage", onStorage)
+
+    const interval = setInterval(check, 1000)
+
+    return () => {
+      window.removeEventListener("storage", onStorage)
+      clearInterval(interval)
+    }
+  }, [])
+
+  if (!GA_MEASUREMENT_ID || !hasConsent) return null
 
   return (
     <>

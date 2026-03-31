@@ -1,5 +1,4 @@
 import { getAllGuides } from "@/lib/mdx"
-import { categoryToPath } from "@/config/nav"
 import { SILOS, SLUG_TO_SILO } from "@/lib/silo-config"
 
 export const dynamic = "force-static"
@@ -11,12 +10,14 @@ export default async function sitemap() {
   const now = new Date().toISOString()
   const guides = await getAllGuides()
 
-  const guideUrls = guides.map((g) => ({
-    url: `${BASE}/${categoryToPath(g.category)}/${g.slug}`,
-    lastModified: g.updated || g.date || now,
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }))
+  const guideUrls = guides
+    .filter((g) => (g.category || "").toLowerCase() === "guider")
+    .map((g) => ({
+      url: `${BASE}/guider/${g.slug}`,
+      lastModified: g.updated || g.date || now,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    }))
 
   const siloHubUrls = Object.values(SILOS).map((silo) => ({
     url: `${BASE}${silo.href}`,

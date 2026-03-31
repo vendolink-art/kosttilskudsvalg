@@ -36,11 +36,8 @@ async function validateSessionToken(token: string, secret: string, username: str
 
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
-  const sessionSecret = requireEnvMiddleware("SESSION_SECRET")
-  const adminUsername = requireEnvMiddleware("ADMIN_USERNAME")
-  const adminPassword = requireEnvMiddleware("ADMIN_PASSWORD")
 
-  // Silo redirect: /kosttilskud/<slug> → /<silo>/<slug>
+  // Silo redirect: /kosttilskud/<slug> → /<silo>/<slug> (public, no env needed)
   const kosttilskudMatch = pathname.match(/^\/kosttilskud\/([^/]+)$/)
   if (kosttilskudMatch) {
     const slug = kosttilskudMatch[1]
@@ -52,20 +49,16 @@ export async function middleware(request: NextRequest) {
     }
   }
 
-  // Beskyt /admin routes (undtagen login)
-  if (pathname.startsWith("/admin") && !pathname.startsWith("/admin/login")) {
-    const sessionCookie = request.cookies.get(SESSION_COOKIE_NAME)
-    const isValid = sessionCookie?.value &&
-      await validateSessionToken(sessionCookie.value, sessionSecret, adminUsername, adminPassword)
-    if (!isValid) {
-      const loginUrl = new URL("/admin/login", request.url)
-      loginUrl.searchParams.set("redirect", pathname)
-      return NextResponse.redirect(loginUrl)
-    }
-  }
+  // Admin auth (only load env for protected routes)
+  const needsAuth =
+    (pathname.startsWith("/admin") && !pathname.startsWith("/admin/login")) ||
+    /\/kosttilskud\/[^/]+\/edit/.test(pathname)
 
-  // Beskyt /kosttilskud/*/edit routes
-  if (pathname.match(/\/kosttilskud\/[^/]+\/edit/)) {
+  if (needsAuth) {
+    const sessionSecret = requireEnvMiddleware("SESSION_SECRET")
+    const adminUsername = requireEnvMiddleware("ADMIN_USERNAME")
+    const adminPassword = requireEnvMiddleware("ADMIN_PASSWORD")
+
     const sessionCookie = request.cookies.get(SESSION_COOKIE_NAME)
     const isValid = sessionCookie?.value &&
       await validateSessionToken(sessionCookie.value, sessionSecret, adminUsername, adminPassword)
