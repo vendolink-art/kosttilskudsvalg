@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Privatlivspolitik – Kosttilskudsvalg",
   description: "Læs Kosttilskudsvalgs privatlivspolitik og cookiepolitik.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/integritet" },
+  openGraph: {
+    title: "Privatlivspolitik – Kosttilskudsvalg",
+    description: "Læs Kosttilskudsvalgs privatlivspolitik og cookiepolitik.",
+    url: "https://www.kosttilskudsvalg.dk/integritet",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function IntegritetPage() {

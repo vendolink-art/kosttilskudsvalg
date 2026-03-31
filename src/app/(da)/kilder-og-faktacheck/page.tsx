@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Kilder & faktacheck – Kosttilskudsvalg",
   description: "Vores kildepolitik: hvordan vi udvælger, verificerer og prioriterer kilder. Sådan faktachecker vi sundhedspåstande.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/kilder-og-faktacheck" },
+  openGraph: {
+    title: "Kilder & faktacheck – Kosttilskudsvalg",
+    description: "Vores kildepolitik: hvordan vi udvælger, verificerer og prioriterer kilder. Sådan faktachecker vi sundhedspåstande.",
+    url: "https://www.kosttilskudsvalg.dk/kilder-og-faktacheck",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function KilderPage() {

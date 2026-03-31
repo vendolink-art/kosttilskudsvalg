@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Kontakt – Kosttilskudsvalg",
   description: "Kontakt Kosttilskudsvalgs redaktion. Vi svarer på spørgsmål om vores analyser, rettelser og samarbejde.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/kontakt" },
+  openGraph: {
+    title: "Kontakt – Kosttilskudsvalg",
+    description: "Kontakt Kosttilskudsvalgs redaktion. Vi svarer på spørgsmål om vores analyser, rettelser og samarbejde.",
+    url: "https://www.kosttilskudsvalg.dk/kontakt",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function KontaktPage() {

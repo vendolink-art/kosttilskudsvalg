@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Annonce- & affiliatepolitik – Kosttilskudsvalg",
   description: "Sådan tjener Kosttilskudsvalg penge, hvordan affiliatelinks markeres, og hvordan vi sikrer uafhængige vurderinger.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/annoncer-og-affiliate" },
+  openGraph: {
+    title: "Annonce- & affiliatepolitik – Kosttilskudsvalg",
+    description: "Sådan tjener Kosttilskudsvalg penge, hvordan affiliatelinks markeres, og hvordan vi sikrer uafhængige vurderinger.",
+    url: "https://www.kosttilskudsvalg.dk/annoncer-og-affiliate",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function AffiliatePolicy() {

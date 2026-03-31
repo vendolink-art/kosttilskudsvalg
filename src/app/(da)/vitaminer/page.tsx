@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description:
     "Find de bedste vitamintilskud med vores uafhængige tests. Vi sammenligner D-vitamin, C-vitamin, B-vitaminer, multivitaminer og 25 kategorier med fast metodik.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/vitaminer" },
+  openGraph: {
+    title: "Vitaminer – Uafhængige tests og sammenligninger (2026)",
+    description: "Find de bedste vitamintilskud med vores uafhængige tests. Vi sammenligner D-vitamin, C-vitamin, B-vitaminer, multivitaminer og 25 kategorier med fast metodik.",
+    url: "https://www.kosttilskudsvalg.dk/vitaminer",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 interface CatItem { label: string; href: string; slug: string; desc: string }

@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Redaktion – Hvem skriver og faktatjekker indholdet",
   description: "Mød redaktionen bag Kosttilskudsvalg: navngivne skribenter, faglige reviewere og deres kvalifikationer. Transparens om hvem der står bag vores analyser.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/redaktion" },
+  openGraph: {
+    title: "Redaktion – Hvem skriver og faktatjekker indholdet",
+    description: "Mød redaktionen bag Kosttilskudsvalg: navngivne skribenter, faglige reviewere og deres kvalifikationer.",
+    url: "https://www.kosttilskudsvalg.dk/redaktion",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function RedaktionPage() {

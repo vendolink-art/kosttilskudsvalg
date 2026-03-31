@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description:
     "Find de bedste omega-3 og fedtsyretilskud med vores uafhængige tests. Vi sammenligner fiskeolie, krillolie, MCT-olie, vegansk omega-3 og 9 kategorier med fast metodik.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/omega-fedtsyrer" },
+  openGraph: {
+    title: "Omega & Fedtsyrer – Uafhængige tests og sammenligninger (2026)",
+    description: "Find de bedste omega-3 og fedtsyretilskud med vores uafhængige tests. Vi sammenligner fiskeolie, krillolie, MCT-olie, vegansk omega-3 og 9 kategorier med fast metodik.",
+    url: "https://www.kosttilskudsvalg.dk/omega-fedtsyrer",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 interface CatItem { label: string; href: string; slug: string; desc: string }

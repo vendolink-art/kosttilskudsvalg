@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description:
     "Find de bedste mineraltilskud med vores uafhængige tests. Vi sammenligner magnesium, zink, jern, calcium, selen og 13 kategorier med fast metodik.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/mineraler" },
+  openGraph: {
+    title: "Mineraler – Uafhængige tests og sammenligninger (2026)",
+    description: "Find de bedste mineraltilskud med vores uafhængige tests. Vi sammenligner magnesium, zink, jern, calcium, selen og 13 kategorier med fast metodik.",
+    url: "https://www.kosttilskudsvalg.dk/mineraler",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 interface CatItem { label: string; href: string; slug: string; desc: string }

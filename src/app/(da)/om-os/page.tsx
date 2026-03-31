@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Om Kosttilskudsvalg – Hvem vi er, og hvorfor vi findes",
   description: "Konkret information om Kosttilskudsvalg: hvem vi er, hvordan vi finansieres, vores redaktionelle model og hvad vi ikke gør.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/om-os" },
+  openGraph: {
+    title: "Om Kosttilskudsvalg – Hvem vi er, og hvorfor vi findes",
+    description: "Konkret information om Kosttilskudsvalg: hvem vi er, hvordan vi finansieres, vores redaktionelle model og hvad vi ikke gør.",
+    url: "https://www.kosttilskudsvalg.dk/om-os",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function OmOsPage() {

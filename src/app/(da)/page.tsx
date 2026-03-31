@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { getAllGuides } from "@/lib/mdx"
 import { categoryToPath } from "@/config/nav"
+import { SLUG_TO_SILO } from "@/lib/silo-config"
 import { AUTHORS } from "@/config/authors"
 import { GuideCard } from "@/components/guide-card"
 import { Beaker, ShieldCheck, BarChart3, BookOpen, Users, ClipboardCheck } from "lucide-react"
@@ -94,8 +95,8 @@ export default async function Page() {
             </div>
             <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {guides.map(g => {
-                const cat = categoryToPath(g.category)
-                // Generate a fallback update note if none is provided in frontmatter
+                const silo = SLUG_TO_SILO[g.slug]
+                const href = silo ? `/${silo}/${g.slug}` : `/${categoryToPath(g.category)}/${g.slug}`
                 let note = g.update_note
                 if (!note) {
                   if (g.date === g.updated || !g.updated) {
@@ -105,7 +106,7 @@ export default async function Page() {
                   }
                 }
                 
-                return <GuideCard key={g.slug} title={g.title} href={`/${cat}/${g.slug}`} category={g.category} updated={g.updated || g.date} banner={g.banner} updateNote={note} />
+                return <GuideCard key={g.slug} title={g.title} href={href} category={g.category} updated={g.updated || g.date} banner={g.banner} updateNote={note} />
               })}
             </ul>
           </section>

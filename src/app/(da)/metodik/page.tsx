@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: "Metodik – Sådan vurderer vi kosttilskud",
   description: "Vores metodik forklaret: kriterier, vægtning, kilder, scoring og opdateringspolitik. Transparens om hvordan vi analyserer og sammenligner kosttilskud.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/metodik" },
+  openGraph: {
+    title: "Metodik – Sådan vurderer vi kosttilskud",
+    description: "Vores metodik forklaret: kriterier, vægtning, kilder, scoring og opdateringspolitik.",
+    url: "https://www.kosttilskudsvalg.dk/metodik",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function MetodikPage() {

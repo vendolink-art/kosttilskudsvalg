@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description:
     "Find de bedste sundheds- og velværetilskud med vores uafhængige tests. Vi sammenligner probiotika, kollagen, ashwagandha, svampe, urter og 80+ kategorier med fast metodik.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/sundhed-velvaere" },
+  openGraph: {
+    title: "Sundhed & Velvære – Uafhængige tests og sammenligninger (2026)",
+    description: "Find de bedste sundheds- og velværetilskud med vores uafhængige tests. Vi sammenligner probiotika, kollagen, ashwagandha, svampe, urter og 80+ kategorier.",
+    url: "https://www.kosttilskudsvalg.dk/sundhed-velvaere",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 interface CatItem { label: string; href: string; slug: string; desc: string }

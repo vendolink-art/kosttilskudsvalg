@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   description:
     "Find det bedste proteinpulver, kreatin, pre-workout og BCAA. Vi sammenligner 40+ kategorier af træningstilskud med fast metodik – aminosyreprofil, dosering og pris pr. portion.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/protein-traening" },
+  openGraph: {
+    title: "Protein & Træning – Uafhængige tests og sammenligninger (2026)",
+    description: "Find det bedste proteinpulver, kreatin, pre-workout og BCAA. Vi sammenligner 40+ kategorier af træningstilskud med fast metodik.",
+    url: "https://www.kosttilskudsvalg.dk/protein-traening",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 /* ------------------------------------------------------------------ */

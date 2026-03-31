@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   title: "Guider – Dybdegående viden om kosttilskud",
   description: "Ekspertguider om kosttilskud, ernæring og sundhed. Evidensbaseret viden om vitaminer, protein, superfoods, omega-3 og meget mere.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/guider" },
+  openGraph: {
+    title: "Guider – Dybdegående viden om kosttilskud",
+    description: "Ekspertguider om kosttilskud, ernæring og sundhed. Evidensbaseret viden om vitaminer, protein, superfoods, omega-3 og meget mere.",
+    url: "https://www.kosttilskudsvalg.dk/guider",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 function formatDate(d: string | undefined): string {

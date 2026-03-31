@@ -5,6 +5,14 @@ export const metadata: Metadata = {
   title: "Cookiepolitik – Kosttilskudsvalg",
   description: "Læs om hvilke cookies Kosttilskudsvalg bruger, og hvordan du kan administrere dem.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/cookies" },
+  openGraph: {
+    title: "Cookiepolitik – Kosttilskudsvalg",
+    description: "Læs om hvilke cookies Kosttilskudsvalg bruger, og hvordan du kan administrere dem.",
+    url: "https://www.kosttilskudsvalg.dk/cookies",
+    type: "website",
+    locale: "da_DK",
+    siteName: "Kosttilskudsvalg",
+  },
 }
 
 export default function CookiesPage() {
