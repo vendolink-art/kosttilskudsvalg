@@ -6609,9 +6609,7 @@ async function buildCompleteMDX(p: BuildParams): Promise<string> {
   lines.push(`    </div>`)
   
   lines.push(`  </div>`)
-  lines.push(`  <div className="mt-8 border-t border-slate-100 pt-6">`)
-  lines.push(`    <button className="w-full md:w-auto px-6 py-3 bg-white border border-slate-300 rounded-xl text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors">Stil et spørgsmål</button>`)
-  lines.push(`  </div>`)
+  lines.push(`  <CommentSection />`)
   lines.push(`</div>`)
   lines.push(``)
 

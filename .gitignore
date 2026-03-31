@@ -50,6 +50,9 @@ deploy.log
 # adtraction transaction dedup
 /data/transactions.json
 
+# user-generated comments
+/data/comments.json
+
 # test artifacts
 test_*.js
 test_*.txt
