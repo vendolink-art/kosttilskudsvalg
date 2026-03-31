@@ -17,6 +17,7 @@ import rehypeAutolinkHeadings from "rehype-autolink-headings"
 import type { Metadata } from "next"
 import type { Frontmatter } from "@/lib/mdx"
 import { SLUG_TO_SILO, SILOS, type SiloId } from "@/lib/silo-config"
+import { getAuthor } from "@/config/authors"
 
 // ── Components ────────────────────────────────────────────────────
 import { Breadcrumbs } from "@/components/breadcrumbs"
@@ -114,6 +115,7 @@ export async function generateSiloPageMetadata(
     openGraph: {
       title,
       description,
+      url: `https://www.kosttilskudsvalg.dk/${siloId}/${slug}`,
       type: "article",
       locale: "da_DK",
       siteName: "Kosttilskudsvalg",
@@ -147,6 +149,7 @@ export async function SiloCategoryPage({
   const silo = SILOS[siloId]
   const updated = frontmatter.updated || frontmatter.date || ""
   const author = frontmatter.author || "line-kragelund"
+  const authorData = getAuthor(author)
   const visibleH1 = frontmatter.h1 || frontmatter.title
   const slogan = frontmatter.tagline || frontmatter.slogan || ""
   const bannerFromMeta = frontmatter.banner as string | undefined
@@ -230,12 +233,13 @@ export async function SiloCategoryPage({
               "@context": "https://schema.org",
               "@type": "Article",
               headline: frontmatter.title,
-              description: frontmatter.description,
+              description: frontmatter.description || `Uafhængig analyse og sammenligning af ${(frontmatter.title || "").toLowerCase()} på det danske marked.`,
+              url: `https://www.kosttilskudsvalg.dk/${siloId}/${slug}`,
               datePublished: frontmatter.date,
               dateModified: updated,
               author: {
                 "@type": "Person",
-                name: "Line Kragelund",
+                name: authorData?.name || "Line Kragelund",
                 url: "https://www.kosttilskudsvalg.dk/redaktion",
               },
               publisher: {

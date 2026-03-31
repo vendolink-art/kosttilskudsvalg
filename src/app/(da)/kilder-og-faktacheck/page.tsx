@@ -5,6 +5,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Kilder & faktacheck – Kosttilskudsvalg",
   description: "Vores kildepolitik: hvordan vi udvælger, verificerer og prioriterer kilder. Sådan faktachecker vi sundhedspåstande.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/kilder-og-faktacheck" },
 }
 
 export default function KilderPage() {

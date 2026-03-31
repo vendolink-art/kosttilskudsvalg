@@ -6,6 +6,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Redaktion – Hvem skriver og faktatjekker indholdet",
   description: "Mød redaktionen bag Kosttilskudsvalg: navngivne skribenter, faglige reviewere og deres kvalifikationer. Transparens om hvem der står bag vores analyser.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/redaktion" },
 }
 
 export default function RedaktionPage() {

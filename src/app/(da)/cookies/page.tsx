@@ -4,6 +4,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Cookiepolitik – Kosttilskudsvalg",
   description: "Læs om hvilke cookies Kosttilskudsvalg bruger, og hvordan du kan administrere dem.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/cookies" },
 }
 
 export default function CookiesPage() {

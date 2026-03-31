@@ -5,6 +5,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Metodik – Sådan vurderer vi kosttilskud",
   description: "Vores metodik forklaret: kriterier, vægtning, kilder, scoring og opdateringspolitik. Transparens om hvordan vi analyserer og sammenligner kosttilskud.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/metodik" },
 }
 
 export default function MetodikPage() {

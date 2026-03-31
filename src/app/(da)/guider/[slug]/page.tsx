@@ -28,6 +28,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       alternates: {
         canonical: `https://www.kosttilskudsvalg.dk/guider/${slug}`,
       },
+      openGraph: {
+        title: meta.meta_title || meta.title,
+        description: meta.description,
+        url: `https://www.kosttilskudsvalg.dk/guider/${slug}`,
+        type: "article",
+        locale: "da_DK",
+        siteName: "Kosttilskudsvalg",
+      },
     }
   } catch {
     return { title: "Guide ikke fundet" }
@@ -92,7 +100,7 @@ export default async function GuidePage({ params }: Props) {
               <Breadcrumbs
                 items={[
                   { name: "Guider", href: "/guider" },
-                  { name: meta.title },
+                  { name: meta.title, href: `/guider/${slug}` },
                 ]}
                 variant="dark"
               />

@@ -5,6 +5,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Privatlivspolitik – Kosttilskudsvalg",
   description: "Læs Kosttilskudsvalgs privatlivspolitik og cookiepolitik.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/integritet" },
 }
 
 export default function IntegritetPage() {

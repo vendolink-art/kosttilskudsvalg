@@ -7,6 +7,11 @@ export const metadata: Metadata = {
   title: "Sidekort – Kosttilskudsvalg",
   description: "Komplet oversigt over alle sider på Kosttilskudsvalg.dk.",
   alternates: { canonical: "https://www.kosttilskudsvalg.dk/sidekort" },
+  openGraph: {
+    title: "Sidekort – Kosttilskudsvalg",
+    description: "Komplet oversigt over alle sider på Kosttilskudsvalg.dk.",
+    url: "https://www.kosttilskudsvalg.dk/sidekort",
+  },
 }
 
 function slugToLabel(slug: string): string {

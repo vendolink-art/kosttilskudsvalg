@@ -5,6 +5,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Annonce- & affiliatepolitik – Kosttilskudsvalg",
   description: "Sådan tjener Kosttilskudsvalg penge, hvordan affiliatelinks markeres, og hvordan vi sikrer uafhængige vurderinger.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/annoncer-og-affiliate" },
 }
 
 export default function AffiliatePolicy() {

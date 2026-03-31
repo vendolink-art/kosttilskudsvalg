@@ -6,6 +6,7 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Guider – Dybdegående viden om kosttilskud",
   description: "Ekspertguider om kosttilskud, ernæring og sundhed. Evidensbaseret viden om vitaminer, protein, superfoods, omega-3 og meget mere.",
+  alternates: { canonical: "https://www.kosttilskudsvalg.dk/guider" },
 }
 
 function formatDate(d: string | undefined): string {
