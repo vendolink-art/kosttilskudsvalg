@@ -6417,7 +6417,8 @@ async function buildCompleteMDX(p: BuildParams): Promise<string> {
 
   // ─── 4b. BIG TOPLIST HEADING ───
   // Keep this non-spammy but include "Bedste <KW>" for relevance.
-  lines.push(`## Bedste ${esc(kwTitleForIntro)} i ${year} – vores liste`)
+  const kwForHeading = kwTitleForIntro.replace(/^bedste\s+/i, "")
+  lines.push(`## Bedste ${esc(kwForHeading)} i ${year} – vores liste`)
   lines.push(``)
   lines.push(`Her finder du de fulde produktbokse med vurdering, nøgledata og en kort gennemgang af hvert valg.`)
   lines.push(``)
