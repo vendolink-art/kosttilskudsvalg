@@ -82,6 +82,7 @@ if [ "${FORCE_DEPLOY:-false}" != "true" ] && [ -n "$CURRENT_COMMIT" ] && [ -f "$
   if [ -n "$LAST_DEPLOYED_COMMIT" ] && [ "$CURRENT_COMMIT" = "$LAST_DEPLOYED_COMMIT" ]; then
     echo ""
     echo "⚡ No-op deploy: commit $CURRENT_COMMIT ar redan deployad."
+    chown -R webapp:webapp . 2>/dev/null || true
     PORT=$APP_PORT pm2 restart "$APP_NAME" --update-env 2>/dev/null || true
     exit 0
   fi
@@ -161,8 +162,9 @@ if [ "$NEED_INSTALL" = "true" ]; then
       mv node_modules_backup node_modules
     fi
     echo "🔄 Restarting PM2 with previous version..."
+    chown -R webapp:webapp . 2>/dev/null || true
     PORT=$APP_PORT pm2 restart "$APP_NAME" --update-env 2>/dev/null \
-      || PORT=$APP_PORT pm2 start npm --name "$APP_NAME" -- start
+      || PORT=$APP_PORT pm2 start ecosystem.config.cjs --update-env
     exit 1
   fi
 
@@ -188,9 +190,14 @@ echo ""
 echo "🔨 Building application..."
 if NODE_ENV=production npm run build; then
   echo ""
-  echo "🔄 Starting PM2..."
-  PORT=$APP_PORT pm2 restart "$APP_NAME" --update-env 2>/dev/null \
-    || PORT=$APP_PORT pm2 start npm --name "$APP_NAME" -- start
+  echo "🔒 Setting ownership to webapp user..."
+  chown -R webapp:webapp . 2>/dev/null || true
+
+  echo ""
+  echo "🔄 Starting PM2 via ecosystem config..."
+  pm2 delete "$APP_NAME" 2>/dev/null || true
+  PORT=$APP_PORT pm2 start ecosystem.config.cjs --update-env
+  pm2 save
 
   echo ""
   echo "========================================"
@@ -205,8 +212,9 @@ if NODE_ENV=production npm run build; then
 else
   echo ""
   echo "❌ Build FAILED — restarting PM2 with previous version..."
+  chown -R webapp:webapp . 2>/dev/null || true
   PORT=$APP_PORT pm2 restart "$APP_NAME" --update-env 2>/dev/null \
-    || PORT=$APP_PORT pm2 start npm --name "$APP_NAME" -- start
+    || PORT=$APP_PORT pm2 start ecosystem.config.cjs --update-env
   echo "========================================"
   echo "❌ Build FAILED — sajten kor med forra versionen"
   echo "========================================"
