@@ -4374,7 +4374,7 @@
           "sourceUrl": "https://www.corenutrition.dk/core-creatine-caps-pro?da=14-23",
           "buyUrl": "https://www.corenutrition.dk/core-creatine-caps-pro?da=14-23",
           "categorySlugs": [
-            "bedste-maltidserstatning"
+            "kreatin"
           ],
           "confidenceOverall": null,
           "missingSignalFields": [],
@@ -19655,34 +19655,12 @@
     {
       "categorySlug": "bedste-maltidserstatning",
       "inSignalCache": false,
-      "productCount": 5,
+      "productCount": 4,
       "stores": [
-        "corenutrition",
         "healthwell",
         "mmsportsstore"
       ],
       "products": [
-        {
-          "slug": "ny-product-page-2",
-          "title": "Core Creatine Caps Pro",
-          "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/core-creatine-caps-pro?da=14-23",
-          "buyUrl": "https://www.corenutrition.dk/core-creatine-caps-pro?da=14-23",
-          "categorySlugs": [
-            "bedste-maltidserstatning"
-          ],
-          "confidenceOverall": null,
-          "missingSignalFields": [],
-          "panelOverall": null,
-          "rating": null,
-          "crawlPath": "content\\crawled-products\\corenutrition\\core-creatine-caps-pro.json",
-          "coreFieldPresence": {
-            "size": true,
-            "ingredients": true,
-            "nutritionInfo": true,
-            "dosage": true
-          }
-        },
         {
           "slug": "healthwell-heey-food-shake",
           "title": "Healthwell HEEY Food Shake",
