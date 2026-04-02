@@ -6,6 +6,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { CookieBanner } from "@/components/cookie-banner"
 import { GoogleAnalytics } from "@/components/google-analytics"
+import { PartnerAdsEpi } from "@/components/partner-ads-epi"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       </head>
       <body className="min-h-screen bg-white text-slate-900 antialiased" suppressHydrationWarning>
         <GoogleAnalytics />
+        <PartnerAdsEpi />
         <SiteHeader />
         <main className="pb-16">{children}</main>
         <SiteFooter />
