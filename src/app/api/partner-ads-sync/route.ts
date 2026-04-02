@@ -67,7 +67,7 @@ function parseXmlSales(xml: string): PaSaleXml[] {
 
 export async function GET(request: NextRequest) {
   const authHeader = request.headers.get("authorization") || ""
-  const expectedToken = process.env.SESSION_SECRET
+  const expectedToken = process.env.CRON_SECRET || process.env.SESSION_SECRET
   if (!expectedToken || authHeader !== `Bearer ${expectedToken}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   }
