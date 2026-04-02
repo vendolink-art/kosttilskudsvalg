@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server"
 import {
-  parsePartnerAdsParams,
+  parsePartnerAdsSegments,
   partnerAdsTransactionExists,
   savePartnerAdsTransaction,
   sendPartnerAdsToGA4,
@@ -8,24 +8,28 @@ import {
 } from "@/lib/partner-ads"
 
 /**
- * Partner-ads postback URL (configure in Partner-ads admin):
- * https://www.kosttilskudsvalg.dk/partner-ads-callback?programid={programid}&program={programname}&orderid={orderid}&ordervalue={ordervalue}&commission={commission}&epi={epi}
+ * Partner-ads callback URL structure:
+ * /partnerads-callback/{cprogramid}/{uid}|||{uid2}/{omprsalg}/{belob}/0/0/0/0/{cprogramid}-{ordrenummer}
  *
- * Partner-ads sends GET requests with query parameters.
+ * Configure in Partner-ads admin as:
+ * https://www.kosttilskudsvalg.dk/partnerads-callback/[cprogramid]/[uid]|||[uid2]/[omprsalg]/[belob]/0/0/0/0/[cprogramid]-[ordrenummer]
  */
 
-async function handleCallback(request: NextRequest) {
+async function handleCallback(
+  request: NextRequest,
+  { params }: { params: Promise<{ params: string[] }> }
+) {
+  const segments = (await params).params
+
   const ua = request.headers.get("user-agent") || ""
   if (/yandex/i.test(ua)) {
     return NextResponse.json({ error: "Blocked" }, { status: 400 })
   }
 
-  const params = request.nextUrl.searchParams
-
-  const sale = parsePartnerAdsParams(params)
+  const sale = parsePartnerAdsSegments(segments)
   if (!sale) {
     return NextResponse.json(
-      { error: "Missing required parameter: orderid" },
+      { error: "Invalid callback URL – expected 9 segments" },
       { status: 400 }
     )
   }

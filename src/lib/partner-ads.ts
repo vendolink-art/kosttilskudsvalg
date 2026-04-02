@@ -1,7 +1,6 @@
-import { transactionExists, saveTransaction } from "@/lib/adtraction"
+import { transactionExists, saveTransaction, parseEpi } from "@/lib/adtraction"
 
 export interface PartnerAdsSale {
-  program: string
   programId: string
   epi: string
   orderValue: number
@@ -11,19 +10,28 @@ export interface PartnerAdsSale {
   createdAt: string
 }
 
-export function parsePartnerAdsParams(params: URLSearchParams): PartnerAdsSale | null {
-  const transactionId = params.get("orderid") || params.get("transactionid") || ""
+/**
+ * Partner-ads callback URL structure (path segments):
+ * /partnerads-callback/{cprogramid}/{uid}|||{uid2}/{omprsalg}/{belob}/0/0/0/0/{cprogramid}-{ordrenummer}
+ *
+ * Segments: [programId, epi, orderValue, commission, 0, 0, 0, 0, transactionId]
+ * Values in øre (divide by 100 for DKK).
+ */
+export function parsePartnerAdsSegments(segments: string[]): PartnerAdsSale | null {
+  if (!segments || segments.length < 9) return null
+
+  const decoded = segments.map((s) => decodeURIComponent(s))
+  const [programId, rawEpi, orderValue, commission, , , , , transactionId] = decoded
+
   if (!transactionId) return null
 
-  const rawEpi = params.get("epi") || params.get("epi1") || ""
-  const isPpc = /ppc/i.test(rawEpi)
+  const { epi, isPpc } = parseEpi(rawEpi)
 
   return {
-    program: params.get("program") || params.get("programname") || "Partner-ads",
-    programId: params.get("programid") || "",
-    epi: rawEpi,
-    orderValue: Math.round(parseFloat(params.get("ordervalue") || "0") * 100),
-    commission: Math.round(parseFloat(params.get("commission") || "0") * 100),
+    programId,
+    epi,
+    orderValue: parseInt(orderValue, 10) || 0,
+    commission: parseInt(commission, 10) || 0,
     transactionId,
     isPpc,
     createdAt: new Date().toISOString(),
@@ -65,9 +73,9 @@ export async function sendPartnerAdsToGA4(sale: PartnerAdsSale) {
           currency: "DKK",
           items: [
             {
-              item_id: `PA_${sale.programId || "unknown"}`,
-              item_name: sale.program,
-              item_brand: sale.program,
+              item_id: `PA_${sale.programId}`,
+              item_name: `Program ${sale.programId}`,
+              item_brand: `PA_${sale.programId}`,
               price: sale.commission / 100,
               quantity: 1,
             },
@@ -101,7 +109,7 @@ export async function sendPartnerAdsToSlack(sale: PartnerAdsSale) {
 
   const text = [
     `Nytt ${ppcText}sälj *kosttilskudsvalg.dk* (Partner-ads)`,
-    `Program: ${sale.program}`,
+    `Program: ${sale.programId}`,
     `Ordervärde: ${orderDkk} DKK`,
     `Provision: ${commissionDkk} DKK`,
     `TX: \`${sale.transactionId}\``,
