@@ -73,6 +73,10 @@ check-links.ts
 HYBRID_MIGRATION_PLAYBOOK.md
 /prompts/
 
+# Generated/crawled image assets (deployed separately, see scripts/sync-images.sh)
+/public/images/products/
+/public/vendor/products/
+
 # temp test/debug scripts and files
 test-404-*.js
 test-404-*.png
