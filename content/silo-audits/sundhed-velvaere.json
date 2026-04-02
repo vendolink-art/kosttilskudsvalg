@@ -1379,8 +1379,8 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 0 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - natur-drogeriet-braendenaeldepulver-o-120-g: generic or invalid review pattern | oertagubben-braendenaelde: generic or invalid review pattern | holistic-naelde: generic or invalid review pattern | re-fresh-superfood-naelde-superfood: generic or invalid review pattern | naeldepulver-oko-rawpowder: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - oertagubben-braendenaelde: review lacks parsed product evidence | holistic-naelde: missing crawled product data behind active review | re-fresh-superfood-naelde-superfood: review lacks parsed product evidence | naeldepulver-oko-rawpowder: missing crawled product data behind active review",
+        "FAIL product-review-quality - natur-drogeriet-braendenaeldepulver-o-120-g: generic or invalid review pattern | oertagubben-braendenaelde: generic or invalid review pattern | healthwell-naelde: generic or invalid review pattern | re-fresh-superfood-naelde-superfood: generic or invalid review pattern | naeldepulver-oko-rawpowder: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - oertagubben-braendenaelde: review lacks parsed product evidence | healthwell-naelde: missing crawled product data behind active review | re-fresh-superfood-naelde-superfood: review lacks parsed product evidence | naeldepulver-oko-rawpowder: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -1393,7 +1393,7 @@
       "productCount": 5,
       "missingCrawlProducts": [
         "oertagubben-braendenaelde",
-        "holistic-naelde",
+        "healthwell-naelde",
         "re-fresh-superfood-naelde-superfood",
         "naeldepulver-oko-rawpowder"
       ],
@@ -1426,7 +1426,7 @@
           }
         },
         {
-          "slug": "holistic-naelde",
+          "slug": "healthwell-naelde",
           "title": "Holistic Nælde",
           "store": "corenutrition",
           "crawlPath": null,
