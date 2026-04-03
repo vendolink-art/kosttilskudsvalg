@@ -125,7 +125,7 @@
           ]
         },
         {
-          "productSlug": "better-you-nac",
+          "productSlug": "core-nac-600",
           "statusCode": 410,
           "testPosition": 3,
           "categoryPageUrls": [
@@ -133,7 +133,7 @@
           ]
         },
         {
-          "productSlug": "holistic-nac",
+          "productSlug": "pureness-nac-complex",
           "statusCode": 410,
           "testPosition": 4,
           "categoryPageUrls": [
@@ -326,7 +326,7 @@
           ]
         },
         {
-          "productSlug": "royal-jelly",
+          "productSlug": "healthwell-bidronning-gele",
           "statusCode": 410,
           "testPosition": 4,
           "categoryPageUrls": [
@@ -396,7 +396,7 @@
           ]
         },
         {
-          "productSlug": "wellaware-ingefaerpulver",
+          "productSlug": "rawpowder-ingefaerpulver",
           "statusCode": 410,
           "testPosition": 3,
           "categoryPageUrls": [
@@ -488,7 +488,7 @@
           ]
         },
         {
-          "productSlug": "solgar-female-multiple",
+          "productSlug": "healthwell-folinsyre-b6-b12-d",
           "statusCode": 410,
           "testPosition": 4,
           "categoryPageUrls": [
@@ -857,7 +857,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "thorne-taurine",
+          "productSlug": "core-taurine",
           "statusCode": 410,
           "testPosition": 2,
           "categoryPageUrls": [
@@ -917,7 +917,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "nobe-aloe-vera",
+          "productSlug": "kiki-health-organic-aloe-ferox-juice",
           "statusCode": 410,
           "testPosition": 5,
           "categoryPageUrls": [
@@ -1007,7 +1007,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "holistic-byggraes",
+          "productSlug": "mother-earth-byggraespulver",
           "statusCode": 410,
           "testPosition": 3,
           "categoryPageUrls": [
@@ -1112,7 +1112,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "rawpowder-matcha-supreme",
+          "productSlug": "terranova-matcha-green-tea",
           "statusCode": 410,
           "testPosition": 4,
           "categoryPageUrls": [
@@ -1308,7 +1308,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "kiki-health-organic-premium-spirulina-tablets",
+          "productSlug": "healthwell-spirulina-oko",
           "statusCode": 410,
           "testPosition": 5,
           "categoryPageUrls": [
@@ -1323,7 +1323,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "rawpowder-dulse-algeblanding-oko",
+          "productSlug": "healthwell-detox-greens",
           "statusCode": 410,
           "testPosition": 4,
           "categoryPageUrls": [
@@ -1369,7 +1369,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "holistic-d3-vitamin-5000-ie",
+          "productSlug": "thorne-vitamin-d-5000",
           "statusCode": 410,
           "testPosition": 5,
           "categoryPageUrls": [
@@ -1445,7 +1445,7 @@
       "brokenCount": 1,
       "products": [
         {
-          "productSlug": "better-you-vitamin-d3-k2",
+          "productSlug": "core-vitamin-d3-k2",
           "statusCode": 410,
           "testPosition": 5,
           "categoryPageUrls": [

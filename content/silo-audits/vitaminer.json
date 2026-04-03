@@ -434,7 +434,7 @@
         "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
         "PASS duplicate-extra-images",
         "PASS product-review-quality - 5 product reviews follow GPT template",
-        "FAIL parsed-review-evidence - holistic-d3-vitamin-5000-ie: missing crawled product data behind active review",
+        "FAIL parsed-review-evidence - thorne-vitamin-d-5000: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -447,7 +447,7 @@
       ],
       "productCount": 5,
       "missingCrawlProducts": [
-        "holistic-d3-vitamin-5000-ie"
+        "thorne-vitamin-d-5000"
       ],
       "introMentionsDifferentWinner": true,
       "introMentionedTitle": "D-vitamin",
@@ -502,8 +502,8 @@
           }
         },
         {
-          "slug": "holistic-d3-vitamin-5000-ie",
-          "title": "Holistic D3-vitamin 5000 IE",
+          "slug": "thorne-vitamin-d-5000",
+          "title": "Thorne Vitamin D 5000",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {
@@ -1150,8 +1150,8 @@
         "PASS no-links-in-headings",
         "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - healthwell-healthwell-multivitamin-gravid-and-ammende: generic or invalid review pattern | helhetshaelsa-mammaoptimal: generic or invalid review pattern | healthwell-metyl-b6-b12-folat: generic or invalid review pattern | solgar-female-multiple: generic or invalid review pattern | thorne-basic-prenatal: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - healthwell-healthwell-multivitamin-gravid-and-ammende: missing crawled product data behind active review | helhetshaelsa-mammaoptimal: missing crawled product data behind active review | solgar-female-multiple: missing crawled product data behind active review | thorne-basic-prenatal: missing crawled product data behind active review",
+        "FAIL product-review-quality - healthwell-healthwell-multivitamin-gravid-and-ammende: generic or invalid review pattern | helhetshaelsa-mammaoptimal: generic or invalid review pattern | healthwell-metyl-b6-b12-folat: generic or invalid review pattern | healthwell-folinsyre-b6-b12-d: generic or invalid review pattern | thorne-basic-prenatal: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - healthwell-healthwell-multivitamin-gravid-and-ammende: missing crawled product data behind active review | helhetshaelsa-mammaoptimal: missing crawled product data behind active review | healthwell-folinsyre-b6-b12-d: missing crawled product data behind active review | thorne-basic-prenatal: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -1164,7 +1164,7 @@
       "missingCrawlProducts": [
         "healthwell-healthwell-multivitamin-gravid-and-ammende",
         "helhetshaelsa-mammaoptimal",
-        "solgar-female-multiple",
+        "healthwell-folinsyre-b6-b12-d",
         "thorne-basic-prenatal"
       ],
       "introMentionsDifferentWinner": false,
@@ -1208,7 +1208,7 @@
           }
         },
         {
-          "slug": "solgar-female-multiple",
+          "slug": "healthwell-folinsyre-b6-b12-d",
           "title": "Healthwell Solgar Female Multiple",
           "store": "healthwell",
           "crawlPath": null,
@@ -2180,7 +2180,7 @@
         "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
         "PASS duplicate-extra-images",
         "PASS product-review-quality - 5 product reviews follow GPT template",
-        "FAIL parsed-review-evidence - better-you-vitamin-d3-k2: missing crawled product data behind active review",
+        "FAIL parsed-review-evidence - core-vitamin-d3-k2: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -2193,7 +2193,7 @@
       ],
       "productCount": 5,
       "missingCrawlProducts": [
-        "better-you-vitamin-d3-k2"
+        "core-vitamin-d3-k2"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": "Solgar Ultimate Bone Support - 120 tabl",
@@ -2248,8 +2248,8 @@
           }
         },
         {
-          "slug": "better-you-vitamin-d3-k2",
-          "title": "Better You Vitamin D3 + K2",
+          "slug": "core-vitamin-d3-k2",
+          "title": "Core Vitamin D3+K2",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {
@@ -2282,8 +2282,8 @@
         "PASS no-links-in-headings",
         "PASS internal-subpage-link-limit - 0 unique in-content protein-traening links checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - holistic-k2-menakinon-7: generic or invalid review pattern | healthwell-vitamin-k2-200: generic or invalid review pattern | elexir-pharma-k2-d3: generic or invalid review pattern | healthwell-vitamin-d3-k2: generic or invalid review pattern | better-you-vitamin-d3-k2: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - holistic-k2-menakinon-7: missing crawled product data behind active review | healthwell-vitamin-d3-k2: review lacks parsed product evidence | better-you-vitamin-d3-k2: missing crawled product data behind active review",
+        "FAIL product-review-quality - holistic-k2-menakinon-7: generic or invalid review pattern | healthwell-vitamin-k2-200: generic or invalid review pattern | elexir-pharma-k2-d3: generic or invalid review pattern | healthwell-vitamin-d3-k2: generic or invalid review pattern | core-vitamin-d3-k2: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - holistic-k2-menakinon-7: missing crawled product data behind active review | healthwell-vitamin-d3-k2: review lacks parsed product evidence | core-vitamin-d3-k2: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -2296,7 +2296,7 @@
       "productCount": 5,
       "missingCrawlProducts": [
         "holistic-k2-menakinon-7",
-        "better-you-vitamin-d3-k2"
+        "core-vitamin-d3-k2"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -2351,8 +2351,8 @@
           }
         },
         {
-          "slug": "better-you-vitamin-d3-k2",
-          "title": "Better You Vitamin D3 + K2",
+          "slug": "core-vitamin-d3-k2",
+          "title": "Core Vitamin D3+K2",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {

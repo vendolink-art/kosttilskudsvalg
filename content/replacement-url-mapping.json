@@ -12,7 +12,7 @@
     "newUrl": "https://www.healthwell.dk/propud-protein-bar"
   },
   {
-    "slug": "better-you-nac",
+    "slug": "core-nac-600",
     "newUrl": "https://www.healthwell.dk/nac-600"
   },
   {
@@ -24,7 +24,7 @@
     "newUrl": "https://www.healthwell.dk/holistic-b6-b12-folat-methyleret"
   },
   {
-    "slug": "better-you-vitamin-d3-k2",
+    "slug": "core-vitamin-d3-k2",
     "newUrl": "https://www.healthwell.dk/healthwell-vitamin-d3-plus-k2"
   },
   {
@@ -192,11 +192,11 @@
     "newUrl": "https://www.healthwell.dk/healthwell-multivitamin-gravid-og-ammende"
   },
   {
-    "slug": "holistic-byggraes",
+    "slug": "mother-earth-byggraespulver",
     "newUrl": "https://www.healthwell.dk/narokallan-byggras"
   },
   {
-    "slug": "holistic-d3-vitamin-5000-ie",
+    "slug": "thorne-vitamin-d-5000",
     "newUrl": "https://www.healthwell.dk/vitamin-d3-5000-ie"
   },
   {
@@ -216,7 +216,7 @@
     "newUrl": "https://www.corenutrition.dk/msm-kapsler"
   },
   {
-    "slug": "holistic-nac",
+    "slug": "pureness-nac-complex",
     "newUrl": "https://www.healthwell.dk/nac-600"
   },
   {
@@ -224,7 +224,7 @@
     "newUrl": "https://www.healthwell.dk/healthwell-brandenaldepulver-oko"
   },
   {
-    "slug": "kiki-health-organic-premium-spirulina-tablets",
+    "slug": "healthwell-spirulina-oko",
     "newUrl": "https://www.healthwell.dk/spirulina-kapsler-oko"
   },
   {
@@ -276,7 +276,7 @@
     "newUrl": "https://www.healthwell.dk/trace-minerals-nac-powder"
   },
   {
-    "slug": "nobe-aloe-vera",
+    "slug": "kiki-health-organic-aloe-ferox-juice",
     "newUrl": "https://www.corenutrition.dk/lifestream-aloe-vera-juice"
   },
   {
@@ -316,7 +316,7 @@
     "newUrl": "https://www.healthwell.dk/mother-earth-ashwagandhapulver-oko"
   },
   {
-    "slug": "rawpowder-dulse-algeblanding-oko",
+    "slug": "healthwell-detox-greens",
     "newUrl": "https://www.healthwell.dk/super-greens"
   },
   {
@@ -324,7 +324,7 @@
     "newUrl": "https://www.healthwell.dk/healthwell-collagen-pulver-marint"
   },
   {
-    "slug": "rawpowder-matcha-supreme",
+    "slug": "terranova-matcha-green-tea",
     "newUrl": "https://www.healthwell.dk/healthwell-matcha-pulver-oko"
   },
   {
@@ -336,7 +336,7 @@
     "newUrl": "https://www.healthwell.dk/kaapa-shiitake-extract-tincture"
   },
   {
-    "slug": "royal-jelly",
+    "slug": "healthwell-bidronning-gele",
     "newUrl": "https://www.healthwell.dk/bidronning-gele"
   },
   {
@@ -353,7 +353,7 @@
     "newUrl": "https://www.healthwell.dk/solgar-boswellia"
   },
   {
-    "slug": "solgar-female-multiple",
+    "slug": "healthwell-folinsyre-b6-b12-d",
     "newUrl": "https://www.healthwell.dk/healthwell-multivitamin-gravid-og-ammende"
   },
   {
@@ -385,7 +385,7 @@
     "newUrl": "https://www.healthwell.dk/healthwell-l-glutamin-1000"
   },
   {
-    "slug": "thorne-taurine",
+    "slug": "core-taurine",
     "newUrl": "https://www.healthwell.dk/taurin-500"
   },
   {
@@ -427,7 +427,7 @@
     "newUrl": "https://www.healthwell.dk/wellatomin-premium"
   },
   {
-    "slug": "wellaware-ingefaerpulver",
+    "slug": "rawpowder-ingefaerpulver",
     "newUrl": "https://www.healthwell.dk/mother-earth-ingefarpulver-oko"
   }
 ]

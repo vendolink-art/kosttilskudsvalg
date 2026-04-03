@@ -424,11 +424,11 @@
           }
         },
         {
-          "slug": "better-you-nac",
-          "title": "Better You NAC",
+          "slug": "core-nac-600",
+          "title": "Core NAC 600",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/better-you-nac?da=14-46",
-          "buyUrl": "https://www.corenutrition.dk/better-you-nac?da=14-46",
+          "sourceUrl": "https://www.corenutrition.dk/core-nac-600?da=14-46",
+          "buyUrl": "https://www.corenutrition.dk/core-nac-600?da=14-46",
           "categorySlugs": [
             "nac"
           ],
@@ -487,8 +487,8 @@
           }
         },
         {
-          "slug": "better-you-vitamin-d3-k2",
-          "title": "Better You Vitamin D3 + K2",
+          "slug": "core-vitamin-d3-k2",
+          "title": "Core Vitamin D3+K2",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
           "buyUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
@@ -508,8 +508,8 @@
           }
         },
         {
-          "slug": "better-you-vitamin-d3-k2",
-          "title": "Better You Vitamin D3 + K2",
+          "slug": "core-vitamin-d3-k2",
+          "title": "Core Vitamin D3+K2",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
           "buyUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
@@ -3413,7 +3413,7 @@
           }
         },
         {
-          "slug": "holistic-byggraes",
+          "slug": "mother-earth-byggraespulver",
           "title": "Holistic Byggræs",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/holistic-korngras?da=14-637",
@@ -3434,11 +3434,11 @@
           }
         },
         {
-          "slug": "holistic-d3-vitamin-5000-ie",
-          "title": "Holistic D3-vitamin 5000 IE",
+          "slug": "thorne-vitamin-d-5000",
+          "title": "Thorne Vitamin D 5000",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/holistic-d3-vitamin-5000-ie",
-          "buyUrl": "https://www.corenutrition.dk/holistic-d3-vitamin-5000-ie",
+          "sourceUrl": "https://www.corenutrition.dk/thorne-vitamin-d-5000",
+          "buyUrl": "https://www.corenutrition.dk/thorne-vitamin-d-5000",
           "categorySlugs": [
             "d-vitamin"
           ],
@@ -3602,11 +3602,11 @@
           }
         },
         {
-          "slug": "holistic-nac",
+          "slug": "pureness-nac-complex",
           "title": "Holistic NAC",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/holistic-nac?da=14-46",
-          "buyUrl": "https://www.corenutrition.dk/holistic-nac?da=14-46",
+          "sourceUrl": "https://www.corenutrition.dk/pureness-nac-complex?da=14-46",
+          "buyUrl": "https://www.corenutrition.dk/pureness-nac-complex?da=14-46",
           "categorySlugs": [
             "nac"
           ],
@@ -3812,11 +3812,11 @@
           }
         },
         {
-          "slug": "kiki-health-organic-premium-spirulina-tablets",
-          "title": "Kiki Health Organic Premium Spirulina Tablets",
+          "slug": "healthwell-spirulina-oko",
+          "title": "Healthwell Spirulina ØKO",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/kiki-health-organic-premium-spirulina-tablets",
-          "buyUrl": "https://www.corenutrition.dk/kiki-health-organic-premium-spirulina-tablets",
+          "sourceUrl": "https://www.corenutrition.dk/healthwell-spirulina-oko",
+          "buyUrl": "https://www.corenutrition.dk/healthwell-spirulina-oko",
           "categorySlugs": [
             "spirulina"
           ],
@@ -4305,11 +4305,11 @@
           }
         },
         {
-          "slug": "nobe-aloe-vera",
-          "title": "NOBE Aloe Vera",
+          "slug": "kiki-health-organic-aloe-ferox-juice",
+          "title": "Kiki Health Organic Aloe Ferox Juice",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/nobe-aloe-vera?da=14-1590",
-          "buyUrl": "https://www.corenutrition.dk/nobe-aloe-vera?da=14-1590",
+          "sourceUrl": "https://www.corenutrition.dk/kiki-health-organic-aloe-ferox-juice?da=14-1590",
+          "buyUrl": "https://www.corenutrition.dk/kiki-health-organic-aloe-ferox-juice?da=14-1590",
           "categorySlugs": [
             "aloe-vera-juice"
           ],
@@ -4942,11 +4942,11 @@
           }
         },
         {
-          "slug": "rawpowder-dulse-algeblanding-oko",
-          "title": "RawPowder Dulse Algeblanding ØKO",
+          "slug": "healthwell-detox-greens",
+          "title": "Healthwell Detox Greens",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/rawpowder-dulse-algeblanding-oko?da=14-276",
-          "buyUrl": "https://www.corenutrition.dk/rawpowder-dulse-algeblanding-oko?da=14-276",
+          "sourceUrl": "https://www.corenutrition.dk/healthwell-detox-greens?da=14-276",
+          "buyUrl": "https://www.corenutrition.dk/healthwell-detox-greens?da=14-276",
           "categorySlugs": [
             "super-greens-pulver"
           ],
@@ -5089,11 +5089,11 @@
           }
         },
         {
-          "slug": "royal-jelly",
-          "title": "Royal Jelly",
+          "slug": "healthwell-bidronning-gele",
+          "title": "Healthwell Bidronning Gelé",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/royal-jelly?da=14-194",
-          "buyUrl": "https://www.corenutrition.dk/royal-jelly?da=14-194",
+          "sourceUrl": "https://www.corenutrition.dk/healthwell-bidronning-gele?da=14-194",
+          "buyUrl": "https://www.corenutrition.dk/healthwell-bidronning-gele?da=14-194",
           "categorySlugs": [
             "gele-royal"
           ],
@@ -5101,7 +5101,7 @@
           "missingSignalFields": [],
           "panelOverall": null,
           "rating": null,
-          "crawlPath": "content\\crawled-products\\corenutrition\\royal-jelly.json",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-bidronning-gele.json",
           "coreFieldPresence": {
             "size": true,
             "ingredients": false,
@@ -5929,11 +5929,11 @@
           }
         },
         {
-          "slug": "thorne-taurine",
-          "title": "Thorne Taurine",
+          "slug": "core-taurine",
+          "title": "Core Taurine",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/thorne-taurine?da=14-46",
-          "buyUrl": "https://www.corenutrition.dk/thorne-taurine?da=14-46",
+          "sourceUrl": "https://www.corenutrition.dk/core-taurine?da=14-46",
+          "buyUrl": "https://www.corenutrition.dk/core-taurine?da=14-46",
           "categorySlugs": [
             "taurin"
           ],
@@ -6160,7 +6160,7 @@
           }
         },
         {
-          "slug": "wellaware-ingefaerpulver",
+          "slug": "rawpowder-ingefaerpulver",
           "title": "WellAware Ingefærpulver",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/wellaware-ingefarapulver?da=14-76",
@@ -7716,7 +7716,7 @@
           }
         },
         {
-          "slug": "healthwell-diet-shake",
+          "slug": "nutrilett-vlcd-shake",
           "title": "Diet Shake",
           "store": "healthwell",
           "sourceUrl": "https://www.healthwell.dk/diet-shake",
@@ -10656,11 +10656,11 @@
           }
         },
         {
-          "slug": "rawpowder-matcha-supreme",
-          "title": "RawPowder Matcha Supreme",
+          "slug": "terranova-matcha-green-tea",
+          "title": "Terranova Matcha Green Tea",
           "store": "healthwell",
-          "sourceUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
-          "buyUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
+          "sourceUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
+          "buyUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
           "categorySlugs": [
             "gron-te"
           ],
@@ -10677,11 +10677,11 @@
           }
         },
         {
-          "slug": "rawpowder-matcha-supreme",
-          "title": "RawPowder Matcha Supreme",
+          "slug": "terranova-matcha-green-tea",
+          "title": "Terranova Matcha Green Tea",
           "store": "healthwell",
-          "sourceUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
-          "buyUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
+          "sourceUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
+          "buyUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
           "categorySlugs": [
             "matchatilskud"
           ],
@@ -10782,11 +10782,11 @@
           }
         },
         {
-          "slug": "solgar-female-multiple",
-          "title": "Solgar Female Multiple",
+          "slug": "healthwell-folinsyre-b6-b12-d",
+          "title": "Healthwell Folinsyre + B6 + B12 + D",
           "store": "healthwell",
-          "sourceUrl": "https://www.healthwell.dk/solgar-female-multiple?da=14-20",
-          "buyUrl": "https://www.healthwell.dk/solgar-female-multiple?da=14-20",
+          "sourceUrl": "https://www.healthwell.dk/healthwell-folinsyre-b6-b12-d?da=14-20",
+          "buyUrl": "https://www.healthwell.dk/healthwell-folinsyre-b6-b12-d?da=14-20",
           "categorySlugs": [
             "multivitamin-gravid-amning"
           ],
@@ -18595,11 +18595,11 @@
           }
         },
         {
-          "slug": "nobe-aloe-vera",
-          "title": "NOBE Aloe Vera",
+          "slug": "kiki-health-organic-aloe-ferox-juice",
+          "title": "Kiki Health Organic Aloe Ferox Juice",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/nobe-aloe-vera?da=14-1590",
-          "buyUrl": "https://www.corenutrition.dk/nobe-aloe-vera?da=14-1590",
+          "sourceUrl": "https://www.corenutrition.dk/kiki-health-organic-aloe-ferox-juice?da=14-1590",
+          "buyUrl": "https://www.corenutrition.dk/kiki-health-organic-aloe-ferox-juice?da=14-1590",
           "categorySlugs": [
             "aloe-vera-juice"
           ],
@@ -19704,8 +19704,8 @@
           }
         },
         {
-          "slug": "healthwell-diet-shake",
-          "title": "Healthwell Diet Shake",
+          "slug": "nutrilett-vlcd-shake",
+          "title": "Nutrilett VLCD Shake",
           "store": "healthwell",
           "sourceUrl": "https://www.healthwell.dk/diet-shake",
           "buyUrl": "https://www.healthwell.dk/diet-shake",
@@ -20897,7 +20897,7 @@
           }
         },
         {
-          "slug": "holistic-byggraes",
+          "slug": "mother-earth-byggraespulver",
           "title": "Holistic Byggræs",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/holistic-korngras?da=14-637",
@@ -21876,11 +21876,11 @@
           }
         },
         {
-          "slug": "holistic-d3-vitamin-5000-ie",
-          "title": "Holistic D3-vitamin 5000 IE",
+          "slug": "thorne-vitamin-d-5000",
+          "title": "Thorne Vitamin D 5000",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/holistic-d3-vitamin-5000-ie",
-          "buyUrl": "https://www.corenutrition.dk/holistic-d3-vitamin-5000-ie",
+          "sourceUrl": "https://www.corenutrition.dk/thorne-vitamin-d-5000",
+          "buyUrl": "https://www.corenutrition.dk/thorne-vitamin-d-5000",
           "categorySlugs": [
             "d-vitamin"
           ],
@@ -23140,11 +23140,11 @@
           }
         },
         {
-          "slug": "royal-jelly",
-          "title": "Royal Jelly",
+          "slug": "healthwell-bidronning-gele",
+          "title": "Healthwell Bidronning Gelé",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/royal-jelly?da=14-194",
-          "buyUrl": "https://www.corenutrition.dk/royal-jelly?da=14-194",
+          "sourceUrl": "https://www.corenutrition.dk/healthwell-bidronning-gele?da=14-194",
+          "buyUrl": "https://www.corenutrition.dk/healthwell-bidronning-gele?da=14-194",
           "categorySlugs": [
             "gele-royal"
           ],
@@ -23152,7 +23152,7 @@
           "missingSignalFields": [],
           "panelOverall": null,
           "rating": null,
-          "crawlPath": "content\\crawled-products\\corenutrition\\royal-jelly.json",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-bidronning-gele.json",
           "coreFieldPresence": {
             "size": true,
             "ingredients": false,
@@ -23940,11 +23940,11 @@
           }
         },
         {
-          "slug": "rawpowder-matcha-supreme",
+          "slug": "terranova-matcha-green-tea",
           "title": "Healthwell RawPowder Matcha Supreme",
           "store": "healthwell",
-          "sourceUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
-          "buyUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
+          "sourceUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
+          "buyUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
           "categorySlugs": [
             "gron-te"
           ],
@@ -25426,7 +25426,7 @@
           }
         },
         {
-          "slug": "wellaware-ingefaerpulver",
+          "slug": "rawpowder-ingefaerpulver",
           "title": "WellAware Ingefærpulver",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/wellaware-ingefarapulver?da=14-76",
@@ -29887,11 +29887,11 @@
       ],
       "products": [
         {
-          "slug": "rawpowder-matcha-supreme",
+          "slug": "terranova-matcha-green-tea",
           "title": "Healthwell RawPowder Matcha Supreme",
           "store": "healthwell",
-          "sourceUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
-          "buyUrl": "https://www.healthwell.dk/rawpowder-matcha-supreme",
+          "sourceUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
+          "buyUrl": "https://www.healthwell.dk/terranova-matcha-green-tea",
           "categorySlugs": [
             "matchatilskud"
           ],
@@ -30651,11 +30651,11 @@
           }
         },
         {
-          "slug": "solgar-female-multiple",
+          "slug": "healthwell-folinsyre-b6-b12-d",
           "title": "Healthwell Solgar Female Multiple",
           "store": "healthwell",
-          "sourceUrl": "https://www.healthwell.dk/solgar-female-multiple?da=14-20",
-          "buyUrl": "https://www.healthwell.dk/solgar-female-multiple?da=14-20",
+          "sourceUrl": "https://www.healthwell.dk/healthwell-folinsyre-b6-b12-d?da=14-20",
+          "buyUrl": "https://www.healthwell.dk/healthwell-folinsyre-b6-b12-d?da=14-20",
           "categorySlugs": [
             "multivitamin-gravid-amning"
           ],
@@ -30939,11 +30939,11 @@
       ],
       "products": [
         {
-          "slug": "better-you-nac",
-          "title": "Better You NAC",
+          "slug": "core-nac-600",
+          "title": "Core NAC 600",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/better-you-nac?da=14-46",
-          "buyUrl": "https://www.corenutrition.dk/better-you-nac?da=14-46",
+          "sourceUrl": "https://www.corenutrition.dk/core-nac-600?da=14-46",
+          "buyUrl": "https://www.corenutrition.dk/core-nac-600?da=14-46",
           "categorySlugs": [
             "nac"
           ],
@@ -30960,11 +30960,11 @@
           }
         },
         {
-          "slug": "holistic-nac",
+          "slug": "pureness-nac-complex",
           "title": "Holistic NAC",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/holistic-nac?da=14-46",
-          "buyUrl": "https://www.corenutrition.dk/holistic-nac?da=14-46",
+          "sourceUrl": "https://www.corenutrition.dk/pureness-nac-complex?da=14-46",
+          "buyUrl": "https://www.corenutrition.dk/pureness-nac-complex?da=14-46",
           "categorySlugs": [
             "nac"
           ],
@@ -34567,11 +34567,11 @@
           }
         },
         {
-          "slug": "kiki-health-organic-premium-spirulina-tablets",
-          "title": "Kiki Health Organic Premium Spirulina Tablets",
+          "slug": "healthwell-spirulina-oko",
+          "title": "Healthwell Spirulina ØKO",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/kiki-health-organic-premium-spirulina-tablets",
-          "buyUrl": "https://www.corenutrition.dk/kiki-health-organic-premium-spirulina-tablets",
+          "sourceUrl": "https://www.corenutrition.dk/healthwell-spirulina-oko",
+          "buyUrl": "https://www.corenutrition.dk/healthwell-spirulina-oko",
           "categorySlugs": [
             "spirulina"
           ],
@@ -34843,11 +34843,11 @@
           }
         },
         {
-          "slug": "rawpowder-dulse-algeblanding-oko",
-          "title": "RawPowder Dulse Algeblanding ØKO",
+          "slug": "healthwell-detox-greens",
+          "title": "Healthwell Detox Greens",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/rawpowder-dulse-algeblanding-oko?da=14-276",
-          "buyUrl": "https://www.corenutrition.dk/rawpowder-dulse-algeblanding-oko?da=14-276",
+          "sourceUrl": "https://www.corenutrition.dk/healthwell-detox-greens?da=14-276",
+          "buyUrl": "https://www.corenutrition.dk/healthwell-detox-greens?da=14-276",
           "categorySlugs": [
             "super-greens-pulver"
           ],
@@ -34961,11 +34961,11 @@
           }
         },
         {
-          "slug": "thorne-taurine",
-          "title": "Thorne Taurine",
+          "slug": "core-taurine",
+          "title": "Core Taurine",
           "store": "corenutrition",
-          "sourceUrl": "https://www.corenutrition.dk/thorne-taurine?da=14-46",
-          "buyUrl": "https://www.corenutrition.dk/thorne-taurine?da=14-46",
+          "sourceUrl": "https://www.corenutrition.dk/core-taurine?da=14-46",
+          "buyUrl": "https://www.corenutrition.dk/core-taurine?da=14-46",
           "categorySlugs": [
             "taurin"
           ],
@@ -36661,8 +36661,8 @@
           }
         },
         {
-          "slug": "better-you-vitamin-d3-k2",
-          "title": "Better You Vitamin D3 + K2",
+          "slug": "core-vitamin-d3-k2",
+          "title": "Core Vitamin D3+K2",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
           "buyUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
@@ -36778,8 +36778,8 @@
           }
         },
         {
-          "slug": "better-you-vitamin-d3-k2",
-          "title": "Better You Vitamin D3 + K2",
+          "slug": "core-vitamin-d3-k2",
+          "title": "Core Vitamin D3+K2",
           "store": "corenutrition",
           "sourceUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",
           "buyUrl": "https://www.corenutrition.dk/better-you-vitamin-d3-plus-k2?da=14-54",

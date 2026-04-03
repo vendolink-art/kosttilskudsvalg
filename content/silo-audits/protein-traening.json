@@ -3457,7 +3457,7 @@
       "productCount": 5,
       "missingCrawlProducts": [
         "core-taurine",
-        "thorne-taurine",
+        "core-taurine",
         "healthwell-taurin-500"
       ],
       "introMentionsDifferentWinner": false,
@@ -3501,8 +3501,8 @@
           }
         },
         {
-          "slug": "thorne-taurine",
-          "title": "Thorne Taurine",
+          "slug": "core-taurine",
+          "title": "Core Taurine",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {

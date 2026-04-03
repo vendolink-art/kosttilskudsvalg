@@ -130,7 +130,7 @@
       "missingCrawlProducts": [
         "mother-earth-ingefaerpulver-oko",
         "sonnentor-ingefaer-pulver",
-        "wellaware-ingefaerpulver",
+        "rawpowder-ingefaerpulver",
         "rawpowder-ingefarpulver"
       ],
       "introMentionsDifferentWinner": false,
@@ -242,7 +242,7 @@
       "missingCrawlProducts": [
         "healthwell-healthwell-multivitamin-gravid-and-ammende",
         "helhetshaelsa-mammaoptimal",
-        "solgar-female-multiple",
+        "healthwell-folinsyre-b6-b12-d",
         "thorne-basic-prenatal"
       ],
       "introMentionsDifferentWinner": false,
@@ -539,7 +539,7 @@
       ],
       "missingCrawlProducts": [
         "healthwell-heey-food-shake",
-        "healthwell-diet-shake"
+        "nutrilett-vlcd-shake"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -588,7 +588,7 @@
       ],
       "missingCrawlProducts": [
         "veganske-healthwell-super-greens",
-        "holistic-byggraes",
+        "mother-earth-byggraespulver",
         "naerokaellan-byggraes"
       ],
       "introMentionsDifferentWinner": false,
@@ -666,7 +666,7 @@
         "parsed-review-evidence"
       ],
       "missingCrawlProducts": [
-        "rawpowder-matcha-supreme"
+        "terranova-matcha-green-tea"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -926,7 +926,7 @@
       "missingCrawlProducts": [
         "healthwell-super-greens",
         "detox-greens",
-        "rawpowder-dulse-algeblanding-oko"
+        "healthwell-detox-greens"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -1572,7 +1572,7 @@
         "parsed-review-evidence"
       ],
       "missingCrawlProducts": [
-        "rawpowder-matcha-supreme",
+        "terranova-matcha-green-tea",
         "matters-matcha-collagen",
         "healthwell-healthwell-matcha-pulver-oko",
         "naerokaellan-ceremoniel-matcha-te-oko",
@@ -1963,7 +1963,7 @@
       ],
       "missingCrawlProducts": [
         "holistic-k2-menakinon-7",
-        "better-you-vitamin-d3-k2"
+        "core-vitamin-d3-k2"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -2512,8 +2512,8 @@
         "parsed-review-evidence"
       ],
       "missingCrawlProducts": [
-        "better-you-nac",
-        "holistic-nac",
+        "core-nac-600",
+        "pureness-nac-complex",
         "healthwell-nac-n-acetylcystein",
         "solgar-nac-600",
         "naerokaellan-n-acetyl-cystein"
@@ -2892,7 +2892,7 @@
       "softFailureNames": [],
       "missingCrawlProducts": [
         "core-taurine",
-        "thorne-taurine",
+        "core-taurine",
         "healthwell-taurin-500"
       ],
       "introMentionsDifferentWinner": false,
@@ -2954,7 +2954,7 @@
       "missingCrawlProducts": [
         "lifestream-aloe-vera-juice",
         "avivir-aloe-vera-juice-naturel",
-        "nobe-aloe-vera"
+        "kiki-health-organic-aloe-ferox-juice"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": "Urtegaarden Aloe Vera Juice",
@@ -3150,7 +3150,7 @@
       "softFailureNames": [],
       "missingCrawlProducts": [
         "healthwell-spirulina-kapsler",
-        "kiki-health-organic-premium-spirulina-tablets",
+        "healthwell-spirulina-oko",
         "healthwell-spirulina-pulver",
         "holistic-active-spirulina-tabletter"
       ],
@@ -3203,7 +3203,7 @@
         "parsed-review-evidence"
       ],
       "missingCrawlProducts": [
-        "holistic-d3-vitamin-5000-ie"
+        "thorne-vitamin-d-5000"
       ],
       "introMentionsDifferentWinner": true,
       "introMentionedTitle": "D-vitamin",
@@ -3267,7 +3267,7 @@
         "parsed-review-evidence"
       ],
       "missingCrawlProducts": [
-        "better-you-vitamin-d3-k2"
+        "core-vitamin-d3-k2"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": "Solgar Ultimate Bone Support - 120 tabl",

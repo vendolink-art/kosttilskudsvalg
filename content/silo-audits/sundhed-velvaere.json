@@ -341,7 +341,7 @@
         "PASS internal-subpage-link-limit - 5 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
         "PASS product-review-quality - 5 product reviews follow GPT template",
-        "FAIL parsed-review-evidence - nobe-aloe-vera: missing crawled product data behind active review",
+        "FAIL parsed-review-evidence - kiki-health-organic-aloe-ferox-juice: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -355,7 +355,7 @@
       "missingCrawlProducts": [
         "lifestream-aloe-vera-juice",
         "avivir-aloe-vera-juice-naturel",
-        "nobe-aloe-vera"
+        "kiki-health-organic-aloe-ferox-juice"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": "Urtegaarden Aloe Vera Juice",
@@ -410,8 +410,8 @@
           }
         },
         {
-          "slug": "nobe-aloe-vera",
-          "title": "NOBE Aloe Vera",
+          "slug": "kiki-health-organic-aloe-ferox-juice",
+          "title": "Kiki Health Organic Aloe Ferox Juice",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {
@@ -960,7 +960,7 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 2 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - healthwell-heey-food-shake: generic or invalid review pattern | healthwell-allevo-vlcd-shake: generic or invalid review pattern | healthwell-diet-shake: generic or invalid review pattern | body-science-diet-shake: generic or invalid review pattern",
+        "FAIL product-review-quality - healthwell-heey-food-shake: generic or invalid review pattern | healthwell-allevo-vlcd-shake: generic or invalid review pattern | nutrilett-vlcd-shake: generic or invalid review pattern | body-science-diet-shake: generic or invalid review pattern",
         "FAIL parsed-review-evidence - healthwell-heey-food-shake: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
@@ -974,7 +974,7 @@
       "productCount": 5,
       "missingCrawlProducts": [
         "healthwell-heey-food-shake",
-        "healthwell-diet-shake"
+        "nutrilett-vlcd-shake"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -1017,8 +1017,8 @@
           }
         },
         {
-          "slug": "healthwell-diet-shake",
-          "title": "Healthwell Diet Shake",
+          "slug": "nutrilett-vlcd-shake",
+          "title": "Nutrilett VLCD Shake",
           "store": "healthwell",
           "crawlPath": null,
           "coreFieldPresence": {
@@ -1697,8 +1697,8 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 0 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - veganske-healthwell-super-greens: generic or invalid review pattern | superfruit-organic-greens-pulver-o-300-g: generic or invalid review pattern | holistic-byggraes: generic or invalid review pattern | diet-food-byggraes-pulver-o-100-g: generic or invalid review pattern | naerokaellan-byggraes: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - veganske-healthwell-super-greens: review lacks parsed product evidence | holistic-byggraes: missing crawled product data behind active review | naerokaellan-byggraes: review lacks parsed product evidence",
+        "FAIL product-review-quality - veganske-healthwell-super-greens: generic or invalid review pattern | superfruit-organic-greens-pulver-o-300-g: generic or invalid review pattern | mother-earth-byggraespulver: generic or invalid review pattern | diet-food-byggraes-pulver-o-100-g: generic or invalid review pattern | naerokaellan-byggraes: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - veganske-healthwell-super-greens: review lacks parsed product evidence | mother-earth-byggraespulver: missing crawled product data behind active review | naerokaellan-byggraes: review lacks parsed product evidence",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -1711,7 +1711,7 @@
       "productCount": 5,
       "missingCrawlProducts": [
         "veganske-healthwell-super-greens",
-        "holistic-byggraes",
+        "mother-earth-byggraespulver",
         "naerokaellan-byggraes"
       ],
       "introMentionsDifferentWinner": false,
@@ -1743,7 +1743,7 @@
           }
         },
         {
-          "slug": "holistic-byggraes",
+          "slug": "mother-earth-byggraespulver",
           "title": "Holistic Byggræs",
           "store": "corenutrition",
           "crawlPath": null,
@@ -2645,7 +2645,7 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 5 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - royal-jelly: generic or invalid review pattern",
+        "FAIL product-review-quality - healthwell-bidronning-gele: generic or invalid review pattern",
         "FAIL parsed-review-evidence - a-vogel-apiforce: review lacks parsed product evidence | camette-gel-royal-m-salvie-vitamin-b6-120-kapsler: review lacks parsed product evidence",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
@@ -2699,10 +2699,10 @@
           }
         },
         {
-          "slug": "royal-jelly",
-          "title": "Royal Jelly",
+          "slug": "healthwell-bidronning-gele",
+          "title": "Healthwell Bidronning Gelé",
           "store": "corenutrition",
-          "crawlPath": "content\\crawled-products\\corenutrition\\royal-jelly.json",
+          "crawlPath": "content\\crawled-products\\corenutrition\\healthwell-bidronning-gele.json",
           "coreFieldPresence": {
             "size": true,
             "ingredients": false,
@@ -3157,8 +3157,8 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 0 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - matcha-te-green-tea-powder-o-50-gram: generic or invalid review pattern | yogi-te-green-balance-17-breve: generic or invalid review pattern | rawpowder-matcha-supreme: generic or invalid review pattern | clearspring-matcha-gron-te-pulver-o-30-g: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - rawpowder-matcha-supreme: missing crawled product data behind active review",
+        "FAIL product-review-quality - matcha-te-green-tea-powder-o-50-gram: generic or invalid review pattern | yogi-te-green-balance-17-breve: generic or invalid review pattern | terranova-matcha-green-tea: generic or invalid review pattern | clearspring-matcha-gron-te-pulver-o-30-g: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - terranova-matcha-green-tea: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -3169,7 +3169,7 @@
       ],
       "productCount": 5,
       "missingCrawlProducts": [
-        "rawpowder-matcha-supreme"
+        "terranova-matcha-green-tea"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -3212,7 +3212,7 @@
           }
         },
         {
-          "slug": "rawpowder-matcha-supreme",
+          "slug": "terranova-matcha-green-tea",
           "title": "Healthwell RawPowder Matcha Supreme",
           "store": "healthwell",
           "crawlPath": null,
@@ -4411,8 +4411,8 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 0 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - mother-earth-ingefaerpulver-oko: generic or invalid review pattern | sonnentor-ingefaer-pulver: generic or invalid review pattern | wellaware-ingefaerpulver: generic or invalid review pattern | rawpowder-ingefarpulver: generic or invalid review pattern | natur-drogeriet-ingefaer-stodt-o-100-g: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - mother-earth-ingefaerpulver-oko: review lacks parsed product evidence | sonnentor-ingefaer-pulver: missing crawled product data behind active review | wellaware-ingefaerpulver: missing crawled product data behind active review | rawpowder-ingefarpulver: review lacks parsed product evidence",
+        "FAIL product-review-quality - mother-earth-ingefaerpulver-oko: generic or invalid review pattern | sonnentor-ingefaer-pulver: generic or invalid review pattern | rawpowder-ingefaerpulver: generic or invalid review pattern | rawpowder-ingefarpulver: generic or invalid review pattern | natur-drogeriet-ingefaer-stodt-o-100-g: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - mother-earth-ingefaerpulver-oko: review lacks parsed product evidence | sonnentor-ingefaer-pulver: missing crawled product data behind active review | rawpowder-ingefaerpulver: missing crawled product data behind active review | rawpowder-ingefarpulver: review lacks parsed product evidence",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -4426,7 +4426,7 @@
       "missingCrawlProducts": [
         "mother-earth-ingefaerpulver-oko",
         "sonnentor-ingefaer-pulver",
-        "wellaware-ingefaerpulver",
+        "rawpowder-ingefaerpulver",
         "rawpowder-ingefarpulver"
       ],
       "introMentionsDifferentWinner": false,
@@ -4458,7 +4458,7 @@
           }
         },
         {
-          "slug": "wellaware-ingefaerpulver",
+          "slug": "rawpowder-ingefaerpulver",
           "title": "WellAware Ingefærpulver",
           "store": "corenutrition",
           "crawlPath": null,
@@ -6200,8 +6200,8 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 0 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - rawpowder-matcha-supreme: generic or invalid review pattern | matters-matcha-collagen: generic or invalid review pattern | healthwell-healthwell-matcha-pulver-oko: generic or invalid review pattern | naerokaellan-ceremoniel-matcha-te-oko: generic or invalid review pattern | healthwell-terranova-matcha-green-tea: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - rawpowder-matcha-supreme: missing crawled product data behind active review | matters-matcha-collagen: review lacks parsed product evidence | healthwell-healthwell-matcha-pulver-oko: review lacks parsed product evidence | naerokaellan-ceremoniel-matcha-te-oko: review lacks parsed product evidence | healthwell-terranova-matcha-green-tea: review lacks parsed product evidence",
+        "FAIL product-review-quality - terranova-matcha-green-tea: generic or invalid review pattern | matters-matcha-collagen: generic or invalid review pattern | healthwell-healthwell-matcha-pulver-oko: generic or invalid review pattern | naerokaellan-ceremoniel-matcha-te-oko: generic or invalid review pattern | healthwell-terranova-matcha-green-tea: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - terranova-matcha-green-tea: missing crawled product data behind active review | matters-matcha-collagen: review lacks parsed product evidence | healthwell-healthwell-matcha-pulver-oko: review lacks parsed product evidence | naerokaellan-ceremoniel-matcha-te-oko: review lacks parsed product evidence | healthwell-terranova-matcha-green-tea: review lacks parsed product evidence",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -6212,7 +6212,7 @@
       ],
       "productCount": 5,
       "missingCrawlProducts": [
-        "rawpowder-matcha-supreme",
+        "terranova-matcha-green-tea",
         "matters-matcha-collagen",
         "healthwell-healthwell-matcha-pulver-oko",
         "naerokaellan-ceremoniel-matcha-te-oko",
@@ -6223,7 +6223,7 @@
       "expectedTopTitle": "Healthwell RawPowder Matcha Supreme",
       "products": [
         {
-          "slug": "rawpowder-matcha-supreme",
+          "slug": "terranova-matcha-green-tea",
           "title": "Healthwell RawPowder Matcha Supreme",
           "store": "healthwell",
           "crawlPath": null,
@@ -6412,7 +6412,7 @@
         "PASS internal-subpage-link-limit - 6 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
         "PASS product-review-quality - 5 product reviews follow GPT template",
-        "FAIL parsed-review-evidence - better-you-nac: missing crawled product data behind active review | holistic-nac: missing crawled product data behind active review | naerokaellan-n-acetyl-cystein: missing crawled product data behind active review",
+        "FAIL parsed-review-evidence - core-nac-600: missing crawled product data behind active review | pureness-nac-complex: missing crawled product data behind active review | naerokaellan-n-acetyl-cystein: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -6423,8 +6423,8 @@
       ],
       "productCount": 5,
       "missingCrawlProducts": [
-        "better-you-nac",
-        "holistic-nac",
+        "core-nac-600",
+        "pureness-nac-complex",
         "healthwell-nac-n-acetylcystein",
         "solgar-nac-600",
         "naerokaellan-n-acetyl-cystein"
@@ -6434,8 +6434,8 @@
       "expectedTopTitle": "Solgar NAC",
       "products": [
         {
-          "slug": "better-you-nac",
-          "title": "Better You NAC",
+          "slug": "core-nac-600",
+          "title": "Core NAC 600",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {
@@ -6446,7 +6446,7 @@
           }
         },
         {
-          "slug": "holistic-nac",
+          "slug": "pureness-nac-complex",
           "title": "Holistic NAC",
           "store": "corenutrition",
           "crawlPath": null,
@@ -7793,7 +7793,7 @@
       "productCount": 5,
       "missingCrawlProducts": [
         "healthwell-spirulina-kapsler",
-        "kiki-health-organic-premium-spirulina-tablets",
+        "healthwell-spirulina-oko",
         "healthwell-spirulina-pulver",
         "holistic-active-spirulina-tabletter"
       ],
@@ -7814,8 +7814,8 @@
           }
         },
         {
-          "slug": "kiki-health-organic-premium-spirulina-tablets",
-          "title": "Kiki Health Organic Premium Spirulina Tablets",
+          "slug": "healthwell-spirulina-oko",
+          "title": "Healthwell Spirulina ØKO",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {
@@ -7885,8 +7885,8 @@
         "PASS no-self-links",
         "PASS internal-subpage-link-limit - 0 unique in-content internal targets checked",
         "PASS duplicate-extra-images",
-        "FAIL product-review-quality - okologisk-superfood-pulver: generic or invalid review pattern | healthwell-super-greens: generic or invalid review pattern | detox-greens: generic or invalid review pattern | rawpowder-dulse-algeblanding-oko: generic or invalid review pattern | superfruit-super-booster-v10-green-pulver-200-g: generic or invalid review pattern",
-        "FAIL parsed-review-evidence - okologisk-superfood-pulver: review lacks parsed product evidence | detox-greens: review lacks parsed product evidence | rawpowder-dulse-algeblanding-oko: missing crawled product data behind active review",
+        "FAIL product-review-quality - okologisk-superfood-pulver: generic or invalid review pattern | healthwell-super-greens: generic or invalid review pattern | detox-greens: generic or invalid review pattern | healthwell-detox-greens: generic or invalid review pattern | superfruit-super-booster-v10-green-pulver-200-g: generic or invalid review pattern",
+        "FAIL parsed-review-evidence - okologisk-superfood-pulver: review lacks parsed product evidence | detox-greens: review lacks parsed product evidence | healthwell-detox-greens: missing crawled product data behind active review",
         "PASS brand-leaks",
         "npm warn Unknown env config \"devdir\". This will stop working in the next major version of npm."
       ],
@@ -7901,7 +7901,7 @@
       "missingCrawlProducts": [
         "healthwell-super-greens",
         "detox-greens",
-        "rawpowder-dulse-algeblanding-oko"
+        "healthwell-detox-greens"
       ],
       "introMentionsDifferentWinner": false,
       "introMentionedTitle": null,
@@ -7944,8 +7944,8 @@
           }
         },
         {
-          "slug": "rawpowder-dulse-algeblanding-oko",
-          "title": "RawPowder Dulse Algeblanding ØKO",
+          "slug": "healthwell-detox-greens",
+          "title": "Healthwell Detox Greens",
           "store": "corenutrition",
           "crawlPath": null,
           "coreFieldPresence": {
